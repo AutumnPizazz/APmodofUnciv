@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Cultured",
+        "friendBonusUniques": [
+            "[+1 Culture] from every [Amphitheater]",
+            "[+2 Culture] from every [Opera House]",
+            "[+3 Culture] from every [Broadcast Tower]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Culture] from every [Amphitheater]",
+            "[+4 Culture] from every [Opera House]",
+            "[+6 Culture] from every [Broadcast Tower]"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Maritime",
+        "friendBonusUniques": ["[+2 Food, +1 Happiness] [in capital] <before the [Medieval era]>",
+        "[+4 Food, +2 Happiness] [in capital] <starting from the [Medieval era]> <before the [Industrial era]>",
+        "[+6 Food, +3 Happiness] [in capital] <starting from the [Industrial era]>"],
+        "allyBonusUniques": ["[+2 Food, +1 Happiness] [in capital] <before the [Medieval era]>",
+        "[+4 Food, +2 Happiness] [in capital] <starting from the [Medieval era]> <before the [Industrial era]>",
+        "[+6 Food, +3 Happiness] [in capital] <starting from the [Industrial era]>",
+        "[+2 Food] [in all cities] <before the [Medieval era]>",
+        "[+4 Food] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+        "[+6 Food] [in all cities] <starting from the [Industrial era]>"],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Mercantile",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+4 Happiness] <starting from the [Medieval era]>"
+        ],
+        "allyBonusUniques": [
+            "[+1 Happiness] [in all cities]",
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+4 Happiness] <starting from the [Medieval era]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": ["[+5]% Strength <when defending> <for [Military] units>"],
+        "allyBonusUniques": ["[+5]% Strength <for [Military] units>"],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Religious",
+        "friendBonusUniques": [
+            "[+1 Faith] from every [Shrine]",
+            "[+2 Faith] from every [Temple]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Faith, +1 Gold] from every [Shrine]",
+            "[+4 Faith, +2 Gold] from every [Temple]"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "工业型",
+        "friendBonusUniques": [
+            "[+4 Production] from every [Workshop]",
+            "[+6 Production] from every [Factory]",
+            "[+8 Production] from every [Nuclear Plant]",
+            "[+8 Production] from every [Solar Plant]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Production] [in all cities]",
+            "[+4 Production] from every [Workshop]",
+            "[+6 Production] from every [Factory]",
+            "[+8 Production] from every [Nuclear Plant]",
+            "[+8 Production] from every [Solar Plant]",
+            "[+5]% [Production] from every [Workshop]",
+            "[+5]% [Production] from every [Factory]",
+            "[+5]% [Production] from every [Nuclear Plant]",
+            "[+5]% [Production] from every [Solar Plant]"
+
+        ],
+        "color": [139, 96, 255]
+    }
+]
