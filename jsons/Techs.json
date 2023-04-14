@@ -7,9 +7,16 @@
 		"techs": [
 			{
 				"name": "Agriculture",
-				"row": 6,
+				"row": 4,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
+			},
+			{
+				"name": "空想",
+				"row": 8,
+				"quote": "当你不希望超前时代获得更严重的时代惩罚时，可以空想来消耗溢出瓶",
+				"uniques": ["Can be continually researched",
+				"当你不希望超前时代获得更严重的时代惩罚时，可以空想来消耗溢出瓶"]
 			}
 		]
 	},
