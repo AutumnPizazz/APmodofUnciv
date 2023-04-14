@@ -297,8 +297,7 @@
         "requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus",
-        "[+200]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking"],
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
 	},
@@ -370,7 +369,9 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
+		"No defensive terrain bonus", 
+		"[-33]% Strength <when defending>",
 		"[-1] Sight", "Can only attack [City] units"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
