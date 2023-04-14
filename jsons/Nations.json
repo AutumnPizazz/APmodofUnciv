@@ -155,7 +155,7 @@
 			"innerColor": [213,249,255],
 			"favoredReligion": "Islam",
 			"uniqueName": "Ingenuity",
-			"uniques": ["[+2 Science] [in capital] <before the [Medieval era]>",
+			"uniques": [
 				"[+80]% [Science] [in capital]",
 				"[-30]% [Science] [in all cities]"],
 			"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -919,9 +919,11 @@
 		"uniques": ["[-1 Food, +2 Production] from every [Pasture]", 
                     "Provides [3] [Horses]",
                     "Starts with [Animal Husbandry]", 
-                    "\"Borrows\" city names from other civilizations in the game",
-                    "[-100]% Production when constructing [Settler] units [in all cities]",
-                    "Gain a free [Courthouse] [in annexed cities]"],
+					"Starts with [The Wheel]", 
+                    "Gain a free [Courthouse] [in annexed cities]",
+				    "[-25]% [Science] [in capital]",
+				    "[-200]% Production when constructing [Settler] units [in all cities]",
+					"[+200]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"cities": ["Atilla's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
