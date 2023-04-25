@@ -40,7 +40,7 @@
 		"name": "斥候",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 6,
+		"strength": 5,
 		"cost": 30,
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "散兵",
