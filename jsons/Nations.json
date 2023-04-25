@@ -921,8 +921,7 @@
                     "Starts with [Animal Husbandry]", 
 					"Starts with [The Wheel]", 
                     "Gain a free [Courthouse] [in annexed cities]",
-				    "[-25]% [Science] [in capital]",
-				    "[-200]% Production when constructing [Settler] units [in all cities]",
+"Cannot build [Settler] units",
 					"[+200]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"cities": ["Atilla's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
