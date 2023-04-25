@@ -310,7 +310,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture, +2 Happiness] [in capital]",
+		"uniques": ["[+2 Culture, +1 Happiness] [in capital]",
 		"[+1 Culture] [in all cities] <starting from the [Renaissance era]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
@@ -398,7 +398,7 @@
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced"],
+		"uniques": ["[+2 Gold] from each Trade Route", "Double quantity of [Oil] produced"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
@@ -487,7 +487,7 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
-		"uniques": ["Unhappiness from number of Cities doubled", "[-60]% Unhappiness from [Population] [in all cities]"],
+		"uniques": ["Unhappiness from number of Cities doubled", "[-30]% Unhappiness from [Population] [in capital]"],"[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
