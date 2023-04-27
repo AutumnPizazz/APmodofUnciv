@@ -354,7 +354,8 @@
 				"name": "Archaeology",
 				"row": 2,
 				"prerequisites": ["Navigation","Architecture"],
-				"uniques":["纪念碑[+2 Culture]"],
+				"uniques":["纪念碑[+2 Culture]",
+				"Provides [1] [外交支持]"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
@@ -541,6 +542,7 @@
 				"name": "Ecology",
 				"row": 2,
 				"prerequisites": ["Atomic Theory","Pharmaceuticals"],
+				"unique":"Provides [1] [外交支持]",
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{

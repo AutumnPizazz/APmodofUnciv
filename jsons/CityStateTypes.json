@@ -9,7 +9,8 @@
         "allyBonusUniques": [
             "[+2 Culture] from every [Amphitheater]",
             "[+4 Culture] from every [Opera House]",
-            "[+6 Culture] from every [Broadcast Tower]"
+            "[+6 Culture] from every [Broadcast Tower]",
+            "Provides [1] [外交支持]"
         ],
         "color": [139, 96, 255]
     },
@@ -23,7 +24,8 @@
         "[+6 Food, +3 Happiness] [in capital] <starting from the [Industrial era]>",
         "[+2 Food] [in all cities] <before the [Medieval era]>",
         "[+4 Food] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-        "[+6 Food] [in all cities] <starting from the [Industrial era]>"],
+        "[+6 Food] [in all cities] <starting from the [Industrial era]>",
+        "Provides [1] [外交支持]"],
         "color": [56, 255, 112]
     },
     {
@@ -36,7 +38,8 @@
             "[+1 Happiness] [in all cities]",
             "[+2 Happiness] <before the [Medieval era]>",
             "[+4 Happiness] <starting from the [Medieval era]>",
-            "Provides a unique luxury"
+            "Provides a unique luxury",
+            "Provides [1] [外交支持]"
         ],
         "color": [255, 216, 0]
     },
@@ -54,28 +57,30 @@
         ],
         "allyBonusUniques": [
             "[+2 Faith, +1 Gold] from every [Shrine]",
-            "[+4 Faith, +2 Gold] from every [Temple]"
+            "[+4 Faith, +2 Gold] from every [Temple]",
+            "Provides [1] [外交支持]"
         ],
         "color": [255, 255, 255]
     },
     {
         "name": "工业型",
         "friendBonusUniques": [
-            "[+4 Production] from every [Workshop]",
-            "[+6 Production] from every [Factory]",
-            "[+8 Production] from every [Nuclear Plant]",
-            "[+8 Production] from every [Solar Plant]"
+            "[+2 Production] from every [Workshop]",
+            "[+3 Production] from every [Factory]",
+            "[+4 Production] from every [Nuclear Plant]",
+            "[+4 Production] from every [Solar Plant]"
         ],
         "allyBonusUniques": [
-            "[+2 Production] [in all cities]",
-            "[+4 Production] from every [Workshop]",
-            "[+6 Production] from every [Factory]",
-            "[+8 Production] from every [Nuclear Plant]",
-            "[+8 Production] from every [Solar Plant]",
-            "[+5]% [Production] from every [Workshop]",
-            "[+5]% [Production] from every [Factory]",
-            "[+5]% [Production] from every [Nuclear Plant]",
-            "[+5]% [Production] from every [Solar Plant]"
+            "[+1 Production] [in all cities]",
+            "[+2 Production] from every [Workshop]",
+            "[+3 Production] from every [Factory]",
+            "[+4 Production] from every [Nuclear Plant]",
+            "[+4 Production] from every [Solar Plant]",
+            "[+3]% [Production] from every [Workshop]",
+            "[+3]% [Production] from every [Factory]",
+            "[+3]% [Production] from every [Nuclear Plant]",
+            "[+3]% [Production] from every [Solar Plant]",
+            "Provides [1] [外交支持]"
 
         ],
         "color": [139, 96, 255]

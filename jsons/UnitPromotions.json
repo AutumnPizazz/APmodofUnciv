@@ -787,7 +787,7 @@
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
-		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
+		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>"]
 	},
 	{
 		"name": "[Mohawk Warrior] ability",
@@ -795,7 +795,10 @@
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>",
+		"[+33]% Strength <when fighting in [Jungle] tiles>",
+		"Heals [25] damage if it kills a unit",
+		"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
 	},
 	{
 		"name": "[Persian Immortal] ability",

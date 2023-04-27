@@ -118,14 +118,13 @@
 	{
 		"name": "Mountain",
 		"type": "Land",
-		"production":2,
 		"impassable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.5,
 		"RGB": [120, 120, 120],
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
-            "Units ending their turn on this terrain take [50] damage",
+            "Units ending their turn on this terrain take [20] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations",
 			"[+1 Food] for each adjacent [Terrace farm]"
