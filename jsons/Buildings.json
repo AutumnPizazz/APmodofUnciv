@@ -461,7 +461,7 @@
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
-		"specialistSlots": {"Theologian": 2},
+		"specialistSlots": {"神学家": 2},
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled","Must have an owned [圣地-] within [3] tiles"]
@@ -475,7 +475,7 @@
 		"Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
 		"happiness": 2,
-		"specialistSlots": {"Theologian": 2},
+		"specialistSlots": {"神学家": 2},
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -488,7 +488,7 @@
 		"hurryCostModifier": 25,
 		"culture": 2,
 		"faith": 2,
-		"specialistSlots": {"Theologian": 2},
+		"specialistSlots": {"神学家": 2},
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
 		"uniques":["Must have an owned [圣地-] within [3] tiles"]
