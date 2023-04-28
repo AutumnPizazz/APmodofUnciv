@@ -342,8 +342,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>",
-		"[+50]% Strength <vs [All] units> <when defending>",
-	    "[-50]% Strength <vs [All] units> <when attacking>"],
+		"[+50]% Strength <vs [All] units> <when defending>"],
 		"attackSound": "metalhit"
 	},
 	{

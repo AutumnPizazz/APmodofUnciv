@@ -4,11 +4,11 @@
         "era": "Ancient era",
         "priorities": 
         {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 10
+            "Neutral": 10,//中立倾向
+            "Cultural": 10,//文化倾向
+            "Diplomatic": 10,//外交倾向
+            "Domination": 10,//征服倾向
+            "Scientific": 10//科研倾向
         },
         "uniques": ["[+2 Production, +1 Culture] [in capital]",
         "[+1 Culture] [in capital] <starting from the [Classical era]>",
@@ -68,12 +68,13 @@
     {
         "name": "寡头政体",
         "era": "Classical era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
+        "priorities": 
+        {
+            "Neutral": 0,//中立倾向
+            "Cultural": 0,//文化倾向
+            "Diplomatic": 10,//外交倾向
+            "Domination": 50,//征服倾向
+            "Scientific": 0//科研倾向
         },
         "uniques": ["[+5]% Strength <for [Military] units>",
         "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
@@ -134,12 +135,13 @@
     {
         "name": "古典共和",
         "era": "Classical era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 0
+        "priorities": 
+        {
+            "Neutral": 10,//中立倾向
+            "Cultural": 20,//文化倾向
+            "Diplomatic": 20,//外交倾向
+            "Domination": 0,//征服倾向
+            "Scientific": 20//科研倾向
         },
         "uniques": ["[+1 Culture, +1 Science] [in all cities]",
         "Only available <before adopting [寡头政体]>"
@@ -201,12 +203,13 @@
     {
         "name": "君主制",
         "era": "Medieval era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 0
+        "priorities": 
+        {
+            "Neutral": 10,//中立倾向
+            "Cultural": 10,//文化倾向
+            "Diplomatic": 10,//外交倾向
+            "Domination": 10,//征服倾向
+            "Scientific": 10//科研倾向
         },
         "uniques": [
             "[+10]% [Production] [in capital]",
@@ -265,12 +268,13 @@
     {
         "name": "神权政体",
         "era": "Medieval era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 20,
-            "Domination": 0,
-            "Scientific": 10
+        "priorities": 
+        {
+            "Neutral": 10,//中立倾向
+            "Cultural": 30,//文化倾向
+            "Diplomatic": 10,//外交倾向
+            "Domination": 20,//征服倾向
+            "Scientific": 10//科研倾向
         },
         "uniques": ["[Faith] cost of purchasing items in cities [-10]%",
         "Free [Great Prophet] appears",
@@ -331,12 +335,13 @@
     {
         "name": "资本主义",
         "era": "Industrial era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
+        "priorities": 
+        {
+            "Neutral": 30,//中立倾向
+            "Cultural": 30,//文化倾向
+            "Diplomatic": 20,//外交倾向
+            "Domination": 30,//征服倾向
+            "Scientific": 30//科研倾向
         },
         "uniques": ["[+25]% [Gold] [in all cities]",
         "Only available <before adopting [共产主义]>",
@@ -397,12 +402,13 @@
     {
         "name": "共产主义",
         "era": "Modern era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 60
+        "priorities": 
+        {
+            "Neutral": 40,//中立倾向
+            "Cultural": 40,//文化倾向
+            "Diplomatic": 40,//外交倾向
+            "Domination": 20,//征服倾向
+            "Scientific": 40//科研倾向
         },
         "uniques": ["[+10]% [Production] [in all cities]",
             "Only available <before adopting [资本主义]>",
@@ -468,16 +474,18 @@
     {
         "name": "法西斯主义",
         "era": "Modern era",
-        "priorities": {
-            "Neutral": 50,
-            "Cultural": 40,
-            "Diplomatic": 40,
-            "Domination": 50,
-            "Scientific": 40
+        "priorities": 
+        {
+            "Neutral": 0,//中立倾向
+            "Cultural": 0,//文化倾向
+            "Diplomatic": 0,//外交倾向
+            "Domination": 80,//征服倾向
+            "Scientific": 0//科研倾向
         },
         "uniques": ["[+100]% XP gained from combat <for [Military] units>",
-            "Only available <before adopting [共产主义]>",
-        "Only available <before adopting [资本主义]>"
+                    "Free [Great General] appears",
+                    "Only available <before adopting [共产主义]>",
+                    "Only available <before adopting [资本主义]>"
         ],
         "policies": [
             {
@@ -527,7 +535,7 @@
             {
                 "name": "法西斯主义 Complete",
                 "uniques": [
-                    "Free [Great General] appears",
+                    "Great General provides double combat bonus",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])"
                 ]
@@ -537,12 +545,13 @@
     {
         "name": "团体自由意志主义",
         "era": "Atomic era",
-        "priorities": {
-            "Neutral": 50,
-            "Cultural": 40,
-            "Diplomatic": 50,
-            "Domination": 40,
-            "Scientific": 50
+        "priorities": 
+        {
+            "Neutral": 0,//中立倾向
+            "Cultural": 0,//文化倾向
+            "Diplomatic": 0,//外交倾向
+            "Domination": 80,//征服倾向
+            "Scientific": 0//科研倾向
         },
         "uniques": ["Quantity of strategic resources produced by the empire +[100]%",
         "[-10]% [Science] [in all cities]",
@@ -576,12 +585,13 @@
     {
         "name": "合成专家统治",
         "era": "Atomic era",
-        "priorities": {
-            "Neutral": 50,
-            "Cultural": 40,
-            "Diplomatic": 50,
-            "Domination": 40,
-            "Scientific": 50
+        "priorities": 
+        {
+            "Neutral": 50,//中立倾向
+            "Cultural": 10,//文化倾向
+            "Diplomatic": 50,//外交倾向
+            "Domination": 20,//征服倾向
+            "Scientific": 40//科研倾向
         },
         "uniques": ["[+30]% [Production] [in all cities]",
         "[-10]% [Culture] [in all cities]",
@@ -620,12 +630,13 @@
     {
         "name": "数字化民主",
         "era": "Atomic era",
-        "priorities": {
-            "Neutral": 50,
-            "Cultural": 40,
-            "Diplomatic": 50,
-            "Domination": 40,
-            "Scientific": 50
+        "priorities": 
+        {
+            "Neutral": 10,//中立倾向
+            "Cultural": 100,//文化倾向
+            "Diplomatic": 0,//外交倾向
+            "Domination": 0,//征服倾向
+            "Scientific": 30//科研倾向
         },
         "uniques": ["[+20]% [Culture] [in all cities]",
         "[+20]% [Science] [in all cities]",

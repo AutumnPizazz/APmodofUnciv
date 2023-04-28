@@ -1,6 +1,6 @@
 [
     {
-        "name": "Cultured",
+        "name": "Cultured",//文化
         "friendBonusUniques": [
             "[+1 Culture] from every [Amphitheater]",
             "[+2 Culture] from every [Opera House]",
@@ -15,42 +15,54 @@
         "color": [139, 96, 255]
     },
     {
-        "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food, +1 Happiness] [in capital] <before the [Medieval era]>",
-        "[+4 Food, +2 Happiness] [in capital] <starting from the [Medieval era]> <before the [Industrial era]>",
-        "[+6 Food, +3 Happiness] [in capital] <starting from the [Industrial era]>"],
-        "allyBonusUniques": ["[+2 Food, +1 Happiness] [in capital] <before the [Medieval era]>",
-        "[+4 Food, +2 Happiness] [in capital] <starting from the [Medieval era]> <before the [Industrial era]>",
-        "[+6 Food, +3 Happiness] [in capital] <starting from the [Industrial era]>",
-        "[+2 Food] [in all cities] <before the [Medieval era]>",
-        "[+4 Food] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-        "[+6 Food] [in all cities] <starting from the [Industrial era]>",
+        "name": "科研型",//科研
+        "friendBonusUniques": [
+            "[+1 Science] from every [Library]",
+            "[+2 Science] from every [University]",
+            "[+3 Science] from every [Public School]",
+            "[+4 Science] from every [Research Lab]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Science] from every [Library]",
+            "[+4 Science] from every [University]",
+            "[+6 Science] from every [Public School]",
+            "[+8 Science] from every [Research Lab]",
+            "Provides [1] [外交支持]"
+        ],
+        "color": [0, 0, 255]
+    },
+    {
+        "name": "Maritime",//航海
+        "friendBonusUniques": ["[+2 Food] [in all cities]"],
+        "allyBonusUniques": ["[+2 Food, +1 Happiness] [in all cities]",
         "Provides [1] [外交支持]"],
         "color": [56, 255, 112]
     },
     {
-        "name": "Mercantile",
+        "name": "Mercantile",//商业
         "friendBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+4 Happiness] <starting from the [Medieval era]>"
+            "[+2 Gold] from every [Market]",
+            "[+4 Gold] from every [Bank]",
+            "[+6 Gold] from every [Stock Exchange]"
         ],
         "allyBonusUniques": [
-            "[+1 Happiness] [in all cities]",
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+4 Happiness] <starting from the [Medieval era]>",
+            "[+2 Gold] from every [Market]",
+            "[+4 Gold] from every [Bank]",
+            "[+6 Gold] from every [Stock Exchange]",
             "Provides a unique luxury",
             "Provides [1] [外交支持]"
         ],
         "color": [255, 216, 0]
     },
     {
-        "name": "Militaristic",
+        "name": "Militaristic",//军事
         "friendBonusUniques": ["[+5]% Strength <when defending> <for [Military] units>"],
-        "allyBonusUniques": ["[+5]% Strength <for [Military] units>"],
+        "allyBonusUniques": ["[+5]% Strength <for [Military] units>",
+        "Provides [1] [外交支持]"],
         "color": [255, 0, 0]
     },
     {
-        "name": "Religious",
+        "name": "Religious",//宗教
         "friendBonusUniques": [
             "[+1 Faith] from every [Shrine]",
             "[+2 Faith] from every [Temple]"

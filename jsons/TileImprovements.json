@@ -46,7 +46,7 @@
 		"food": -1,
 		"production":-1,
 		"uniques": ["Great Improvement",
-		"Tile provides yield without assigned population",
+		    "Tile provides yield without assigned population",
 			"[+2 Gold] for each adjacent [工业区-]",
 			"[+2 Gold] for each adjacent [City center]",
 			"Removes removable features when built",

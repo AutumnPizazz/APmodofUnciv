@@ -136,7 +136,7 @@
 			"leaderName": "Nebuchadnezzar II",
 			"adjective": ["Babylonian"],
 			"startBias": ["Avoid [Tundra]"],
-			"preferredVictoryType": "Scientific",
+			"preferredVictoryType": "Domination",
 	
 			"startIntroPart1": "",
 			"startIntroPart2": "",
@@ -204,7 +204,7 @@
 		"name": "China",
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Cultural",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -331,7 +331,7 @@
 		"leaderName": "Catherine",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "宗教",
 
 
         "startIntroPart1": "",
@@ -363,7 +363,7 @@
 		"leaderName": "Augustus Caesar",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 
 
         "startIntroPart1": "",
@@ -516,9 +516,8 @@
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": ["Unhappiness from number of Cities doubled", 
-		"[-30]% Unhappiness from [Population] [in capital]",
-		"[-50]% Unhappiness from [Population] [in all cities]"],
-		"uniqueText":"城市扣除的[Happiness]加倍；首都人口的[Happiness]减损-80%，其他城市人口的[Happiness]减损-50%",
+		"[-50]% Unhappiness from [Population] [in all cities]",
+	    "[+1 Happiness] per [5] population [in all cities]"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
@@ -592,7 +591,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
 		"uniques": ["[-50]% maintenance costs <for [Water] units>",
-	"[+50]% Production when constructing [Water] units [in all cities]"],
+	                "[+50]% Production when constructing [Water] units [in all cities]"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
@@ -653,7 +652,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "The Great Warpath",
 		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-	                "[+1 Production] from every [Forest]"],
+	                "[+1 Production] from every [Lumber mill]"],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
@@ -664,7 +663,7 @@
 		"name": "Persia",
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -898,7 +897,7 @@
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Scientific",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -940,7 +939,7 @@
 		"leaderName": "Harald Bluetooth",
 		"adjective": ["Danish"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1007,7 +1006,7 @@
 		"leaderName": "William of Orange",
 		"adjective": ["Dutch"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Scientific",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1088,7 +1087,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [3] turns.",
-		"Gifts of Gold to City-States generate [50]% more Influence"],
+		"Gifts of Gold to City-States generate [100]% more Influence"],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
 			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
@@ -1131,7 +1130,7 @@
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "宗教",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1159,7 +1158,7 @@
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
 		"startBias": ["Forest"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "宗教",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1243,7 +1242,7 @@
 		"leaderName": "Pacal",
 		"adjective": ["mayan"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Cultural",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1730,6 +1729,63 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [220,155,60],
 		"cities": ["约翰内斯堡"]
+	},
+	{
+		"name": "日内瓦",
+		"adjective": ["日内瓦"],
+		"cityStateType": "科研型",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [92, 81, 193],
+		"cities": ["日内瓦"]
+	},
+	{
+		"name": "博洛尼亚",
+		"adjective": ["博洛尼亚"],
+		"cityStateType": "科研型",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [56, 85, 172],
+		"cities": ["博洛尼亚"]
+	},	{
+		"name": "非斯",
+		"adjective": ["非斯"],
+		"cityStateType": "科研型",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [34, 78, 215],
+		"cities": ["非斯"]
+	},	{
+		"name": "哈图沙",
+		"adjective": ["哈图沙"],
+		"cityStateType": "科研型",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [115,143,230],
+		"cities": ["哈图沙"]
+	},	{
+		"name": "米特拉",
+		"adjective": ["米特拉"],
+		"cityStateType": "科研型",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [79, 79, 210],
+		"cities": ["米特拉"]
 	},
 
 

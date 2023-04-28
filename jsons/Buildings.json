@@ -235,8 +235,8 @@
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must have an owned [学院-] within [3] tiles",
-			"[+1 Science] per [2] population [in this city]"],
+		"science":2,
+		"uniques": ["Must have an owned [学院-] within [3] tiles"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -461,6 +461,7 @@
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
+		"specialistSlots": {"Theologian": 2},
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled","Must have an owned [圣地-] within [3] tiles"]
@@ -474,6 +475,7 @@
 		"Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
 		"happiness": 2,
+		"specialistSlots": {"Theologian": 2},
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -486,6 +488,7 @@
 		"hurryCostModifier": 25,
 		"culture": 2,
 		"faith": 2,
+		"specialistSlots": {"Theologian": 2},
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
 		"uniques":["Must have an owned [圣地-] within [3] tiles"]
@@ -730,9 +733,9 @@
 	},
 	{
 		"name": "University",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
+		"science":4,
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
 		"uniques": ["Must have an owned [学院-] within [3] tiles",
@@ -744,9 +747,9 @@
 		"name": "Wat",
 		"replaces": "University",
 		"uniqueTo": "Siam",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
+		"science":4,
 		"specialistSlots": {"Scientist": 2},
 		"culture": 3,
 		"requiredBuilding": "Library",
@@ -863,9 +866,9 @@
 	// Column 7
 	{
 		"name": "Observatory",
-		"maintenance": 0,
+		"maintenance": 3,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
+		"percentStatBonus": {"science": 30},
 		"requiredBuilding": "Library",
 		"uniques": ["Must have an owned [学院-] within [3] tiles",
 			"Must be next to [Mountain]"],
@@ -1101,13 +1104,12 @@
 	},
 	{
 		"name": "Public School",
-		"science": 3,
+		"science": 6,
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "University",
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["Must have an owned [学院-] within [3] tiles",
-		"[+1 Science] per [2] population [in this city]"],
+		"uniques": ["Must have an owned [学院-] within [3] tiles"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -1247,9 +1249,8 @@
 	// Column 12
 	{
 		"name": "Research Lab",
-		"science": 4,
-		"percentStatBonus": {"science": 50},
-		"specialistSlots": {"Scientist": 1},
+		"science": 10,
+		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Public School",
 		"maintenance": 3,
 		"uniques":["Must have an owned [学院-] within [3] tiles",
@@ -1420,7 +1421,7 @@
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Theologian": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -1428,6 +1429,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
+		"specialistSlots": {"Theologian": 3},
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
@@ -1438,6 +1440,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
+		"specialistSlots": {"Theologian": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -1446,6 +1449,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
+		"specialistSlots": {"Theologian": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	}
 ]
