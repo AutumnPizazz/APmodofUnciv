@@ -1421,7 +1421,7 @@
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
-		"specialistSlots": {"Theologian": 3},
+		"specialistSlots": {"神学家": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -1429,7 +1429,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
-		"specialistSlots": {"Theologian": 3},
+		"specialistSlots": {"神学家": 3},
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
@@ -1440,7 +1440,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"specialistSlots": {"Theologian": 3},
+		"specialistSlots": {"神学家": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -1449,7 +1449,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"specialistSlots": {"Theologian": 3},
+		"specialistSlots": {"神学家": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	}
 ]
