@@ -1,7 +1,7 @@
 [
 	//新增晋升
 	{
-		"name": "斥候侦查",
+		"name": "斥�?�侦�?",
 		"uniques": ["Ignores terrain cost","[+1] Sight","Heal this unit by [50] HP"],
 		"unitTypes": ["Scout"],
         "row": 0,

@@ -1355,7 +1355,9 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", 
+		"[+1] Sight <when [Embarked]>", 
+		"Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{

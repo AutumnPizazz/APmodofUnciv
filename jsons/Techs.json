@@ -14,9 +14,9 @@
 			{
 				"name": "空想",
 				"row": 8,
-				"quote": "当你不希望超前时代获得更严重的时代惩罚时，可以空想来消耗溢出瓶",
+				"quote": "当你不希望超前时代获得更严重的时代惩罚时，可以空想来消�?�溢出瓶",
 				"uniques": ["Can be continually researched",
-				"当你不希望超前时代获得更严重的时代惩罚时，可以空想来消耗溢出瓶"]
+				"当你不希望超前时代获得更严重的时代惩罚时，可以空想来消�?�溢出瓶"]
 			}
 		]
 	},
@@ -386,7 +386,7 @@
 				"name": "Fertilizer",
 				"row": 10,
 				"prerequisites": ["Chemistry"],
-				"uniques": ["非牧场、种植园[+1 Food]",
+				"uniques": ["非牧场�?�种植园[+1 Food]",
 			"农田每相邻一个农田[+1 Food]"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			}
@@ -588,7 +588,7 @@
 				"name": "Advanced Ballistics",
 				"row": 5,
 				"prerequisites": ["Nuclear Fission","Rocketry"],
-				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' �? Martin Luther King Jr."
 			},
 			{
 				"name": "Satellites",

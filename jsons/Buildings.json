@@ -246,9 +246,9 @@
 		"culture": 2,
 		"cost": 75,
 		"maintenance": 1,
+		"science":2,
 		"requiredTech": "Writing",
-		"uniques": ["Must have an owned [学院-] within [3] tiles",
-		"[+1 Science] per [2] population [in this city]"]
+		"uniques": ["Must have an owned [学院-] within [3] tiles"]
 	},
 	{
 		"name": "Paper Maker",
@@ -256,8 +256,8 @@
 		"uniqueTo": "China",
 		"hurryCostModifier": 40,
 		"gold": 2,
-		"uniques": ["Must have an owned [学院-] within [3] tiles",
-		"[+1 Science] per [2] population [in this city]"],
+		"science":2,
+		"uniques": ["Must have an owned [学院-] within [3] tiles"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -788,6 +788,19 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "休伊神庙",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% maintenance costs <for [Land] units>",
+	                "Free [Great General] appears",
+					"[+1 Gold] per [1] population [in this city]",
+					"Must not be on [Plains]"
+				],
+		"requiredTech": "Chivalry",
+		"quote": "但维齐洛波奇特利非常生气，作为牺牲，穿过了4个房间，献身于太阳神，天空中的太阳小时了，或再次出现了。 ————福莱"
 	},
 	{
 		"name": "Mughal Fort",
@@ -1385,7 +1398,7 @@
 		"requiredBuilding": "Factory",
 		"uniques": ["Must have an owned [工业区-] within [3] tiles",
 		"[+50]% Production when constructing [Spaceship part] units [in this city]"],
-		"requiredTech": "Robotics",
+		"requiredTech": "Robotics"
 	},
 	// Column 16
 	{
