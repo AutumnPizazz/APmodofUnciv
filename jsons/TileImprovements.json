@@ -1,7 +1,7 @@
 [
 	//新增区域
 	{
-		"name": "圣地-",
+		"name": "SD",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,
@@ -15,7 +15,7 @@
             "Pillaging this improvement yields approximately [+18 Faith]"]
 	},
 	{
-		"name": "学院-",
+		"name": "XY",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,
@@ -28,45 +28,45 @@
             "Pillaging this improvement yields approximately [+18 Science]"]
 	},
 	{
-		"name": "剧院-",
+		"name": "JY_1",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
 		"Tile provides yield without assigned population",
-			"[+2 Culture] for each adjacent [娱乐中心-]",
+			"[+2 Culture] for each adjacent [YLZX]",
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Culture]"]
 	},
 	{
-		"name": "商业中心-",
+		"name": "SYZX",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"gold":2,
 		"food": -1,
 		"production":-1,
 		"uniques": ["Great Improvement",
 		    "Tile provides yield without assigned population",
-			"[+2 Gold] for each adjacent [工业区-]",
+			"[+2 Gold] for each adjacent [GYQ]",
 			"[+2 Gold] for each adjacent [City center]",
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
 	{
-		"name": "工业区-",
+		"name": "GYQ",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
 		"Tile provides yield without assigned population",
-			"[+2 Production] for each adjacent [商业中心-]",
-			"[+2 Production] for each adjacent [港口区-]",
+			"[+2 Production] for each adjacent [SYZX]",
+			"[+2 Production] for each adjacent [GKQ]",
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+36 Gold]"]
 	},
 	{
-		"name": "宇航中心-",
+		"name": "YHZX",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,
@@ -77,7 +77,7 @@
             "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
 	{
-		"name": "娱乐中心-",
+		"name": "YLZX",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains","Coast"],
 		"food": -1,
 		"production":-1,
@@ -90,21 +90,21 @@
             "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
 	{
-		"name": "港口区-",
+		"name": "GKQ",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": -1,
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
 		"Tile provides yield without assigned population",
-		"[+2 Gold] for each adjacent [商业中心-]",
-		"[+2 Gold] for each adjacent [工业区-]",
+		"[+2 Gold] for each adjacent [SYZX]",
+		"[+2 Gold] for each adjacent [GYQ]",
 		"[+2 Gold] for each adjacent [City center]",
 		"Removes removable features when built",
         "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
 	{
-		"name": "军营-",
+		"name": "JY_2",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,

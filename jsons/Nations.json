@@ -7,9 +7,9 @@
 	},
 
 	{
-		"name": "白板1号",
-		"leaderName": "大佬",
-		"adjective": ["白板一号"],
+		"name": "BB_1",
+		"leaderName": "DL",
+		"adjective": ["BB_1"],
 	
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -29,16 +29,13 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "NoBuff",
 		"uniqueText":"没有任何技能、特色单位和特色建筑",
-		"cities": ["白板1号01城","白板1号02城","白板1号03城","白板1号04城","白板1号05城","白板1号06城","白板1号07城","白板1号08城","白板1号09城",
-		"白板1号10城","白板1号11城","白板1号12城","白板1号13城","白板1号14城","白板1号15城","白板1号16城","白板1号17城","白板1号18城","白板1号19城",
-		"白板1号20城","白板1号21城","白板1号22城","白板1号23城","白板1号24城","白板1号25城","白板1号26城","白板1号27城","白板1号28城","白板1号29城",
-		"白板1号30城","白板1号31城","白板1号32城","白板1号33城","白板1号34城","白板1号35城"]
+		"cities": ["NO.1 CITY OF BB_1","NO.2 CITY OF BB_1","NO.3 CITY OF BB_1","NO.4 CITY OF BB_1","NO.5 CITY OF BB_1","NO.6 CITY OF BB_1","NO.7 CITY OF BB_1","NO.8 CITY OF BB_1","NO.9 CITY OF BB_1","NO.10 CITY OF BB_1","NO.11 CITY OF BB_1","NO.12 CITY OF BB_1","NO.13 CITY OF BB_1","NO.14 CITY OF BB_1","NO.15 CITY OF BB_1","NO.16 CITY OF BB_1","NO.17 CITY OF BB_1","NO.18 CITY OF BB_1","NO.19 CITY OF BB_1","NO.20 CITY OF BB_1","NO.21 CITY OF BB_1","NO.22 CITY OF BB_1","NO.23 CITY OF BB_1","NO.24 CITY OF BB_1","NO.25 CITY OF BB_1","NO.26 CITY OF BB_1","NO.27 CITY OF BB_1","NO.28 CITY OF BB_1","NO.29 CITY OF BB_1","NO.30 CITY OF BB_1","NO.31 CITY OF BB_1","NO.32 CITY OF BB_1","NO.33 CITY OF BB_1","NO.34 CITY OF BB_1","NO.35 CITY OF BB_1"]
 	},
 	
 	{
-	"name": "白板2号",
-	"leaderName": "大佬",
-	"adjective": ["白板2号"],
+	"name": "BB_2",
+	"leaderName": "DL",
+	"adjective": ["BB_2"],
 
 	"startIntroPart1": "",
 	"startIntroPart2": "",
@@ -58,15 +55,12 @@
 	"favoredReligion": "Islam",
 	"uniqueName": "NoBuff",
 	"uniqueText":"没有任何技能、特色单位和特色建筑",
-    "cities": ["白板2号01城","白板2号02城","白板2号03城","白板2号04城","白板2号05城","白板2号06城","白板2号07城","白板2号08城","白板2号09城",
-	"白板2号10城","白板2号11城","白板2号12城","白板2号13城","白板2号14城","白板2号15城","白板2号16城","白板2号17城","白板2号18城","白板2号19城",
-	"白板2号20城","白板2号21城","白板2号22城","白板2号23城","白板2号24城","白板2号25城","白板2号26城","白板2号27城","白板2号28城","白板2号29城",
-	"白板2号30城","白板2号31城","白板2号32城","白板2号33城","白板2号34城","白板2号35城"]
+    "cities": ["NO.1 CITY OF BB_2","NO.2 CITY OF BB_2","NO.3 CITY OF BB_2","NO.4 CITY OF BB_2","NO.5 CITY OF BB_2","NO.6 CITY OF BB_2","NO.7 CITY OF BB_2","NO.8 CITY OF BB_2","NO.9 CITY OF BB_2","NO.10 CITY OF BB_2","NO.11 CITY OF BB_2","NO.12 CITY OF BB_2","NO.13 CITY OF BB_2","NO.14 CITY OF BB_2","NO.15 CITY OF BB_2","NO.16 CITY OF BB_2","NO.17 CITY OF BB_2","NO.18 CITY OF BB_2","NO.19 CITY OF BB_2","NO.20 CITY OF BB_2","NO.21 CITY OF BB_2","NO.22 CITY OF BB_2","NO.23 CITY OF BB_2","NO.24 CITY OF BB_2","NO.25 CITY OF BB_2","NO.26 CITY OF BB_2","NO.27 CITY OF BB_2","NO.28 CITY OF BB_2","NO.29 CITY OF BB_2","NO.30 CITY OF BB_2","NO.31 CITY OF BB_2","NO.32 CITY OF BB_2","NO.33 CITY OF BB_2","NO.34 CITY OF BB_2","NO.35 CITY OF BB_2"]
 },
 {
-	"name": "负面1号",
-	"leaderName": "巨佬",
-	"adjective": ["负面1号"],
+	"name": "FM_1",
+	"leaderName": "JL",
+	"adjective": ["FM_1"],
 
 	"startIntroPart1": "",
 	"startIntroPart2": "",
@@ -91,15 +85,12 @@
 	"[-10]% [Faith] [in all cities]",
 	"[-10]% [Production] [in all cities]"], 
     "uniqueText":"全产出-10%；全产出指[Science]、[Culture]、[Gold]、[Faith]、[Production]",
-	"cities": ["负面1号01城","负面1号02城","负面1号03城","负面1号04城","负面1号05城","负面1号06城","负面1号07城","负面1号08城","负面1号09城",
-	"负面1号10城","负面1号11城","负面1号12城","负面1号13城","负面1号14城","负面1号15城","负面1号16城","负面1号17城","负面1号18城","负面1号19城",
-	"负面1号20城","负面1号21城","负面1号22城","负面1号23城","负面1号24城","负面1号25城","负面1号26城","负面1号27城","负面1号28城","负面1号29城",
-	"负面1号30城","负面1号31城","负面1号32城","负面1号33城","负面1号34城","负面1号35城"]
+	"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
 },
 {
-	"name": "负面2号",
-	"leaderName": "巨佬",
-	"adjective": ["负面2号"],
+	"name": "FM_2",
+	"leaderName": "JL",
+	"adjective": ["FM_2"],
 
 	"startIntroPart1": "",
 	"startIntroPart2": "",
@@ -124,10 +115,7 @@
 	"[-20]% [Faith] [in all cities]",
 	"[-20]% [Production] [in all cities]"],
 "uniqueText":"全产出-20%；全产出指[Science]、[Culture]、[Gold]、[Faith]、[Production]",
-	"cities": ["负面2号01城","负面2号02城","负面2号03城","负面2号04城","负面2号05城","负面2号06城","负面2号07城","负面2号08城","负面2号09城",
-	"负面2号10城","负面2号11城","负面2号12城","负面2号13城","负面2号14城","负面2号15城","负面2号16城","负面2号17城","负面2号18城","负面2号19城",
-	"负面2号20城","负面2号21城","负面2号22城","负面2号23城","负面2号24城","负面2号25城","负面2号26城","负面2号27城","负面2号28城","负面2号29城",
-	"负面2号30城","负面2号31城","负面2号32城","负面2号33城","负面2号34城","负面2号35城"]
+	"cities": ["NO.1 CITY OF FM_2","NO.2 CITY OF FM_2","NO.3 CITY OF FM_2","NO.4 CITY OF FM_2","NO.5 CITY OF FM_2","NO.6 CITY OF FM_2","NO.7 CITY OF FM_2","NO.8 CITY OF FM_2","NO.9 CITY OF FM_2","NO.10 CITY OF FM_2","NO.11 CITY OF FM_2","NO.12 CITY OF FM_2","NO.13 CITY OF FM_2","NO.14 CITY OF FM_2","NO.15 CITY OF FM_2","NO.16 CITY OF FM_2","NO.17 CITY OF FM_2","NO.18 CITY OF FM_2","NO.19 CITY OF FM_2","NO.20 CITY OF FM_2","NO.21 CITY OF FM_2","NO.22 CITY OF FM_2","NO.23 CITY OF FM_2","NO.24 CITY OF FM_2","NO.25 CITY OF FM_2","NO.26 CITY OF FM_2","NO.27 CITY OF FM_2","NO.28 CITY OF FM_2","NO.29 CITY OF FM_2","NO.30 CITY OF FM_2","NO.31 CITY OF FM_2","NO.32 CITY OF FM_2","NO.33 CITY OF FM_2","NO.34 CITY OF FM_2","NO.35 CITY OF FM_2"]
 },
 		//nations
 
@@ -221,7 +209,7 @@
         "innerColor": [255,255,255],
 
 		"favouredReligion": "Taoism",
-		"uniqueName": "和而不同",
+		"uniqueName": "HEBT",
 		"uniques": ["When declaring friendship, both parties gain a [25]% boost to great person generation",
 	                "[+20]% Production when constructing [Melee] units [in all cities] <when at war>",
 				    "[+1 Production] [in all cities] <when at war>"],
@@ -288,8 +276,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniques": ["[+1] Movement <for [Water] units>",
-	                "[+100]% Production when constructing [港口区地基项目] buildings [in all cities]",
-				    "[+2 Science, +2 Gold] from every [港口区地基项目]"],
+	                "[+100]% Production when constructing [GKQ_DJXM] buildings [in all cities]",
+				    "[+2 Science, +2 Gold] from every [GKQ_DJXM]"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -331,7 +319,7 @@
 		"leaderName": "Catherine",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "宗教",
+		"preferredVictoryType": "ZJ",
 
 
         "startIntroPart1": "",
@@ -350,7 +338,7 @@
 		"uniqueName": "Siberian Riches",
 		"uniques": [
 		    "[+1 Production, +1 Faith] from every [Tundra]",
-		    "[+2 Faith] from every [圣地地基项目]",
+		    "[+2 Faith] from every [SD_DJXM]",
 		    "[-50]% Culture cost of natural border growth [in all cities]"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
@@ -473,19 +461,19 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
-		"uniqueName": "明治维新",
-		"uniques": ["[+1 Faith] from every [圣地地基项目]",
-		"[+1 Science] from every [学院地基项目]",
-		"[+1 Culture] from every [剧院地基项目]",
-		"[+1 Gold] from every [商业中心地基项目]",
-		"[+1 Gold] from every [港口区地基项目]",
-		"[+1 Production] from every [军营地基项目]",
-		"[+1 Production] from every [工业区地基项目]",
-		"[+1 Production] from every [宇航中心地基项目]",
-	    "[+50]% Production when constructing [圣地地基项目] buildings [in all cities]",
-	    "[+50]% Production when constructing [剧院地基项目] buildings [in all cities]",
-	    "[+50]% Production when constructing [军营地基项目] buildings [in all cities]"],
-		"uniqueText":"每个地基项目提供1点对应产出，其中军营和宇航中心地基项目提供[Production]而港口提供[Gold]；建造圣地、剧院和军营地基项目时+50%[Production]",
+		"uniqueName": "MZWX",
+		"uniques": ["[+1 Faith] from every [SD_DJXM]",
+		"[+1 Science] from every [XY_DJXM]",
+		"[+1 Culture] from every [JY_1_DJXM]",
+		"[+1 Gold] from every [SYZX_DJXM]",
+		"[+1 Gold] from every [GKQ_DJXM]",
+		"[+1 Production] from every [JY_2_DJXM]",
+		"[+1 Production] from every [GYQ_DJXM]",
+		"[+1 Production] from every [YHZX_DJXM]",
+	    "[+50]% Production when constructing [SD_DJXM] buildings [in all cities]",
+	    "[+50]% Production when constructing [JY_1_DJXM] buildings [in all cities]",
+	    "[+50]% Production when constructing [JY_2_DJXM] buildings [in all cities]"],
+		"uniqueText":"每个地基项目提供1点对应产出,其中军营和宇航中心地基项目提供[Production]而港口提供[Gold]；建造圣地、剧院和军营地基项目时+50%[Production]",
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
@@ -550,7 +538,7 @@
 		"[+3 Production] from every [Hydro Plant]",
 		"[+3 Production] from every [Solar Plant]",
 		"[+3 Production] from every [Nuclear Plant]",
-		"[+100]% Production when constructing [工业区地基项目] buildings [in all cities]",
+		"[+100]% Production when constructing [GYQ_DJXM] buildings [in all cities]",
 	    "[+100]% Production when constructing [Workshop] buildings [in all cities]",
 	    "[+100]% Production when constructing [Windmill] buildings [in all cities]",
 	    "[+100]% Production when constructing [Factory] buildings [in all cities]",
@@ -1130,7 +1118,7 @@
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "宗教",
+		"preferredVictoryType": "ZJ",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1158,7 +1146,7 @@
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
 		"startBias": ["Forest"],
-		"preferredVictoryType": "宗教",
+		"preferredVictoryType": "ZJ",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1192,7 +1180,7 @@
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
-			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"]
+			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
 		// Llanfairpwllgwyngyll should actually be Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
     },
@@ -1683,109 +1671,109 @@
 	},
 	
 	{
-		"name": "布鲁塞尔",
-		"adjective": ["布鲁塞尔"],
-		"cityStateType": "工业型",
+		"name": "BLSE",
+		"adjective": ["BLSE"],
+		"cityStateType": "GYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [218,160,30],
-		"cities": ["布鲁塞尔"]
+		"cities": ["BLXE"]
 	},
 	{
-		"name": "奥克兰",
-		"adjective": ["奥克兰"],
-		"cityStateType": "工业型",
+		"name": "AKL",
+		"adjective": ["AKL"],
+		"cityStateType": "GYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [218,170,50],
-		"cities": ["奥克兰"]
+		"cities": ["SKL"]
 	},
 	{
-		"name": "布宜诺斯艾利斯",
-		"adjective": ["布宜诺斯艾利斯"],
-		"cityStateType": "工业型",
+		"name": "BYNSALS",
+		"adjective": ["BYNSALS"],
+		"cityStateType": "GYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [240,155,20],
-		"cities": ["布宜诺斯艾利斯"]
+		"cities": ["BYNSALS"]
 	},
 	{
-		"name": "约翰内斯堡",
-		"adjective": ["约翰内斯堡"],
-		"cityStateType": "工业型",
+		"name": "YHNSB",
+		"adjective": ["YHNSB"],
+		"cityStateType": "GYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [220,155,60],
-		"cities": ["约翰内斯堡"]
+		"cities": ["YHNSB"]
 	},
 	{
-		"name": "日内瓦",
-		"adjective": ["日内瓦"],
-		"cityStateType": "科研型",
+		"name": "RNW",
+		"adjective": ["RNW"],
+		"cityStateType": "KYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [92, 81, 193],
-		"cities": ["日内瓦"]
+		"cities": ["RNW"]
 	},
 	{
-		"name": "博洛尼亚",
-		"adjective": ["博洛尼亚"],
-		"cityStateType": "科研型",
+		"name": "BLNY",
+		"adjective": ["BLNY"],
+		"cityStateType": "KYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [56, 85, 172],
-		"cities": ["博洛尼亚"]
+		"cities": ["BLNY"]
 	},	{
-		"name": "非斯",
-		"adjective": ["非斯"],
-		"cityStateType": "科研型",
+		"name": "FS",
+		"adjective": ["FS"],
+		"cityStateType": "KYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [34, 78, 215],
-		"cities": ["非斯"]
+		"cities": ["FS"]
 	},	{
-		"name": "哈图沙",
-		"adjective": ["哈图沙"],
-		"cityStateType": "科研型",
+		"name": "HTS",
+		"adjective": ["HTS"],
+		"cityStateType": "KYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [115,143,230],
-		"cities": ["哈图沙"]
+		"cities": ["HTS"]
 	},	{
-		"name": "米特拉",
-		"adjective": ["米特拉"],
-		"cityStateType": "科研型",
+		"name": "MTL",
+		"adjective": ["MTL"],
+		"cityStateType": "KYX",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [79, 79, 210],
-		"cities": ["米特拉"]
+		"cities": ["MTL"]
 	},
 
 

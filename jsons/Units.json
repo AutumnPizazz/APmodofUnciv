@@ -37,18 +37,18 @@
 	},
 	*/
     {
-		"name": "斥候",
+		"name": "CH",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
 		"cost": 30,
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "散兵",
+		"upgradesTo": "SB",
 		"attackSound": "nonmetalhit",
-		"uniques":["Can build [Road] improvements on tiles",]
+		"uniques":["Can build [Road] improvements on tiles"]
 	},
 	{
-		"name": "散兵",
+		"name": "SB",
 		"unitType": "Scout",
 		"movement": 3,
 		"strength": 10,
@@ -57,12 +57,12 @@
 		"cost": 90,
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Radar",
-		"upgradesTo": "特种部队",
+		"upgradesTo": "TZBD",
 		"attackSound": "nonmetalhit",
 		"uniques":["Can move after attacking","Can build [Road] improvements on tiles"]
 	},
 	{
-		"name": "特种部队",
+		"name": "TZBD",
 		"unitType": "Scout",
 		"movement": 4,
 		"strength": 40,
@@ -1712,7 +1712,7 @@
 		"movement": 5
 	},
 	{
-		"name": "阿里斯塔哥拉斯",
+		"name": "Ἀρισταγόρας",
 		"unitType": "Civilian",
 		"uniqueTo": "Persia",
 		"replaces": "Great General",
@@ -1724,65 +1724,65 @@
 		"movement": 3
 	},
 	{
-		"name": "圣地-建造者",
+		"name": "SD_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [圣地-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [SD] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "学院-建造者",
+		"name": "XY_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [学院-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [XY] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "剧院-建造者",
+		"name": "JY_1_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [剧院-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [JY_1] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "商业中心-建造者",
+		"name": "SYZX_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [商业中心-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [SYZX] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "工业区-建造者",
+		"name": "GYQ_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [工业区-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [GYQ] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "宇航中心-建造者",
+		"name": "YHZX_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [宇航中心-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [YHZX] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "娱乐中心-建造者",
+		"name": "YLZX_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [娱乐中心-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [YLZX] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "港口区-建造者",
+		"name": "GKQ_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [港口区-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [GKQ] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "军营-建造者",
+		"name": "JY_2_JZZ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [军营-] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [JY_2] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
