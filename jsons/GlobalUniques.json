@@ -4,11 +4,10 @@
         "[-50]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
-        "[-10]% Strength <for [All] units> <when below [0] Happiness>",
+        "[-10]% Strength <for [All] units> <when below [-4] Happiness>",
         "[-30]% Strength <for [All] units> <when below [-10] Happiness>",
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-15] Happiness>",
-		"[+2 Happiness] [in all cities]",
 //下面是移民和工人过时代减锤
         "[-12]% Production when constructing [Settler] units [in all cities] <starting from the [Classical era]>",
 	    "[-12]% Production when constructing [Settler] units [in all cities] <starting from the [Medieval era]>",

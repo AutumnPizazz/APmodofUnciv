@@ -149,7 +149,7 @@
         "policies": [
             {
                 "name": "自然哲学",
-                "uniques": ["[+3 Science, +2 Culture] <in cities with at least [6] [Population]>",
+                "uniques": ["[+3 Science, +3 Culture] [in capital]",
                 "Enables Open Borders agreements"
                 ],
                 "row": 1,
@@ -374,7 +374,8 @@
             {
                 "name": "贫富分化",
                 "uniques": [
-                    "[+20 Gold, +8 Science] <in cities with at least [10] [Population]>"
+                    "[+20 Gold] [in capital]",
+                    "[-2 Gold] [in all cities]"
                 ],
                 "requires": ["原始积累","劳动力出卖","大航海"],
                 "row": 2,
