@@ -1712,7 +1712,7 @@
 		"movement": 5
 	},
 	{
-		"name": "Ἀρισταγόρας",
+		"name": "ALSTGLS",
 		"unitType": "Civilian",
 		"uniqueTo": "Persia",
 		"replaces": "Great General",
