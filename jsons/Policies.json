@@ -1,6 +1,6 @@
 [
     {
-        "name": "酋邦",
+        "name": "qb",
         "era": "Ancient era",
         "priorities": 
         {
@@ -11,19 +11,18 @@
             "Scientific": 10//科研倾向
         },
         "uniques": ["[+2 Production, +1 Culture] [in capital]",
-        "[+1 Culture] [in capital] <starting from the [Classical era]>",
-        "[+1 Culture] [in capital] <starting from the [Medieval era]>"],
+        "[+1 Culture] from every [Monument]"],
         "policies": 
         [
             {
-                "name": "纪律",
+                "name": "POLICY_JL",
                 "uniques": ["[+20]% Strength <vs [Barbarian] units>",
             "Notified of new Barbarian encampments"],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "调查",
+                "name": "DC",
                 "uniques": [
                     "[+100]% XP gained from combat <for [Scout] units>"
                 ],
@@ -31,16 +30,16 @@
                 "column": 3
             },
             {
-                "name": "服役",
+                "name": "FY",
                 "uniques": [
                     "[+30]% Production when constructing [Worker] units [in all cities]"
                 ],
-                "requires": ["纪律","调查"],
+                "requires": ["POLICY_JL","DC"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "崇拜",
+                "name": "CB",
                 "uniques": [
                     "[+1 Faith, +3 Gold] [in capital]"
                 ],
@@ -48,16 +47,16 @@
                 "column": 5
             },
             {
-                "name": "城市规划",
+                "name": "CSGH",
                 "uniques": [
                     "[+1 Production, +1 Happiness] [in all cities]"
                 ],
-                "requires": ["调查"],
+                "requires": ["DC"],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "酋邦 Complete",
+                "name": "QB Complete",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Culture] from every [Monument]"
@@ -66,7 +65,7 @@
         ]
     },
     {
-        "name": "寡头政体",
+        "name": "GTZT",
         "era": "Classical era",
         "priorities": 
         {
@@ -78,10 +77,10 @@
         },
         "uniques": ["[+5]% Strength <for [Military] units>",
         "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
-        "Only available <before adopting [古典共和]>"],
+        "Only available <before adopting [GDGH]>"],
         "policies": [
             {
-                "name": "棱堡",
+                "name": "LB",
                 "uniques": [
                     "[+50]% Strength for cities <when attacking>"
                 ],
@@ -89,7 +88,7 @@
                 "column": 2
             },
             {
-                "name": "边界",
+                "name": "BJ",
                 "uniques": ["Enables Open Borders agreements",
                 "[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
@@ -97,43 +96,43 @@
                 "column": 4
             },
             {
-                "name": "经验",
+                "name": "JY",
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]"
                 ],
-                "requires": ["棱堡","边界"],
+                "requires": ["LB","BJ"],
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "骑士阶级",
+                "name": "QSJJ",
                 "uniques": [
                     "Provides [4] [Horses]",
                     "Provides [4] [Iron]"
                 ],
-                "requires": ["棱堡","边界"],
+                "requires": ["LB","BJ"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "突袭",
+                "name": "TX",
                 "uniques": [
                     "[+5]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
                     "[+5]% Strength <when attacking> <for [Military] units>"
                 ],
-                "requires": ["棱堡","边界"],
+                "requires": ["LB","BJ"],
                 "row": 2,
                 "column": 5
             },
             {
-                "name": "寡头政体 Complete",
+                "name": "GTZT Complete",
                 "uniques": ["[+100]% Production when constructing [Walls] buildings [in all cities]",
                 "[+100]% Production when constructing [Castle] buildings [in all cities]"]
             }
         ]
     },
     {
-        "name": "古典共和",
+        "name": "GDGH",
         "era": "Classical era",
         "priorities": 
         {
@@ -144,11 +143,11 @@
             "Scientific": 20//科研倾向
         },
         "uniques": ["[+1 Culture, +1 Science] [in all cities]",
-        "Only available <before adopting [寡头政体]>"
+        "Only available <before adopting [GTZT]>"
         ],
         "policies": [
             {
-                "name": "自然哲学",
+                "name": "ZRZX",
                 "uniques": ["[+3 Science, +3 Culture] [in capital]",
                 "Enables Open Borders agreements"
                 ],
@@ -156,7 +155,7 @@
                 "column": 1
             },
             {
-                "name": "经文",
+                "name": "JW",
                 "uniques": [
                     "[+10]% [Faith] [in all cities]",
                     "[+1 Faith] per [3] population [in all cities]"
@@ -165,7 +164,7 @@
                 "column": 3
             },
             {
-                "name": "农奴制",
+                "name": "NNZ",
                 "uniques": [
                     "[-25]% tile improvement construction time"
                 ],
@@ -173,26 +172,26 @@
                 "column": 5
             },
             {
-                "name": "民间威望",
+                "name": "MJWW",
                 "uniques": [
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
                     "[+1 Happiness] per [2] population [in capital]"
                 ],
-                "requires": ["自然哲学","经文"],
+                "requires": ["ZRZX","JW"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "工匠",
+                "name": "GJ",
                 "uniques": [
                     "[+15]% Production towards any buildings that already exist in the Capital"
                 ],
-                "requires": ["农奴制"],
+                "requires": ["NNZ"],
                 "row": 2,
                 "column": 5
             },
             {
-                "name": "古典共和 Complete",
+                "name": "GDGH Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
@@ -201,7 +200,7 @@
         ]
     },
     {
-        "name": "君主制",
+        "name": "JZZ",
         "era": "Medieval era",
         "priorities": 
         {
@@ -216,48 +215,48 @@
             "[+7]% [Science] [in capital]",
             "[+7]% [Culture] [in capital]",
             "[+20]% [Gold] [in capital]",
-            "Only available <before adopting [神权政体]>"
+            "Only available <before adopting [SQZT]>"
         ],
         "policies": [
             {
-                "name": "封建契约",
+                "name": "FJQY",
                 "uniques": ["[+1 Food] from every [Farm]"
                 ],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "侍从",
+                "name": "SC",
                 "uniques": ["[+50]% Strength for cities <with a garrison> <when defending>"],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "骑士精神",
+                "name": "QSJS",
                 "uniques": ["[+30]% Production when constructing [Mounted] units [in all cities]",
                 "[+30]% Production when constructing [Armored] units [in all cities]"],
-                "requires": ["封建契约"],
+                "requires": ["FJQY"],
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "雇佣兵",
+                "name": "GYB",
                 "uniques": [
                     "[-75]% Gold cost of upgrading <for [Military] units>"
                 ],
-                "requires": ["封建契约"],
+                "requires": ["FJQY"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "强征入伍",
+                "name": "QZRW",
                 "uniques": [ "[-33]% maintenance costs <for [All] units>"],
-                "requires": ["侍从","骑士精神","雇佣兵"],
+                "requires": ["SC","QSJS","GYB"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "君主制 Complete",
+                "name": "JZZ Complete",
                 "uniques": [
                     "[+10]% Strength <when defending> <for [Military] units>",
                     "[Great General] is earned [25]% faster"
@@ -266,7 +265,7 @@
         ]
     },
     {
-        "name": "神权政体",
+        "name": "SQZT",
         "era": "Medieval era",
         "priorities": 
         {
@@ -278,10 +277,10 @@
         },
         "uniques": ["[Faith] cost of purchasing items in cities [-10]%",
         "Free [Great Prophet] appears",
-        "Only available <before adopting [君主制]>"],
+        "Only available <before adopting [JZZ]>"],
         "policies": [
             {
-                "name": "归正会",
+                "name": "GZH",
                 "uniques": [
                     "[+100]% Spread Religion Strength <for [Missionary] units>"
                 ],
@@ -289,7 +288,7 @@
                 "column": 1
             },
             {
-                "name": "十字军信仰",
+                "name": "SZJXY",
                 "uniques": [
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost"
                 ],
@@ -297,16 +296,16 @@
                 "column": 3
             },
             {
-                "name": "宗教教派",
+                "name": "ZJJP",
                 "uniques": [
                     "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
-                "requires": ["归正会","十字军信仰"],
+                "requires": ["GZH","SZJXY"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "宗教改良",
+                "name": "ZJGL",
                 "uniques": [
                     "[+1 Faith] from every [Mine]"
                 ],
@@ -314,8 +313,8 @@
                 "column": 5
             },
             {
-                "name": "宗教交融",
-                "requires": ["宗教教派", "宗教改良"],
+                "name": "ZJJR",
+                "requires": ["ZJJP", "ZJGL"],
                 "uniques": [
                     "[+1 Culture, +1 Happiness] from every [5] global followers [in all cities]"
                 ],
@@ -323,7 +322,7 @@
                 "column": 4
             },
             {
-                "name": "神权政体 Complete",
+                "name": "SQZT Complete",
                 "uniques": [
                     "[+1 Gold, +1 Culture] from every [Shrine]",
                     "[+2 Gold, +2 Culture] from every [Temple]",
@@ -333,7 +332,7 @@
         ]
     },
     {
-        "name": "资本主义",
+        "name": "ZBZY",
         "era": "Industrial era",
         "priorities": 
         {
@@ -344,11 +343,11 @@
             "Scientific": 30//科研倾向
         },
         "uniques": ["[+25]% [Gold] [in all cities]",
-        "Only available <before adopting [共产主义]>",
-        "Only available <before adopting [法西斯主义]>"],
+        "Only available <before adopting [GCZY]>",
+        "Only available <before adopting [FXSZY]>"],
         "policies": [
             {
-                "name": "原始积累",
+                "name": "YSPOLICY_JL",
                 "uniques": [
                     "[+2 Science, +4 Gold] from each Trade Route"
                 ],
@@ -356,7 +355,7 @@
                 "column": 1
             },
             {
-                "name": "大航海",
+                "name": "DHH",
                 "uniques": [
                     "[-20]% maintenance on road & railroads",
                     "[+1] Movement <for [{Military} {Water}] units>",
@@ -366,30 +365,30 @@
                 "column": 5
             },
             {
-                "name": "劳动力出卖",
+                "name": "LDLCM",
                 "uniques": ["[-25]% tile improvement construction time"],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "贫富分化",
+                "name": "PFFH",
                 "uniques": [
                     "[+20 Gold] [in capital]",
                     "[-2 Gold] [in all cities]"
                 ],
-                "requires": ["原始积累","劳动力出卖","大航海"],
+                "requires": ["YSPOLICY_JL","LDLCM","DHH"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "社会保障制度",
+                "name": "SHBZZD",
                 "uniques": ["[+2 Happiness] [in all cities]"],
-                "requires": ["贫富分化"],
+                "requires": ["PFFH"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "资本主义 Complete",
+                "name": "ZBZY Complete",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
@@ -401,7 +400,7 @@
         ]
     },
     {
-        "name": "共产主义",
+        "name": "GCZY",
         "era": "Modern era",
         "priorities": 
         {
@@ -412,12 +411,12 @@
             "Scientific": 40//科研倾向
         },
         "uniques": ["[+10]% [Production] [in all cities]",
-            "Only available <before adopting [资本主义]>",
-        "Only available <before adopting [法西斯主义]>"
+            "Only available <before adopting [ZBZY]>",
+        "Only available <before adopting [FXSZY]>"
         ],
         "policies": [
             {
-                "name": "武装革命",
+                "name": "WZGM",
                 "uniques": [
                     "[+10]% Strength <when attacking> <for [Military] units>",
                     "Earn [30]% of killed [Military] unit's [Cost] as [Science]"
@@ -426,7 +425,7 @@
                 "column": 2
             },
             {
-                "name": "工农联合",
+                "name": "GNLH",
                 "uniques": [
                     "[+1 Food] from every [Mine]",
                     "[+1 Production] from every [Farm]"
@@ -435,35 +434,35 @@
                 "column": 4
             },
             {
-                "name": "计划经济",
+                "name": "JHJJ",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-30]%"
                 ],
-                "requires": ["武装革命","工农联合"],
+                "requires": ["WZGM","GNLH"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "社会主义市场经济",
+                "name": "SHZYSCJJ",
                 "uniques": ["[+5]% [Science] from every [Mint]",
                 "[+5]% [Science] from every [Market]",
                 "[+10]% [Science] from every [Bank]",
                 "[+10]% [Science] from every [Stock Exchange]"],
-                "requires": ["计划经济"],
+                "requires": ["JHJJ"],
                 "row": 3,
                 "column": 2
             },
             {
-                "name": "自我革命",
+                "name": "ZWGM",
                 "uniques": ["[100]% of excess happiness converted to [Culture]",
                 "[100]% of excess happiness converted to [Science]",
                 "[300]% of excess happiness converted to [Gold]"],
-                "requires": ["计划经济"],
+                "requires": ["JHJJ"],
                 "row": 3,
                 "column": 4
             },
             {
-                "name": "共产主义 Complete",
+                "name": "GCZY Complete",
                 "uniques": ["[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
@@ -473,7 +472,7 @@
         ]
     }
     {
-        "name": "法西斯主义",
+        "name": "FXSZY",
         "era": "Modern era",
         "priorities": 
         {
@@ -485,12 +484,12 @@
         },
         "uniques": ["[+100]% XP gained from combat <for [Military] units>",
                     "Free [Great General] appears",
-                    "Only available <before adopting [共产主义]>",
-                    "Only available <before adopting [资本主义]>"
+                    "Only available <before adopting [GCZY]>",
+                    "Only available <before adopting [ZBZY]>"
         ],
         "policies": [
             {
-                "name": "第三选择",
+                "name": "DSXZ",
                 "uniques": ["[+2 Culture, +2 Science, +4 Gold] from every [Library]",
                 "[+2 Culture, +2 Science, +4 Gold] from every [University]",
                 "[+2 Culture, +2 Science, +4 Gold] from every [Public School]",
@@ -499,42 +498,42 @@
                 "column": 2
             },
             {
-                "name": "军事管制",
+                "name": "JSGZ",
                 "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
                 "row": 1,
                 "column": 4
             },
             {
-                "name": "闪电战",
+                "name": "SDZ",
                 "uniques": [
                     "[+1] Movement <for [Military] units>",
                     "[+1] Sight <for [Military] units>"
                 ],
-                "requires": ["军事管制"],
+                "requires": ["JSGZ"],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "核武研发",
+                "name": "HWYF",
                 "uniques": [
                     "Provides [4] [Aluminum]",
                     "Provides [4] [Uranium]"],
-                "requires": ["第三选择","军事管制"],
+                "requires": ["DSXZ","JSGZ"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "世界大战",
+                "name": "SJDZ",
                 "uniques": [
                     "[+30]% Strength <when attacking> <for [Military] units>",
                     "[-10]% Strength <when defending> <for [Military] units>"
                     ],
-                "requires": ["闪电战", "核武研发"],
+                "requires": ["SDZ", "HWYF"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "法西斯主义 Complete",
+                "name": "FXSZY Complete",
                 "uniques": [
                     "Great General provides double combat bonus",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
@@ -544,7 +543,7 @@
         ]
     },
     {
-        "name": "团体自由意志主义",
+        "name": "TTZYYZZY",
         "era": "Atomic era",
         "priorities": 
         {
@@ -556,12 +555,12 @@
         },
         "uniques": ["Quantity of strategic resources produced by the empire +[100]%",
         "[-10]% [Science] [in all cities]",
-        "Only available <before adopting [数字化民主]>",
-        "Only available <before adopting [合成专家统治]>"
+        "Only available <before adopting [SZHMZ]>",
+        "Only available <before adopting [HCZJTZ]>"
         ],
         "policies": [
             {
-                "name": "综合攻击后勤保障",
+                "name": "ZHGJHQBZ",
                 "uniques": [
                     "[+2] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>"
                 ],
@@ -569,7 +568,7 @@
                 "column": 2
             },
             {
-                "name": "全球联合",
+                "name": "QQLH",
                 "uniques": [
                     "Resting point for Influence with City-States is increased by [30]"
                 ],
@@ -577,14 +576,14 @@
                 "column": 4
             },
             {
-                "name": "团体自由意志主义 Complete",
+                "name": "TTZYYZZY Complete",
                 "uniques": [" "
                 ]
             }
         ]
     },
     {
-        "name": "合成专家统治",
+        "name": "GCZJTZ",
         "era": "Atomic era",
         "priorities": 
         {
@@ -596,12 +595,12 @@
         },
         "uniques": ["[+30]% [Production] [in all cities]",
         "[-10]% [Culture] [in all cities]",
-        "Only available <before adopting [数字化民主]>",
-        "Only available <before adopting [团体自由意志主义]>"
+        "Only available <before adopting [SZHMZ]>",
+        "Only available <before adopting [TTZYYZZY]>"
         ],
         "policies": [
             {
-                "name": "有机合成",
+                "name": "YZHC",
                 "uniques": [
                     "[+15 Food] [in all cities]"
                 ],
@@ -609,7 +608,7 @@
                 "column": 2
             },
             {
-                "name": "元素转化",
+                "name": "YSZH",
                 "uniques": [
                     "Provides [10] [Horses]",
                     "Provides [10] [Iron]",
@@ -622,14 +621,14 @@
                 "column": 4
             },
             {
-                "name": "合成专家统治 Complete",
+                "name": "HCZJTZ Complete",
                 "uniques": [" "
                 ]
             }
         ]
     },
     {
-        "name": "数字化民主",
+        "name": "SZHMZ",
         "era": "Atomic era",
         "priorities": 
         {
@@ -642,12 +641,12 @@
         "uniques": ["[+20]% [Culture] [in all cities]",
         "[+20]% [Science] [in all cities]",
         "[-30]% Strength <for [Military] units>",
-        "Only available <before adopting [团体自由意志主义]>",
-        "Only available <before adopting [合成专家统治]>"
+        "Only available <before adopting [TTZYYZZY]>",
+        "Only available <before adopting [HCZJTZ]>"
         ],
         "policies": [
             {
-                "name": "在线社区",
+                "name": "ZXSQ",
                 "uniques": [
                     "[+6 Science, +6 Culture, +3 Happiness] from each Trade Route"
                 ],
@@ -655,7 +654,7 @@
                 "column": 2
             },
             {
-                "name": "非国家行为者",
+                "name": "FGJXWZ",
                 "uniques": [
                     "[+15]% Strength <for [Military] units>",
                     "[+100]% Production when constructing [Utopia Project] buildings [in all cities]"
@@ -664,7 +663,7 @@
                 "column": 4
             },
             {
-                "name": "数字化民主 Complete",
+                "name": "SZHMZ Complete",
                 "uniques": [" "
                 ]
             }
