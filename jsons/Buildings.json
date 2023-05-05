@@ -69,8 +69,8 @@
 	},
 	{
 		"name": "BUILDING_DISTRICT_SY",
-		"cost": 30,
-		"hurryCostModifier": 30,
+		"cost": 75,
+		"hurryCostModifier": 75,
 		"requiredTech": "Writing",
 		"uniqueTo":"Korea",
 		"replaces":"BUILDING_DISTRICT_XY",
