@@ -1,6 +1,6 @@
 [
     {
-        "name": "LJS",
+        "name": "SPEED_LJS",//联机速
         "modifier": 0.5,
         "productionCostModifier": 0.5,
         "goldCostModifier": 0.5,

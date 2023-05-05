@@ -1,6 +1,6 @@
 [
     {
-        "name": "QB",
+        "name": "POLICY_QB",
         "era": "Ancient era",
         "priorities": 
         {
@@ -22,7 +22,7 @@
                 "column": 1
             },
             {
-                "name": "DC",
+                "name": "POLICY_DC",
                 "uniques": [
                     "[+100]% XP gained from combat <for [Scout] units>"
                 ],
@@ -30,16 +30,16 @@
                 "column": 3
             },
             {
-                "name": "FY",
+                "name": "POLICY_FY",
                 "uniques": [
                     "[+30]% Production when constructing [Worker] units [in all cities]"
                 ],
-                "requires": ["POLICY_JL","DC"],
+                "requires": ["POLICY_JL","POLICY_DC"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "CB",
+                "name": "POLICY_CB",
                 "uniques": [
                     "[+1 Faith, +3 Gold] [in capital]"
                 ],
@@ -47,16 +47,16 @@
                 "column": 5
             },
             {
-                "name": "CSGH",
+                "name": "POLICY_CSGH",
                 "uniques": [
                     "[+1 Production, +1 Happiness] [in all cities]"
                 ],
-                "requires": ["DC"],
+                "requires": ["POLICY_DC"],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "QB Complete",
+                "name": "POLICY_QB Complete",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Culture] from every [Monument]"
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "name": "GTZT",
+        "name": "POLICY_GTZT",
         "era": "Classical era",
         "priorities": 
         {
@@ -77,10 +77,10 @@
         },
         "uniques": ["[+5]% Strength <for [Military] units>",
         "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
-        "Only available <before adopting [GDGH]>"],
+        "Only available <before adopting [POLICY_GDGH]>"],
         "policies": [
             {
-                "name": "LB",
+                "name": "POLICY_LB",
                 "uniques": [
                     "[+50]% Strength for cities <when attacking>"
                 ],
@@ -88,7 +88,7 @@
                 "column": 2
             },
             {
-                "name": "BJ",
+                "name": "POLICY_BJ",
                 "uniques": ["Enables Open Borders agreements",
                 "[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
@@ -96,43 +96,43 @@
                 "column": 4
             },
             {
-                "name": "JY",
+                "name": "POLICY_JY",
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]"
                 ],
-                "requires": ["LB","BJ"],
+                "requires": ["POLICY_LB","POLICY_BJ"],
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "QSJJ",
+                "name": "POLICY_QSJJ",
                 "uniques": [
                     "Provides [4] [Horses]",
                     "Provides [4] [Iron]"
                 ],
-                "requires": ["LB","BJ"],
+                "requires": ["POLICY_LB","POLICY_BJ"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "TX",
+                "name": "POLICY_TX",
                 "uniques": [
                     "[+5]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
                     "[+5]% Strength <when attacking> <for [Military] units>"
                 ],
-                "requires": ["LB","BJ"],
+                "requires": ["POLICY_LB","POLICY_BJ"],
                 "row": 2,
                 "column": 5
             },
             {
-                "name": "GTZT Complete",
+                "name": "POLICY_GTZT Complete",
                 "uniques": ["[+100]% Production when constructing [Walls] buildings [in all cities]",
                 "[+100]% Production when constructing [Castle] buildings [in all cities]"]
             }
         ]
     },
     {
-        "name": "GDGH",
+        "name": "POLICY_GDGH",
         "era": "Classical era",
         "priorities": 
         {
@@ -143,11 +143,11 @@
             "Scientific": 20//科研倾向
         },
         "uniques": ["[+1 Culture, +1 Science] [in all cities]",
-        "Only available <before adopting [GTZT]>"
+        "Only available <before adopting [POLICY_GTZT]>"
         ],
         "policies": [
             {
-                "name": "ZRZX",
+                "name": "POLICY_ZRZX",
                 "uniques": ["[+3 Science, +3 Culture] [in capital]",
                 "Enables Open Borders agreements"
                 ],
@@ -155,7 +155,7 @@
                 "column": 1
             },
             {
-                "name": "JW",
+                "name": "POLICY_JW",
                 "uniques": [
                     "[+10]% [Faith] [in all cities]",
                     "[+1 Faith] per [3] population [in all cities]"
@@ -164,7 +164,7 @@
                 "column": 3
             },
             {
-                "name": "NNZ",
+                "name": "POLICY_NNZ",
                 "uniques": [
                     "[-25]% tile improvement construction time"
                 ],
@@ -172,26 +172,26 @@
                 "column": 5
             },
             {
-                "name": "MJWW",
+                "name": "POLICY_MJWW",
                 "uniques": [
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
                     "[+1 Happiness] per [2] population [in capital]"
                 ],
-                "requires": ["ZRZX","JW"],
+                "requires": ["POLICY_ZRZX","POLICY_JW"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "GJ",
+                "name": "POLICY_GJ",
                 "uniques": [
                     "[+15]% Production towards any buildings that already exist in the Capital"
                 ],
-                "requires": ["NNZ"],
+                "requires": ["POLICY_NNZ"],
                 "row": 2,
                 "column": 5
             },
             {
-                "name": "GDGH Complete",
+                "name": "POLICY_GDGH Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
@@ -200,7 +200,7 @@
         ]
     },
     {
-        "name": "JZZ",
+        "name": "POLICY_JZZ",
         "era": "Medieval era",
         "priorities": 
         {
@@ -215,48 +215,48 @@
             "[+7]% [Science] [in capital]",
             "[+7]% [Culture] [in capital]",
             "[+20]% [Gold] [in capital]",
-            "Only available <before adopting [SQZT]>"
+            "Only available <before adopting [POLICY_SQZT]>"
         ],
         "policies": [
             {
-                "name": "FJQY",
+                "name": "POLICY_FJQY",
                 "uniques": ["[+1 Food] from every [Farm]"
                 ],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "SC",
+                "name": "POLICY_SC",
                 "uniques": ["[+50]% Strength for cities <with a garrison> <when defending>"],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "QSJS",
+                "name": "POLICY_QSJS",
                 "uniques": ["[+30]% Production when constructing [Mounted] units [in all cities]",
                 "[+30]% Production when constructing [Armored] units [in all cities]"],
-                "requires": ["FJQY"],
+                "requires": ["POLICY_FJQY"],
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "GYB",
+                "name": "POLICY_GYB",
                 "uniques": [
                     "[-75]% Gold cost of upgrading <for [Military] units>"
                 ],
-                "requires": ["FJQY"],
+                "requires": ["POLICY_FJQY"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "QZRW",
+                "name": "POLICY_QZRW",
                 "uniques": [ "[-33]% maintenance costs <for [All] units>"],
-                "requires": ["SC","QSJS","GYB"],
+                "requires": ["POLICY_SC","POLICY_QSJS","POLICY_GYB"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "JZZ Complete",
+                "name": "POLICY_JZZ Complete",
                 "uniques": [
                     "[+10]% Strength <when defending> <for [Military] units>",
                     "[Great General] is earned [25]% faster"
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "name": "SQZT",
+        "name": "POLICY_SQZT",
         "era": "Medieval era",
         "priorities": 
         {
@@ -277,10 +277,10 @@
         },
         "uniques": ["[Faith] cost of purchasing items in cities [-10]%",
         "Free [Great Prophet] appears",
-        "Only available <before adopting [JZZ]>"],
+        "Only available <before adopting [POLICY_JZZ]>"],
         "policies": [
             {
-                "name": "GZH",
+                "name": "POLICY_GZH",
                 "uniques": [
                     "[+100]% Spread Religion Strength <for [Missionary] units>"
                 ],
@@ -288,7 +288,7 @@
                 "column": 1
             },
             {
-                "name": "SZJXY",
+                "name": "POLICY_SZJXY",
                 "uniques": [
                     "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost"
                 ],
@@ -296,16 +296,16 @@
                 "column": 3
             },
             {
-                "name": "ZJJP",
+                "name": "POLICY_ZJJP",
                 "uniques": [
                     "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
-                "requires": ["GZH","SZJXY"],
+                "requires": ["POLICY_GZH","POLICY_SZJXY"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "ZJGL",
+                "name": "POLICY_ZJGL",
                 "uniques": [
                     "[+1 Faith] from every [Mine]"
                 ],
@@ -313,8 +313,8 @@
                 "column": 5
             },
             {
-                "name": "ZJJR",
-                "requires": ["ZJJP", "ZJGL"],
+                "name": "POLICY_ZJJR",
+                "requires": ["POLICY_ZJJP", "POLICY_ZJGL"],
                 "uniques": [
                     "[+1 Culture, +1 Happiness] from every [5] global followers [in all cities]"
                 ],
@@ -322,7 +322,7 @@
                 "column": 4
             },
             {
-                "name": "SQZT Complete",
+                "name": "POLICY_SQZT Complete",
                 "uniques": [
                     "[+1 Gold, +1 Culture] from every [Shrine]",
                     "[+2 Gold, +2 Culture] from every [Temple]",
@@ -332,7 +332,7 @@
         ]
     },
     {
-        "name": "ZBZY",
+        "name": "POLICY_ZBZY",
         "era": "Industrial era",
         "priorities": 
         {
@@ -343,11 +343,11 @@
             "Scientific": 30//科研倾向
         },
         "uniques": ["[+25]% [Gold] [in all cities]",
-        "Only available <before adopting [GCZY]>",
-        "Only available <before adopting [FXSZY]>"],
+        "Only available <before adopting [POLICY_GCZY]>",
+        "Only available <before adopting [POLICY_FXSZY]>"],
         "policies": [
             {
-                "name": "YSPOLICY_JL",
+                "name": "POLICY_YSJL",
                 "uniques": [
                     "[+2 Science, +4 Gold] from each Trade Route"
                 ],
@@ -355,7 +355,7 @@
                 "column": 1
             },
             {
-                "name": "DHH",
+                "name": "POLICY_DHH",
                 "uniques": [
                     "[-20]% maintenance on road & railroads",
                     "[+1] Movement <for [{Military} {Water}] units>",
@@ -365,30 +365,30 @@
                 "column": 5
             },
             {
-                "name": "LDLCM",
+                "name": "POLICY_LDLCM",
                 "uniques": ["[-25]% tile improvement construction time"],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "PFFH",
+                "name": "POLICY_PFFH",
                 "uniques": [
                     "[+20 Gold] [in capital]",
                     "[-2 Gold] [in all cities]"
                 ],
-                "requires": ["YSPOLICY_JL","LDLCM","DHH"],
+                "requires": ["POLICY_YSJL","POLICY_LDLCM","POLICY_DHH"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "SHBZZD",
+                "name": "POLICY_SHBZZD",
                 "uniques": ["[+2 Happiness] [in all cities]"],
-                "requires": ["PFFH"],
+                "requires": ["POLICY_PFFH"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "ZBZY Complete",
+                "name": "POLICY_ZBZY Complete",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
@@ -400,7 +400,7 @@
         ]
     },
     {
-        "name": "GCZY",
+        "name": "POLICY_GCZY",
         "era": "Modern era",
         "priorities": 
         {
@@ -411,12 +411,12 @@
             "Scientific": 40//科研倾向
         },
         "uniques": ["[+10]% [Production] [in all cities]",
-            "Only available <before adopting [ZBZY]>",
-        "Only available <before adopting [FXSZY]>"
+                    "Only available <before adopting [POLICY_ZBZY]>",
+                    "Only available <before adopting [POLICY_FXSZY]>"
         ],
         "policies": [
             {
-                "name": "WZGM",
+                "name": "POLICY_WZGM",
                 "uniques": [
                     "[+10]% Strength <when attacking> <for [Military] units>",
                     "Earn [30]% of killed [Military] unit's [Cost] as [Science]"
@@ -425,7 +425,7 @@
                 "column": 2
             },
             {
-                "name": "GNLH",
+                "name": "POLICY_GNLH",
                 "uniques": [
                     "[+1 Food] from every [Mine]",
                     "[+1 Production] from every [Farm]"
@@ -434,35 +434,35 @@
                 "column": 4
             },
             {
-                "name": "JHJJ",
+                "name": "POLICY_JHJJ",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-30]%"
                 ],
-                "requires": ["WZGM","GNLH"],
+                "requires": ["POLICY_WZGM","POLICY_GNLH"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "SHZYSCJJ",
+                "name": "POLICY_SHZYSCJJ",
                 "uniques": ["[+5]% [Science] from every [Mint]",
                 "[+5]% [Science] from every [Market]",
                 "[+10]% [Science] from every [Bank]",
                 "[+10]% [Science] from every [Stock Exchange]"],
-                "requires": ["JHJJ"],
+                "requires": ["POLICY_JHJJ"],
                 "row": 3,
                 "column": 2
             },
             {
-                "name": "ZWGM",
+                "name": "POLICY_ZWGM",
                 "uniques": ["[100]% of excess happiness converted to [Culture]",
                 "[100]% of excess happiness converted to [Science]",
                 "[300]% of excess happiness converted to [Gold]"],
-                "requires": ["JHJJ"],
+                "requires": ["POLICY_JHJJ"],
                 "row": 3,
                 "column": 4
             },
             {
-                "name": "GCZY Complete",
+                "name": "POLICY_GCZY Complete",
                 "uniques": ["[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
@@ -472,7 +472,7 @@
         ]
     }
     {
-        "name": "FSXZY",
+        "name": "POLICY_FXSZY",
         "era": "Modern era",
         "priorities": 
         {
@@ -484,12 +484,12 @@
         },
         "uniques": ["[+100]% XP gained from combat <for [Military] units>",
                     "Free [Great General] appears",
-                    "Only available <before adopting [GCZY]>",
-                    "Only available <before adopting [ZBZY]>"
+                    "Only available <before adopting [POLICY_GCZY]>",
+                    "Only available <before adopting [POLICY_ZBZY]>"
         ],
         "policies": [
             {
-                "name": "DSXZ",
+                "name": "POLICY_DSXZ",
                 "uniques": ["[+2 Culture, +2 Science, +4 Gold] from every [Library]",
                 "[+2 Culture, +2 Science, +4 Gold] from every [University]",
                 "[+2 Culture, +2 Science, +4 Gold] from every [Public School]",
@@ -498,42 +498,42 @@
                 "column": 2
             },
             {
-                "name": "JSGZ",
+                "name": "POLICY_JSGZ",
                 "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
                 "row": 1,
                 "column": 4
             },
             {
-                "name": "SDZ",
+                "name": "POLICY_SDZ",
                 "uniques": [
                     "[+1] Movement <for [Military] units>",
                     "[+1] Sight <for [Military] units>"
                 ],
-                "requires": ["JSGZ"],
+                "requires": ["POLICY_JSGZ"],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "HWYF",
+                "name": "POLICY_HWYF",
                 "uniques": [
                     "Provides [4] [Aluminum]",
                     "Provides [4] [Uranium]"],
-                "requires": ["DSXZ","JSGZ"],
+                "requires": ["POLICY_DSXZ","POLICY_JSGZ"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "SJDZ",
+                "name": "POLICY_SJDZ",
                 "uniques": [
                     "[+30]% Strength <when attacking> <for [Military] units>",
                     "[-10]% Strength <when defending> <for [Military] units>"
                     ],
-                "requires": ["SDZ", "HWYF"],
+                "requires": ["POLICY_SDZ", "POLICY_HWYF"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "FSXZY Complete",
+                "name": "POLICY_FXSZY Complete",
                 "uniques": [
                     "Great General provides double combat bonus",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
@@ -543,7 +543,7 @@
         ]
     },
     {
-        "name": "TTZYYZZY",
+        "name": "POLICY_TTZYYZZY",
         "era": "Atomic era",
         "priorities": 
         {
@@ -555,12 +555,12 @@
         },
         "uniques": ["Quantity of strategic resources produced by the empire +[100]%",
         "[-10]% [Science] [in all cities]",
-        "Only available <before adopting [SZHMZ]>",
-        "Only available <before adopting [HCZJTZ]>"
+        "Only available <before adopting [POLICY_SZHMZ]>",
+        "Only available <before adopting [POLICY_HCZJTZ]>"
         ],
         "policies": [
             {
-                "name": "ZHGJHQBZ",
+                "name": "POLICY_ZHGJHQBZ",
                 "uniques": [
                     "[+2] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>"
                 ],
@@ -568,7 +568,7 @@
                 "column": 2
             },
             {
-                "name": "QQLH",
+                "name": "POLICY_QQLH",
                 "uniques": [
                     "Resting point for Influence with City-States is increased by [30]"
                 ],
@@ -576,14 +576,14 @@
                 "column": 4
             },
             {
-                "name": "TTZYYZZY Complete",
+                "name": "POLICY_TTZYYZZY Complete",
                 "uniques": [" "
                 ]
             }
         ]
     },
     {
-        "name": "HCZJTZ",
+        "name": "POLICY_HCZJTZ",
         "era": "Atomic era",
         "priorities": 
         {
@@ -595,12 +595,12 @@
         },
         "uniques": ["[+30]% [Production] [in all cities]",
         "[-10]% [Culture] [in all cities]",
-        "Only available <before adopting [SZHMZ]>",
-        "Only available <before adopting [TTZYYZZY]>"
+        "Only available <before adopting [POLICY_SZHMZ]>",
+        "Only available <before adopting [POLICY_TTZYYZZY]>"
         ],
         "policies": [
             {
-                "name": "YZHC",
+                "name": "POLICY_YZHC",
                 "uniques": [
                     "[+15 Food] [in all cities]"
                 ],
@@ -608,7 +608,7 @@
                 "column": 2
             },
             {
-                "name": "YSZH",
+                "name": "POLICY_YSZH",
                 "uniques": [
                     "Provides [10] [Horses]",
                     "Provides [10] [Iron]",
@@ -621,14 +621,14 @@
                 "column": 4
             },
             {
-                "name": "HCZJTZ Complete",
+                "name": "POLICY_HCZJTZ Complete",
                 "uniques": [" "
                 ]
             }
         ]
     },
     {
-        "name": "SZHMZ",
+        "name": "POLICY_SZHMZ",
         "era": "Atomic era",
         "priorities": 
         {
@@ -641,12 +641,12 @@
         "uniques": ["[+20]% [Culture] [in all cities]",
         "[+20]% [Science] [in all cities]",
         "[-30]% Strength <for [Military] units>",
-        "Only available <before adopting [TTZYYZZY]>",
-        "Only available <before adopting [HCZJTZ]>"
+        "Only available <before adopting [POLICY_TTZYYZZY]>",
+        "Only available <before adopting [POLICY_HCZJTZ]>"
         ],
         "policies": [
             {
-                "name": "ZXSQ",
+                "name": "POLICY_ZXSQ",
                 "uniques": [
                     "[+6 Science, +6 Culture, +3 Happiness] from each Trade Route"
                 ],
@@ -654,7 +654,7 @@
                 "column": 2
             },
             {
-                "name": "FGJXWZ",
+                "name": "POLICY_FGJXWZ",
                 "uniques": [
                     "[+15]% Strength <for [Military] units>",
                     "[+100]% Production when constructing [Utopia Project] buildings [in all cities]"
@@ -663,7 +663,7 @@
                 "column": 4
             },
             {
-                "name": "SZHMZ Complete",
+                "name": "POLICY_SZHMZ Complete",
                 "uniques": [" "
                 ]
             }

@@ -1,8 +1,8 @@
 [	
 
-    //WJZC
+    //外交支持
 	{
-		"name": "WJZC",
+		"name": "RESOURCE_WJZC",
 		"resourceType": "Strategic",
 		"revealedBy": "Agriculture",
 		"terrainsCanBeFoundOn": [],

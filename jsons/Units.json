@@ -37,18 +37,18 @@
 	},
 	*/
     {
-		"name": "CH",
+		"name": "UNIT_CH",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
 		"cost": 30,
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "SB",
+		"upgradesTo": "UNIT_SB",
 		"attackSound": "nonmetalhit",
 		"uniques":["Can build [Road] improvements on tiles"]
 	},
 	{
-		"name": "SB",
+		"name": "UNIT_SB",
 		"unitType": "Scout",
 		"movement": 3,
 		"strength": 10,
@@ -57,12 +57,12 @@
 		"cost": 90,
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Radar",
-		"upgradesTo": "TZBD",
+		"upgradesTo": "UNIT_TZBD",
 		"attackSound": "nonmetalhit",
 		"uniques":["Can move after attacking","Can build [Road] improvements on tiles"]
 	},
 	{
-		"name": "TZBD",
+		"name": "UNIT_TZBD",
 		"unitType": "Scout",
 		"movement": 4,
 		"strength": 40,
@@ -1712,7 +1712,7 @@
 		"movement": 5
 	},
 	{
-		"name": "ALSTGLS",
+		"name": "UNIT_ALSTGLS",
 		"unitType": "Civilian",
 		"uniqueTo": "Persia",
 		"replaces": "Great General",
@@ -1724,65 +1724,65 @@
 		"movement": 3
 	},
 	{
-		"name": "SD_JZZ",
+		"name": "UNIT_DISTRICT_SD",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [SD] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_SD] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "XY_JZZ",
+		"name": "UNIT_DISTRICT_XY",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [XY] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_XY] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "JY_1_JZZ",
+		"name": "UNIT_DISTRICT_JY_1",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [JY_1] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_JY_1] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "SYZX_JZZ",
+		"name": "UNIT_DISTRICT_SYZX",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [SYZX] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_SYZX] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "GYQ_JZZ",
+		"name": "UNIT_DISTRICT_GYQ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [GYQ] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_GYQ] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "YHZX_JZZ",
+		"name": "UNIT_DISTRICT_YHZX",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [YHZX] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_YHZX] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "YLZX_JZZ",
+		"name": "UNIT_DISTRICT_YLZX",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [YLZX] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_YLZX] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "GKQ_JZZ",
+		"name": "UNIT_DISTRICT_GKQ",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [GKQ] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_GKQ] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
-		"name": "JY_2_JZZ",
+		"name": "UNIT_DISTRICT_JY_2",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [JY_2] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_JY_2] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},

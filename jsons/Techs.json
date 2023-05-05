@@ -12,7 +12,7 @@
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "KX",
+				"name": "TECHNOLOGY_KX",
 				"row": 8,
 				"quote": "当你不希望超前时代获得更严重的时代惩罚时，可以空想来消耗溢出瓶",
 				"uniques": ["Can be continually researched",
@@ -354,8 +354,7 @@
 				"name": "Archaeology",
 				"row": 2,
 				"prerequisites": ["Navigation","Architecture"],
-				"uniques":["纪念碑[+2 Culture]",
-				"Provides [1] [WJZC]"],
+				"uniques":["Provides [1] [RESOURCE_WJZC]"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
@@ -542,7 +541,7 @@
 				"name": "Ecology",
 				"row": 2,
 				"prerequisites": ["Atomic Theory","Pharmaceuticals"],
-				"unique":"Provides [1] [WJZC]",
+				"unique":"Provides [1] [RESOURCE_WJZC]",
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{

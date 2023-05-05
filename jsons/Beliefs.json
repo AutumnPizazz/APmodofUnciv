@@ -37,7 +37,7 @@
         "uniques": ["[+1 Production] from every [Fishing Boats]"]
     },
     {
-        "name": "SYNS",
+        "name": "PANTHEON_SYNS",
         "type": "Pantheon",
         "uniques": ["[+2 Gold] from every [Fishing Boats]"]
     },

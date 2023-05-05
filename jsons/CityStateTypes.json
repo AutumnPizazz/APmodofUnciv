@@ -10,12 +10,12 @@
             "[+2 Culture] from every [Amphitheater]",
             "[+4 Culture] from every [Opera House]",
             "[+6 Culture] from every [Broadcast Tower]",
-            "Provides [1] [WJZC]"
+            "Provides [1] [RESOURCE_WJZC]"
         ],
         "color": [139, 96, 255]
     },
     {
-        "name": "KYX",//科研
+        "name": "CITY_STATE_TYPE_KYX",//科研
         "friendBonusUniques": [
             "[+1 Science] from every [Library]",
             "[+2 Science] from every [University]",
@@ -27,7 +27,7 @@
             "[+4 Science] from every [University]",
             "[+6 Science] from every [Public School]",
             "[+8 Science] from every [Research Lab]",
-            "Provides [1] [WJZC]"
+            "Provides [1] [RESOURCE_WJZC]"
         ],
         "color": [0, 0, 255]
     },
@@ -35,7 +35,7 @@
         "name": "Maritime",//航海
         "friendBonusUniques": ["[+2 Food] [in all cities]"],
         "allyBonusUniques": ["[+2 Food, +1 Happiness] [in all cities]",
-        "Provides [1] [WJZC]"],
+        "Provides [1] [RESOURCE_WJZC]"],
         "color": [56, 255, 112]
     },
     {
@@ -50,7 +50,7 @@
             "[+4 Gold] from every [Bank]",
             "[+6 Gold] from every [Stock Exchange]",
             "Provides a unique luxury",
-            "Provides [1] [WJZC]"
+            "Provides [1] [RESOURCE_WJZC]"
         ],
         "color": [255, 216, 0]
     },
@@ -58,7 +58,7 @@
         "name": "Militaristic",//军事
         "friendBonusUniques": ["[+5]% Strength <when defending> <for [Military] units>"],
         "allyBonusUniques": ["[+5]% Strength <for [Military] units>",
-        "Provides [1] [WJZC]"],
+        "Provides [1] [RESOURCE_WJZC]"],
         "color": [255, 0, 0]
     },
     {
@@ -70,12 +70,12 @@
         "allyBonusUniques": [
             "[+2 Faith, +1 Gold] from every [Shrine]",
             "[+4 Faith, +2 Gold] from every [Temple]",
-            "Provides [1] [WJZC]"
+            "Provides [1] [RESOURCE_WJZC]"
         ],
         "color": [255, 255, 255]
     },
     {
-        "name": "GYX",
+        "name": "CITY_STATE_TYPE_GYX",//工业型
         "friendBonusUniques": [
             "[+2 Production] from every [Workshop]",
             "[+3 Production] from every [Factory]",
@@ -92,7 +92,7 @@
             "[+3]% [Production] from every [Factory]",
             "[+3]% [Production] from every [Nuclear Plant]",
             "[+3]% [Production] from every [Solar Plant]",
-            "Provides [1] [WJZC]"
+            "Provides [1] [RESOURCE_WJZC]"
 
         ],
         "color": [139, 96, 255]

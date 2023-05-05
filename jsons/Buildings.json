@@ -1,9 +1,9 @@
 [
 	//外交胜利新建筑
 	{
-		"name": "ZYZZ1",
+		"name": "BUILDING_ZYZZ1",
 		"isNationalWonder": true,
-		"requiredResource": "WJZC",
+		"requiredResource": "RESOURCE_WJZC",
 		"cost":100,
 		"requiredTech": "Civil Service",
 		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
@@ -11,9 +11,9 @@
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 	{
-		"name": "ZYZZ2",
+		"name": "BUILDING_ZYZZ2",
 		"isNationalWonder": true,
-		"requiredResource": "WJZC",
+		"requiredResource": "RESOURCE_WJZC",
 		"requiredTech": "Civil Service",
 		"cost":200,
 		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
@@ -21,29 +21,29 @@
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 	{
-		"name": "ZYZZ3",
+		"name": "BUILDING_ZYZZ3",
 		"isNationalWonder": true,
 		"cost":300,
-		"requiredResource": "WJZC",
+		"requiredResource": "RESOURCE_WJZC",
 		"requiredTech": "Civil Service",
 		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
 		"Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 	{
-		"name": "ZYZZ4",
+		"name": "BUILDING_ZYZZ4",
 		"isNationalWonder": true,
 		"cost":400,
-		"requiredResource": "WJZC",
+		"requiredResource": "RESOURCE_WJZC",
 		"requiredTech": "Civil Service",
 		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
 		"Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 	{
-		"name": "ZYZZ5",
+		"name": "BUILDING_ZYZZ5",
 		"isNationalWonder": true,
-		"requiredResource": "WJZC",
+		"requiredResource": "RESOURCE_WJZC",
 		"requiredTech": "Civil Service",
 		"cost":500,
 		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
@@ -52,86 +52,86 @@
 	},
 	//新增区域系统
 	{
-		"name": "SD_DJXM",
+		"name": "BUILDING_DISTRICT_SD",
 		"cost": 70,
 		"faith":1,
 		"hurryCostModifier": 70,
 		"requiredTech": "Calendar",
-		"uniques": ["Unsellable","Free [SD_JZZ] appears"]
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SD] appears"]
 	},
 	{
-		"name": "XY_DJXM",
+		"name": "BUILDING_DISTRICT_XY",
 		"cost": 75,
 		"hurryCostModifier": 75,
 		"requiredTech": "Writing",
-		"uniques": ["Unsellable","Free [XY_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears"],
 		"greatPersonPoints": {"Great Scientist": 2}
 	},
 	{
-		"name": "SY_DJXM",
+		"name": "BUILDING_DISTRICT_SY",
 		"cost": 30,
 		"hurryCostModifier": 30,
 		"requiredTech": "Writing",
 		"uniqueTo":"Korea",
-		"replaces":"XY_DJXM",
+		"replaces":"BUILDING_DISTRICT_XY",
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["Unsellable","Free [XY_JZZ] appears","获得额外2个科学家席位"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears","获得额外2个科学家席位"],
 		"greatPersonPoints": {"Great Scientist": 2}
 	},
 	{
-		"name": "JY_1_DJXM",
+		"name": "BUILDING_DISTRICT_JY_1",
 		"cost": 100,
 		"hurryCostModifier": 100,
 		"requiredTech": "Drama and Poetry",
-		"uniques": ["Unsellable","Free [JY_1_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_1] appears"],
 		"greatPersonPoints": {"Great Artist": 2}
 	},
 	{
-		"name": "SYZX_DJXM",
+		"name": "BUILDING_DISTRICT_SYZX",
 		"cost": 100,
 		"hurryCostModifier": 100,
 		"requiredTech": "Currency",
-		"uniques": ["Unsellable","Free [SYZX_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SYZX] appears"],
 		"greatPersonPoints": {"Great Merchant": 2}
 	},
 	{
-		"name": "GYQ_DJXM",
+		"name": "BUILDING_DISTRICT_GYQ",
 		"cost": 120,
 		"hurryCostModifier": 120,
 		"requiredTech": "Metal Casting",
-		"uniques": ["Unsellable","Free [GYQ_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GYQ] appears"],
 		"greatPersonPoints": {"Great Engineer": 2}
 	},
 	{
-		"name": "YHZX_DJXM",
+		"name": "BUILDING_DISTRICT_YHZX",
 		"cost": 700,
 		"hurryCostModifier": 700,
 		"requiredTech": "Rocketry",
-		"uniques": ["Unsellable","Free [YHZX_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YHZX] appears"],
 		"greatPersonPoints": {"Great Engineer": 2}
 	},
 	{
-		"name": "YLZX_DJXM",
+		"name": "BUILDING_DISTRICT_YLZX",
 		"cost": 90,
 		"hurryCostModifier": 90,
 		"requiredTech": "Construction",
-		"uniques": ["Unsellable","Free [YLZX_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YLZX] appears"],
 		"greatPersonPoints": {"Great Artist": 2}
 	},
 	{
-		"name": "GKQ_DJXM",
+		"name": "BUILDING_DISTRICT_GKQ",
 		"cost": 90,
 		"hurryCostModifier": 90,
 		"requiredTech": "Optics",
-		"uniques": ["Unsellable","Free [GKQ_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GKQ] appears"],
 		"greatPersonPoints": {"Great General": 2}
 	},
 	{
-		"name": "JY_2_DJXM",
+		"name": "BUILDING_DISTRICT_JY_2",
 		"cost": 75,
 		"hurryCostModifier": 75,
 		"requiredTech": "Bronze Working",
-		"uniques": ["Unsellable","Free [JY_2_JZZ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_2] appears"],
 		"greatPersonPoints": {"Great General": 2}
 	},
 
@@ -187,11 +187,11 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Calendar",
-		"uniques": ["Must have an owned [SD] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_SD] within [3] tiles",
 		"Hidden when religion is disabled"]
 	},
 	{
-		"name": "DYC",
+		"name": "BUILDING_DYC",
 		"cost": 160,
 		"isWonder": true,
         "uniques": ["Must be on [River]","[+1 Faith] from [River] tiles [in this city]"],
@@ -236,7 +236,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"science":2,
-		"uniques": ["Must have an owned [XY] within [3] tiles"],
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -248,7 +248,7 @@
 		"maintenance": 1,
 		"science":2,
 		"requiredTech": "Writing",
-		"uniques": ["Must have an owned [XY] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"]
 	},
 	{
 		"name": "Paper Maker",
@@ -257,7 +257,7 @@
 		"hurryCostModifier": 40,
 		"gold": 2,
 		"science":2,
-		"uniques": ["Must have an owned [XY] within [3] tiles"],
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -300,7 +300,7 @@
 		"requiredTech": "The Wheel"
 	},
 	{
-		"name": "GQ",
+		"name": "BUILDING_GQ",
 		"replaces": "Water Mill",
 		"uniqueTo": "Babylon",
 		"production": 1,
@@ -344,7 +344,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must have an owned [JY_2] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
 		"New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Bronze Working"
 	},
@@ -355,7 +355,7 @@
 		"hurryCostModifier": 25,
 		"cost":50,
 		"maintenance": 1,
-		"uniques": ["Must have an owned [JY_2] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
 		"New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Bronze Working"
 	},
@@ -379,7 +379,7 @@
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must have an owned [GKQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GKQ] within [3] tiles",
 		"Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
 		"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
 		"requiredTech": "Optics"
@@ -443,7 +443,7 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
-		"uniques":["Must have an owned [YLZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"]
 	},
 	{
 		"name": "Terracotta Army",
@@ -461,21 +461,21 @@
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
-		"specialistSlots": {"神学家": 2},
+		"specialistSlots": {"SPECIALIST_SXJ": 2},
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled","Must have an owned [SD] within [3] tiles"]
+		"uniques": ["Hidden when religion is disabled","Must have an owned [DISTRICT_SD] within [3] tiles"]
 	},
 	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
-		"uniques": ["Must have an owned [SD] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_SD] within [3] tiles",
 		"Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
 		"happiness": 2,
-		"specialistSlots": {"神学家": 2},
+		"specialistSlots": {"SPECIALIST_SXJ": 2},
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -488,10 +488,10 @@
 		"hurryCostModifier": 25,
 		"culture": 2,
 		"faith": 2,
-		"specialistSlots": {"神学家": 2},
+		"specialistSlots": {"SPECIALIST_SXJ": 2},
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
-		"uniques":["Must have an owned [SD] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SD] within [3] tiles"]
 	},
 	{
 		"name": "National College",
@@ -521,7 +521,7 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Must have an owned [JY_1] within [3] tiles"],
+		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -541,7 +541,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency",
-		"uniques":["Must have an owned [SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
 	},
 	{
 		"name": "Bazaar",
@@ -551,7 +551,7 @@
 		"specialistSlots": {"Merchant": 3},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["Must have an owned [SYZX] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_SYZX] within [3] tiles",
 		            "Provides 1 extra copy of each improved luxury resource near this City",
 			        "[+2 Gold] from [Oil] tiles [in this city]",
 					"[+2 Gold] from [Oasis] tiles [in this city]"],
@@ -696,7 +696,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting",
-		"uniques":["Must have an owned [GYQ] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_GYQ] within [3] tiles"]
 	},
 	{
 		"name": "Longhouse",
@@ -707,7 +707,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["Must have an owned [GYQ] within [3] tiles"],
+		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -726,7 +726,7 @@
 		"cost": 120,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Must have an owned [GKQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GKQ] within [3] tiles",
 		"[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Compass"
@@ -738,7 +738,7 @@
 		"science":4,
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["Must have an owned [XY] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles",
 		"[+2 Science] from [Jungle] tiles [in this city]",
 		"[+1 Science] from [Mountain] tiles [in this city]"],
 		"requiredTech": "Education"
@@ -753,7 +753,7 @@
 		"specialistSlots": {"Scientist": 2},
 		"culture": 3,
 		"requiredBuilding": "Library",
-		"uniques": ["Must have an owned [XY] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles",
 		"[+2 Science] from [Jungle] tiles [in this city]",
 		"[+1 Science] from [Mountain] tiles [in this city]"],
 		"requiredTech": "Education"
@@ -855,7 +855,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["Must have an owned [JY_2] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
 		"New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Steel"
 	},
@@ -868,7 +868,7 @@
 		"uniqueTo":"Mongolia",
 		"requiredBuilding": "Barracks",
 		"cityStrength": 5,
-		"uniques": ["Must have an owned [JY_2] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
 		"New [Military] units start with [15] Experience [in this city]",
 	    "All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"],
 		"requiredTech": "Steel"
@@ -883,7 +883,7 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 30},
 		"requiredBuilding": "Library",
-		"uniques": ["Must have an owned [XY] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles",
 			"Must be next to [Mountain]"],
 		"requiredTech": "Astronomy"
 	},
@@ -895,7 +895,7 @@
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Must have an owned [JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
 	},
 	{
 		"name": "Ceilidh Hall",
@@ -908,7 +908,7 @@
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Must have an owned [JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
 	},
 	{
 		"name": "Sistine Chapel",
@@ -928,7 +928,7 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
-		"uniques":["Must have an owned [SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
 	},
 	{
 		"name": "Satrap's Court",
@@ -941,7 +941,7 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
-		"uniques":["Must have an owned [SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
 	},
 // will be introduced in BNW expansion pack
 //	{
@@ -975,7 +975,7 @@
 		"maintenance": 2,
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press",
-		"uniques":["Must have an owned [YLZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"]
 	},
 	{
 		"name": "Leaning Tower of Pisa",
@@ -1008,7 +1008,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"requiredBuilding": "Harbor",
-		"uniques": ["Must have an owned [GKQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GKQ] within [3] tiles",
 		"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
@@ -1050,7 +1050,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["Must have an owned [GYQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 			"Must not be on [Hill]",
 			 "[+10]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Economics"
@@ -1064,7 +1064,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["Must have an owned [GYQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 			"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
@@ -1101,7 +1101,7 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
-		"uniques": ["Must have an owned [JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
 	},
 	{
 		"name": "The Louvre",
@@ -1122,7 +1122,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["Must have an owned [XY] within [3] tiles"],
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -1136,7 +1136,7 @@
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization",
-		"uniques":["Must have an owned [GYQ] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_GYQ] within [3] tiles"]
 	},
 	{
 		"name": "Big Ben",
@@ -1155,7 +1155,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["Must have an owned [JY_2] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
 		"New [Military] units start with [15] Experience [in this city]", " "],
 		"requiredTech": "Military Science"
 	},
@@ -1186,7 +1186,7 @@
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity",
-		"uniques":["Must have an owned [SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
 	},
 	{
 		"name": "Hydro Plant",
@@ -1206,7 +1206,7 @@
 		"requiredBuilding": "Theatre",
 		"maintenance": 2,
 		"requiredTech": "Refrigeration",
-		"uniques":["Must have an owned [YLZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"]
 	},
 	{
 		"name": "Broadcast Tower",
@@ -1215,7 +1215,7 @@
 		"requiredBuilding": "Museum",
 		"maintenance": 3,
 		"requiredTech": "Radio",
-		"uniques": ["Must have an owned [JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
 	},
 	{
 		"name": "Eiffel Tower",
@@ -1266,7 +1266,7 @@
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Public School",
 		"maintenance": 3,
-		"uniques":["Must have an owned [XY] within [3] tiles",
+		"uniques":["Must have an owned [DISTRICT_XY] within [3] tiles",
 		"[+1 Science] from [Mountain] tiles [in this city]"],
 		"requiredTech": "Plastics"
 	},
@@ -1316,7 +1316,7 @@
 		"requiredBuilding": "Factory",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
-		"uniques": ["Must have an owned [GYQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 		"Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
 	},
 	{
@@ -1345,14 +1345,14 @@
 		"maintenance": 3,
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["Must have an owned [GYQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 		"Only available <in cities without a [Solar Plant]>"]
 	},
 	{
 		"name": "Apollo Program",
 		"cost": 800,
 		"isNationalWonder": true,
-		"uniques": ["Must have an owned [YHZX] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_YHZX] within [3] tiles",
 		"Enables construction of Spaceship parts", "Triggers a global alert upon completion",
 		"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
 		"requiredTech": "Rocketry"
@@ -1396,7 +1396,7 @@
 		"requiredResource": "Aluminum",
 		"cost": 360,
 		"requiredBuilding": "Factory",
-		"uniques": ["Must have an owned [GYQ] within [3] tiles",
+		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 		"[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
 	},
@@ -1408,7 +1408,7 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
 		"uniques": ["Triggers a global alert upon completion",
-		"Provides [3] [WJZC]"],
+		"Provides [3] [RESOURCE_WJZC]"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 
@@ -1434,7 +1434,7 @@
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
-		"specialistSlots": {"神学家": 3},
+		"specialistSlots": {"SPECIALIST_SXJ": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -1442,7 +1442,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
-		"specialistSlots": {"神学家": 3},
+		"specialistSlots": {"SPECIALIST_SXJ": 3},
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
@@ -1453,7 +1453,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"specialistSlots": {"神学家": 3},
+		"specialistSlots": {"SPECIALIST_SXJ": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -1462,7 +1462,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"specialistSlots": {"神学家": 3},
+		"specialistSlots": {"SPECIALIST_SXJ": 3},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	}
 ]
