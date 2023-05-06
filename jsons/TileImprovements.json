@@ -1,4 +1,12 @@
 [
+	//新增改良
+	{
+		"name": "IMPROVEMENT_HXC",
+		"turnsToBuild": 6,
+		"techRequired": "Flight",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
+		"uniques":["[+1 Happiness, +1 Culture] for each adjacent [Mountain]"]
+	},
 	//新增区域
 	{
 		"name": "DISTRICT_SD",
@@ -211,7 +219,7 @@
 		"turnsToBuild": 8,
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
 	{

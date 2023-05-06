@@ -244,7 +244,7 @@
 		"innerColor": [83, 0, 208],
 		"favoredReligion": "Islam",
 		"uniqueName": "Monument Builders",
-		"uniques": ["[+10]% Production when constructing [All] wonders [in all cities]",
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
 		"[+1 Happiness, +1 Culture, +2 Gold] from every [Wonder] <before the [Medieval era]>",
         "[+2 Happiness, +2 Culture, +5 Gold] from every [Wonder] <starting from the [Medieval era]>"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",

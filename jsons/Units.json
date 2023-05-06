@@ -9,7 +9,8 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles",
 		"Can build [Fishing Boats] improvements on tiles",
-		"Can build [Offshore Platform] improvements on tiles"],
+		"Can build [Offshore Platform] improvements on tiles",
+	    "Can build [IMPROVEMENT_HXC] improvements on tiles"],
 		"cost": 70
 	},
 	{
@@ -534,13 +535,15 @@
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 17,
+		"strength": 15,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Road] improvements on tiles",
+		            "Can build [Fort] improvements on tiles",
+				    "[+20]% Strength <when adjacent to a [Legion] unit>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -585,7 +588,7 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
+		"upgradesTo": "UNIT_QCFZ",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
@@ -599,7 +602,7 @@
 		"cost": 45,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
-		"upgradesTo": "Lancer",
+		"upgradesTo": "UNIT_QCFZ",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
@@ -985,23 +988,21 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Lancer",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 25,
+		"name": "UNIT_QCFZ",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 28,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Formation I"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Sipahi",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
+		"replaces": "UNIT_QCFZ",
 		"uniqueTo": "The Ottomans",
 		"movement": 5,
 		"strength": 25,
@@ -1018,7 +1019,7 @@
 	{
 		"name": "Hakkapeliitta",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
+		"replaces": "UNIT_QCFZ",
 		"uniqueTo": "Sweden",
 		"movement": 4,
 		"strength": 25,
@@ -1535,7 +1536,7 @@
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [2]", "Consumes [2] [Uranium]"],
+			"Blast radius [2]", "Consumes [2] [RESOURCE_WJZC]"],
 		"attackSound": "nuke"
 	},
 	{

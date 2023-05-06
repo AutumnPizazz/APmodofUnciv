@@ -541,7 +541,7 @@
 				"name": "Ecology",
 				"row": 2,
 				"prerequisites": ["Atomic Theory","Pharmaceuticals"],
-				"unique":"Provides [1] [RESOURCE_WJZC]",
+				"uniques":["Provides [1] [RESOURCE_WJZC]"],
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{

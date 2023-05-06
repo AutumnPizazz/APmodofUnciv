@@ -29,8 +29,8 @@
     {
         "name": "Diplomatic",//外交胜利
         "hiddenInVictoryScreen": false,
-        "victoryScreenHeader": "建造5套众拥之证获胜!",
-        "milestones": ["Build [ZYZZ1]","Build [ZYZZ2]","Build [ZYZZ3]","Build [ZYZZ4]","Build [ZYZZ5]"],
+        "victoryScreenHeader": "建造众拥之证获胜!",
+        "milestones": ["Build [BUILDING_ZYZZ]"],
         "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },

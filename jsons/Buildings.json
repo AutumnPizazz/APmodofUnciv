@@ -1,55 +1,32 @@
 [
+	//新奇观
+	{
+		"name": "BUILDING_DYC",
+		"cost": 160,
+		"isWonder": true,
+        "uniques": ["Must be on [River]","[+1 Faith] from [River] tiles [in this city]"],
+		"requiredTech": "Pottery"	
+	},	
+	{
+		"name": "BUILDING_XYSM",
+		"cost": 300,
+		"isWonder": true,
+        "uniques": ["Must be next to [Fresh water]",
+		"[+1 Happiness] from [Lakes] tiles [in this city]",
+	    "[+1 Food, +1 Production] from [Lakes] tiles [in all cities]"],
+		"requiredTech": "Civil Service"	
+	},
 	//外交胜利新建筑
 	{
-		"name": "BUILDING_ZYZZ1",
+		"name": "BUILDING_ZYZZ",
 		"isNationalWonder": true,
-		"requiredResource": "RESOURCE_WJZC",
 		"cost":100,
-		"requiredTech": "Civil Service",
+		"requiredTech":"Civil Service",
 		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
-		"Triggers a global alert upon completion"],
+		"Triggers a global alert upon completion",
+	    "Consumes [5] [RESOURCE_WJZC]"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
-	{
-		"name": "BUILDING_ZYZZ2",
-		"isNationalWonder": true,
-		"requiredResource": "RESOURCE_WJZC",
-		"requiredTech": "Civil Service",
-		"cost":200,
-		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
-		"Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
-	{
-		"name": "BUILDING_ZYZZ3",
-		"isNationalWonder": true,
-		"cost":300,
-		"requiredResource": "RESOURCE_WJZC",
-		"requiredTech": "Civil Service",
-		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
-		"Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
-	{
-		"name": "BUILDING_ZYZZ4",
-		"isNationalWonder": true,
-		"cost":400,
-		"requiredResource": "RESOURCE_WJZC",
-		"requiredTech": "Civil Service",
-		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
-		"Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
-	{
-		"name": "BUILDING_ZYZZ5",
-		"isNationalWonder": true,
-		"requiredResource": "RESOURCE_WJZC",
-		"requiredTech": "Civil Service",
-		"cost":500,
-		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
-		"Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
+	}
 	//新增区域系统
 	{
 		"name": "BUILDING_DISTRICT_SD",
@@ -173,12 +150,10 @@
 	// Column 1
 	{
 		"name": "Granary",
-		"food": 2,
+		"food": 1,
 		"cost": 35,
 		"hurryCostModifier": 35,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"uniques": ["[+1 Food] per [4] population [in this city]"],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -189,13 +164,6 @@
 		"requiredTech": "Calendar",
 		"uniques": ["Must have an owned [DISTRICT_SD] within [3] tiles",
 		"Hidden when religion is disabled"]
-	},
-	{
-		"name": "BUILDING_DYC",
-		"cost": 160,
-		"isWonder": true,
-        "uniques": ["Must be on [River]","[+1 Faith] from [River] tiles [in this city]"],
-		"requiredTech": "Pottery"	
 	},
 	{
 		"name": "Temple of Artemis",
@@ -280,23 +248,14 @@
 	},
 	{
 		"name": "Water Mill",
-		"maintenance": 2,
-		"food": 2,
-		"production": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel"
-	},
-	{
-		"name": "Floating Gardens",
-		"replaces": "Water Mill",
-		"uniqueTo": "Aztecs",
-		"food": 2,
-		"production": 1,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
-		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"percentStatBonus": {"food": 15},
+		"food": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]",
+		"[+1 Food] from [Deer] tiles [in this city]",
+		"[+1 Food] from [Bananas] tiles [in this city]",
+		"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "The Wheel"
 	},
 	{
@@ -444,6 +403,17 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
 		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"]
+	},
+	{
+		"name": "BUILDING_CQC",
+		"replaces": "Colosseum",
+		"uniqueTo": "Aztecs",
+		"maintenance": 0,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles",
+		           "New [Sword] units start with [10] Experience [in this city]"]
 	},
 	{
 		"name": "Terracotta Army",
