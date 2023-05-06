@@ -984,7 +984,8 @@
 					"Starts with [The Wheel]", 
                     "Gain a free [Courthouse] [in annexed cities]",
                     "Cannot build [Settler] units",
-					"[+200]% Strength <for [All] units> <vs cities> <when attacking>"],
+					"[+200]% Strength <for [Sword] units> <vs cities> <when attacking>",
+				    "[+50]% Strength <for [Ranged] units> <vs cities> <when attacking>"],
 		"cities": ["Atilla's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
