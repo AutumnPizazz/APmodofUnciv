@@ -7,6 +7,8 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"uniques":["[+1 Happiness, +1 Culture] for each adjacent [Mountain]"]
 	},
+	//海洋家园
+	/*
 	{
 		"name": "IMPROVEMENT_HYJY",
 		"turnsToBuild": 6,
@@ -16,6 +18,7 @@
 		"production":1,
 		"uniques":["[+1 Food] for each adjacent [IMPROVEMENT_HYJY]","[+1 Production] for each adjacent [Fishing Boats]"]
 	},
+	*/
 	//新增区域
 	{
 		"name": "DISTRICT_SD",
@@ -163,8 +166,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", 
-		"[-1 Production] <after discovering [Chemistry]>",
+		"uniques": ["[-1 Production] <after discovering [Chemistry]>",
 		"[+1 Production] for each adjacent [Mine] <after discovering [Chemistry]>",
 		"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
@@ -229,9 +231,11 @@
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": ["[+1 Gold] <after discovering [Compass]>",
-		            "[+1 Food, +2 Gold] <after discovering [TECHNOLOGY_HYJY]>",
-		            "Pillaging this improvement yields approximately [+10 Gold]",
-				    "[+1 Food] for each adjacent [IMPROVEMENT_HYJY]"],
+		            /* 海洋家园-近未来时代
+					"[+1 Food, +2 Gold] <after discovering [TECHNOLOGY_HYJY]>",
+				    "[+1 Food] for each adjacent [IMPROVEMENT_HYJY]"
+					*/
+		            "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
 	{

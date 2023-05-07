@@ -338,7 +338,6 @@
 				"name": "Chemistry",
 				"row": 10,
 				"prerequisites": ["Gunpowder"],
-				"uniques": ["矿井每相邻一个矿井[+1 Production]"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			}
 		]
@@ -385,8 +384,6 @@
 				"name": "Fertilizer",
 				"row": 10,
 				"prerequisites": ["Chemistry"],
-				"uniques": ["非牧场�?�种植园[+1 Food]",
-			"农田每相邻一个农田[+1 Food]"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			}
 		]
@@ -652,6 +649,24 @@
 	},
 	{
 		"columnNumber": 17,
+		"era": "Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			}
+		]
+	}
+	//近未来时代科技树
+	/*
+	{
+		"columnNumber": 17,
 		"era": "ERA_JWLSD",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -735,4 +750,5 @@
 			}
 		]
 	}
+	*/
 ]

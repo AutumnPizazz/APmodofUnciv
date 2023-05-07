@@ -118,7 +118,7 @@
     {
         "name": "Asceticism",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Shrine] [in cities following this religion]"]
+        "uniques": ["[+1 Happiness] from every [Shrine]"]
     },
     {
         "name": "Cathedrals",
@@ -128,7 +128,7 @@
     {
         "name": "Choral Music",
         "type": "Follower",
-        "uniques": ["[+2 Culture] from every [Temple] [in cities following this religion]"]
+        "uniques": ["[+2 Culture] from every [Temple]"]
     },
     {
         "name": "Divine inspiration",
@@ -143,12 +143,12 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] [in cities following this religion] [in cities following this religion]"]
+        "uniques": ["[+2 Production] [in cities following this religion]"]
     },
     {
         "name": "Liturgical Drama",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Amphitheater] [in cities following this religion]"]
+        "uniques": ["[+1 Faith] from every [Amphitheater]"]
     },
     {
         "name": "Monasteries",
@@ -173,7 +173,7 @@
     {
         "name": "Religious Center",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Temple] [in cities following this religion]"]
+        "uniques": ["[+2 Happiness] from every [Temple]"]
     },
     {
         "name": "Religious Community",

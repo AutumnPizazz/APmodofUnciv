@@ -16,8 +16,7 @@
         [
             {
                 "name": "POLICY_JL",
-                "uniques": ["[+20]% Strength <vs [Barbarian] units>",
-            "Notified of new Barbarian encampments"],
+                "uniques": ["[+20]% Strength <vs [Barbarian] units>","Notified of new Barbarian encampments"],
                 "row": 1,
                 "column": 1
             },
@@ -58,8 +57,7 @@
             {
                 "name": "POLICY_QB Complete",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Culture] from every [Monument]"
+                    "[+15]% Production when constructing [All] wonders [in all cities]"
                 ]
             }
         ]

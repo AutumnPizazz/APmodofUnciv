@@ -173,6 +173,7 @@
 		"culture": 1,
 		"food":6,
 		"happiness":2,
+		"cost":185,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["Must have an owned [Deer] within [3] tiles"],
