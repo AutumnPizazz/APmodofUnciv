@@ -7,6 +7,15 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"uniques":["[+1 Happiness, +1 Culture] for each adjacent [Mountain]"]
 	},
+	{
+		"name": "IMPROVEMENT_HYJY",
+		"turnsToBuild": 6,
+		"techRequired": "TECHNOLOGY_HYJY",
+		"terrainsCanBeBuiltOn": ["Ocean"],
+		"food":2,
+		"production":1,
+		"uniques":["[+1 Food] for each adjacent [IMPROVEMENT_HYJY]","[+1 Production] for each adjacent [Fishing Boats]"]
+	},
 	//新增区域
 	{
 		"name": "DISTRICT_SD",
@@ -219,7 +228,10 @@
 		"turnsToBuild": 8,
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Compass]>",
+		            "[+1 Food, +2 Gold] <after discovering [TECHNOLOGY_HYJY]>",
+		            "Pillaging this improvement yields approximately [+10 Gold]",
+				    "[+1 Food] for each adjacent [IMPROVEMENT_HYJY]"],
 		"shortcutKey": "F"
 	},
 	{

@@ -5,7 +5,9 @@
 		"cost": 160,
 		"isWonder": true,
         "uniques": ["Must be on [River]","[+1 Faith] from [River] tiles [in this city]"],
-		"requiredTech": "Pottery"	
+		"requiredTech": "Pottery",
+		"quote":"TEXT_12"
+
 	},	
 	{
 		"name": "BUILDING_XYSM",
@@ -14,7 +16,8 @@
         "uniques": ["Must be next to [Fresh water]",
 		"[+1 Happiness] from [Lakes] tiles [in this city]",
 	    "[+1 Food, +1 Production] from [Lakes] tiles [in all cities]"],
-		"requiredTech": "Civil Service"	
+		"requiredTech": "Civil Service"	,
+		"quote":"TEXT_13"
 	},
 	//外交胜利新建筑
 	{
@@ -212,7 +215,7 @@
 		"replaces": "Library",
 		"uniqueTo": "The Maya",
 		"culture": 2,
-		"cost": 75,
+		"cost": 30,
 		"maintenance": 1,
 		"science":2,
 		"requiredTech": "Writing",
@@ -1349,7 +1352,7 @@
 		"cost": 300,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]"]
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]"]
 	},
 	{
 		"name": "Hubble Space Telescope",

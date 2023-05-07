@@ -14,9 +14,9 @@
 			{
 				"name": "TECHNOLOGY_KX",
 				"row": 8,
-				"quote": "当你不希望超前时代获得更严重的时代惩罚时，可以空想来消耗溢出瓶",
+				"quote": "TEXT_11",
 				"uniques": ["Can be continually researched",
-				"当你不希望超前时代获得更严重的时代惩罚时，可以空想来消耗溢出瓶"]
+				"TEXT_5"]
 			}
 		]
 	},
@@ -652,15 +652,81 @@
 	},
 	{
 		"columnNumber": 17,
-		"era": "Future era",
+		"era": "ERA_JWLSD",
 		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "TECHNOLOGY_HYJY",
+				"row": 2,
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"quote": "TEXT_14"
+			},
+			{
+				"name": "TECHNOLOGY_GJRGZN",
+				"row": 3,
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"uniques": ["[+33]% Strength <for [Giant Death Robot] units> <vs [All] units> <when attacking>"],
+				"quote": "TEXT_15"
+			},			
+			{
+				"name": "TECHNOLOGY_GJNLDC",
+				"row": 4,
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"uniques": ["[+50]% Strength <for [Giant Death Robot] units> <vs cities> <when attacking>"],
+				"quote": "TEXT_16"
+			},			
+			{
+				"name": "TECHNOLOGY_KZL",
+				"row": 5,
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"uniques": ["Ignores terrain cost <for [Giant Death Robot] units>","[+2] Movement <for [Giant Death Robot] units>"],
+				"quote": "TEXT_17"
+			},			
+			{
+				"name": "TECHNOLOGY_ZNCL",
+				"row": 6,
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"uniques": ["[+66]% Strength <for [Giant Death Robot] units> <when defending>"],
+				"quote": "TEXT_18"
+			},			
+			{
+				"name": "TECHNOLOGY_YBXT",
+				"row": 7,
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"uniques": ["[+10000]% Strength <for [Giant Death Robot] units> <vs [Atomic Bomber] units>"],
+				"quote": "TEXT_19"
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "ERA_JWLSD",
+		"techCost": 11000,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "TECHNOLOGY_WXRW",
+				"row": 5,
+				"prerequisites": ["TECHNOLOGY_HYJY","TECHNOLOGY_GJRGZN", "TECHNOLOGY_GJNLDC", "TECHNOLOGY_KZL", "TECHNOLOGY_ZNCL","TECHNOLOGY_YBXT"],
+				"uniques": ["[+200]% Production when constructing [Civilian] units [in all cities]"],
+				"quote": "TEXT_20"
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "ERA_YWLSD",
+		"techCost": 13000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"prerequisites": ["TECHNOLOGY_WXRW"],
 				"uniques": ["Who knows what the future holds?", 
 				            "[+5]% [Production] [in all cities]",
 							"Gain [1000] [Gold]",

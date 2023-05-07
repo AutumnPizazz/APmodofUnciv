@@ -10,7 +10,8 @@
 		"uniques": ["Can build [Land] improvements on tiles",
 		"Can build [Fishing Boats] improvements on tiles",
 		"Can build [Offshore Platform] improvements on tiles",
-	    "Can build [IMPROVEMENT_HXC] improvements on tiles"],
+	    "Can build [IMPROVEMENT_HXC] improvements on tiles",
+		"Can build [IMPROVEMENT_HYJY] improvements on tiles"],
 		"cost": 70
 	},
 	{
@@ -700,18 +701,18 @@
 	{
 		"name": "Keshik",
 		"unitType": "Mounted",
-		"replaces": "Knight",
+		"replaces": "Crossbowman",
 		"uniqueTo": "Mongolia",
 		"range": 2,
-		"movement": 5,
-		"strength": 15,
+		"movement": 4,
+		"strength": 13,
 		"rangedStrength": 16,
 		"cost": 120,
-		"requiredTech": "Chivalry",
+		"requiredTech": "Machinery",
 		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["Can move after attacking"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities

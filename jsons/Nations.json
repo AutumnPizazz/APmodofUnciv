@@ -28,7 +28,7 @@
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "KEY_NoBuff",
-		"uniqueText":"没有任何技能、特色单位和特色建筑",
+		"uniqueText":"TEXT_2",
 		"cities": ["NO.1 CITY OF BB_1","NO.2 CITY OF BB_1","NO.3 CITY OF BB_1","NO.4 CITY OF BB_1","NO.5 CITY OF BB_1","NO.6 CITY OF BB_1","NO.7 CITY OF BB_1","NO.8 CITY OF BB_1","NO.9 CITY OF BB_1","NO.10 CITY OF BB_1","NO.11 CITY OF BB_1","NO.12 CITY OF BB_1","NO.13 CITY OF BB_1","NO.14 CITY OF BB_1","NO.15 CITY OF BB_1","NO.16 CITY OF BB_1","NO.17 CITY OF BB_1","NO.18 CITY OF BB_1","NO.19 CITY OF BB_1","NO.20 CITY OF BB_1","NO.21 CITY OF BB_1","NO.22 CITY OF BB_1","NO.23 CITY OF BB_1","NO.24 CITY OF BB_1","NO.25 CITY OF BB_1","NO.26 CITY OF BB_1","NO.27 CITY OF BB_1","NO.28 CITY OF BB_1","NO.29 CITY OF BB_1","NO.30 CITY OF BB_1","NO.31 CITY OF BB_1","NO.32 CITY OF BB_1","NO.33 CITY OF BB_1","NO.34 CITY OF BB_1","NO.35 CITY OF BB_1"]
 	},
 	
@@ -54,7 +54,7 @@
 	"innerColor": [245,204,211],
 	"favoredReligion": "Islam",
 	"uniqueName": "KEY_NoBuff",
-	"uniqueText":"没有任何技能、特色单位和特色建筑",
+	"uniqueText":"TEXT_2",
     "cities": ["NO.1 CITY OF BB_2","NO.2 CITY OF BB_2","NO.3 CITY OF BB_2","NO.4 CITY OF BB_2","NO.5 CITY OF BB_2","NO.6 CITY OF BB_2","NO.7 CITY OF BB_2","NO.8 CITY OF BB_2","NO.9 CITY OF BB_2","NO.10 CITY OF BB_2","NO.11 CITY OF BB_2","NO.12 CITY OF BB_2","NO.13 CITY OF BB_2","NO.14 CITY OF BB_2","NO.15 CITY OF BB_2","NO.16 CITY OF BB_2","NO.17 CITY OF BB_2","NO.18 CITY OF BB_2","NO.19 CITY OF BB_2","NO.20 CITY OF BB_2","NO.21 CITY OF BB_2","NO.22 CITY OF BB_2","NO.23 CITY OF BB_2","NO.24 CITY OF BB_2","NO.25 CITY OF BB_2","NO.26 CITY OF BB_2","NO.27 CITY OF BB_2","NO.28 CITY OF BB_2","NO.29 CITY OF BB_2","NO.30 CITY OF BB_2","NO.31 CITY OF BB_2","NO.32 CITY OF BB_2","NO.33 CITY OF BB_2","NO.34 CITY OF BB_2","NO.35 CITY OF BB_2"]
 },
 {
@@ -84,7 +84,7 @@
 	"[-10]% [Gold] [in all cities]",
 	"[-10]% [Faith] [in all cities]",
 	"[-10]% [Production] [in all cities]"], 
-    "uniqueText":"全产出-10%；全产出指[Science]、[Culture]、[Gold]、[Faith]、[Production]",
+    "uniqueText":"TEXT_3",
 	"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
 },
 {
@@ -114,7 +114,7 @@
 	"[-20]% [Gold] [in all cities]",
 	"[-20]% [Faith] [in all cities]",
 	"[-20]% [Production] [in all cities]"],
-"uniqueText":"全产出-20%；全产出指[Science]、[Culture]、[Gold]、[Faith]、[Production]",
+    "uniqueText":"TEXT_4",
 	"cities": ["NO.1 CITY OF FM_2","NO.2 CITY OF FM_2","NO.3 CITY OF FM_2","NO.4 CITY OF FM_2","NO.5 CITY OF FM_2","NO.6 CITY OF FM_2","NO.7 CITY OF FM_2","NO.8 CITY OF FM_2","NO.9 CITY OF FM_2","NO.10 CITY OF FM_2","NO.11 CITY OF FM_2","NO.12 CITY OF FM_2","NO.13 CITY OF FM_2","NO.14 CITY OF FM_2","NO.15 CITY OF FM_2","NO.16 CITY OF FM_2","NO.17 CITY OF FM_2","NO.18 CITY OF FM_2","NO.19 CITY OF FM_2","NO.20 CITY OF FM_2","NO.21 CITY OF FM_2","NO.22 CITY OF FM_2","NO.23 CITY OF FM_2","NO.24 CITY OF FM_2","NO.25 CITY OF FM_2","NO.26 CITY OF FM_2","NO.27 CITY OF FM_2","NO.28 CITY OF FM_2","NO.29 CITY OF FM_2","NO.30 CITY OF FM_2","NO.31 CITY OF FM_2","NO.32 CITY OF FM_2","NO.33 CITY OF FM_2","NO.34 CITY OF FM_2","NO.35 CITY OF FM_2"]
 },
 		//nations
@@ -144,9 +144,9 @@
 			"favoredReligion": "Islam",
 			"uniqueName": "Ingenuity",
 			"uniques": [
-				"[+100]% [Science] [in capital]",
-				"[-50]% [Science] [in all cities]"],
-			"uniqueText":"首都[+50]% [Science]，而其他城市[-50]% [Science]",
+				"[+75]% [Science] [in capital]",
+				"[-25]% [Science] [in all cities]"],
+			"uniqueText":"TEXT_6",
 			"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 				"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 				"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
@@ -473,7 +473,7 @@
 	    "[+50]% Production when constructing [BUILDING_DISTRICT_SD] buildings [in all cities]",
 	    "[+50]% Production when constructing [BUILDING_DISTRICT_JY_1] buildings [in all cities]",
 	    "[+50]% Production when constructing [BUILDING_DISTRICT_JY_2] buildings [in all cities]"],
-		"uniqueText":"每个地基项目提供1点对应产出,其中军营和宇航中心地基项目提供[Production]而港口提供[Gold]；建造圣地、剧院和军营地基项目时+50%[Production]",
+		"uniqueText":"TEXT_7",
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
@@ -544,7 +544,7 @@
 	    "[+100]% Production when constructing [Hydro Plant] buildings [in all cities]",
 		"[+100]% Production when constructing [Solar Plant] buildings [in all cities]",
 		"[+100]% Production when constructing [Nuclear Plant] buildings [in all cities]"],
-		"uniqueText":"大工程师获取速度+50%；所有工业建筑[+3 Production]；建造工业区地基项目和工业建筑的时间减半",		
+		"uniqueText":"TEXT_8",		
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -738,7 +738,7 @@
 		"[+50]% [Science] from City-States",
 		"[+50]% [Culture] from City-States",
 		"Gifts of Gold to City-States generate [+50]% more Influence"],
-		"uniqueText":"来自城邦的全产出收益+50%；全产出指[Science]、[Culture]、[Gold]、[Faith]、[Production]；向城邦赠与[Gold]获得的影响力+50%",
+		"uniqueText":"TEXT_9",
 		"cities": ["Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
 			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
@@ -870,7 +870,7 @@
 		"[+16]% Strength <when between [15] and [16] Happiness>",
 		"[+18]% Strength <when between [17] and [18] Happiness>",
 		"[+20]% Strength <when between [19] and [999999] Happiness>"],
-		"uniqueText":"军队战斗力获得等同于当前[Happiness]的向上凑偶的偶数的百分比加成，但限于-4%到+20%",
+		"uniqueText":"TEXT_10",
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
