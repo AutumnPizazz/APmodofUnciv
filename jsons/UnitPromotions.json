@@ -8,8 +8,8 @@
         "column": 0
 	},
 	{
-		"name":"PROMOTION_QXD",
-		"uniques": ["Transfer Movement to [Worker]","Transfer Movement to [Settler]"]
+		"name":"[Keshik] ability",
+		"uniques": ["[+1] Sight"]
 	},
 	// Ranged+Siege
 	{

@@ -714,7 +714,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Can move after attacking"],
-		"promotions": ["PROMOTION_QXD"],
+		"promotions": ["[Keshik] ability"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
 	},
