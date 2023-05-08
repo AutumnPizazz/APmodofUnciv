@@ -826,7 +826,6 @@
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
 		"uniques": ["[+15]% Strength <for [Mounted] units>",
-		"[+30]% Production when constructing [Mounted] units [in all cities]",
 		"Double quantity of [Horses] produced"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",

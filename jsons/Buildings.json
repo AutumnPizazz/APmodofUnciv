@@ -374,6 +374,22 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
+		"name": "BUILDING_WED",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"cost":80,
+		"replaces":"Stable",
+		"uniqueTo":"Mongolia",
+		"requiredBuilding": "Horseback Riding",
+		"cityStrength": -2,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+		"[+1 Production] from [Cattle] tiles [in this city]",
+		"[+1 Production] from [Horses] tiles [in this city]",
+		"[+1 Production] from [Sheep] tiles [in this city]",
+	    "All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"],
+		"requiredTech": "Steel"
+	},
+	{
 		"name": "Circus Maximus",
 		"cost": 125,
 		"culture": 1,
@@ -832,21 +848,7 @@
 		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
 		"New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Steel"
-	},
-	{
-		"name": "斡耳朵",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"cost":180,
-		"replaces":"Armory",
-		"uniqueTo":"Mongolia",
-		"requiredBuilding": "Barracks",
-		"cityStrength": 5,
-		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
-		"New [Military] units start with [15] Experience [in this city]",
-	    "All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"],
-		"requiredTech": "Steel"
-	},
+	}
 
 	// Renaissance Era
 
