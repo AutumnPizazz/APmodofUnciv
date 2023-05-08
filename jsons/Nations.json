@@ -1215,8 +1215,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills <after discovering [The Wheel]>",
-		            "Double movement in [Hill] <after discovering [Machinery]>",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
 		            "[+15]% Strength <when fighting in [Hill] tiles>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
