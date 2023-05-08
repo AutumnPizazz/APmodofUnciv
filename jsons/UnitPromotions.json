@@ -7,6 +7,10 @@
         "row": 0,
         "column": 0
 	},
+	{
+		"name":"PROMOTION_QXD",
+		"uniques": ["Transfer Movement to [Worker]","Transfer Movement to [Settler]"]
+	},
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",

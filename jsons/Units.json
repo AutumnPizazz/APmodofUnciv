@@ -283,7 +283,8 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus",
-        "Rough terrain penalty"],
+        "Rough terrain penalty",
+		"Can move after attacking"],
 		"attackSound": "arrow"
 	},
 	{
@@ -713,7 +714,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Can move after attacking"],
-		"promotions": ["Great Generals I", "Quick Study"],
+		"promotions": ["PROMOTION_QXD"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
 	},
