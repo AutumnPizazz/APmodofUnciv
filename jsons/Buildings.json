@@ -380,14 +380,13 @@
 		"cost":80,
 		"replaces":"Stable",
 		"uniqueTo":"Mongolia",
-		"requiredBuilding": "Horseback Riding",
+		"requiredTech": "Horseback Riding",
 		"cityStrength": -2,
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
 		"[+1 Production] from [Cattle] tiles [in this city]",
 		"[+1 Production] from [Horses] tiles [in this city]",
 		"[+1 Production] from [Sheep] tiles [in this city]",
-	    "All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"],
-		"requiredTech": "Steel"
+	    "All newly-trained [Mounted] units [in this city] receive the [Mobility] promotion"]
 	},
 	{
 		"name": "Circus Maximus",
