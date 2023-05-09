@@ -19,6 +19,17 @@
 		"requiredTech": "Civil Service"	,
 		"quote":"TEXT_13"
 	},
+	{
+		"name": "BUILDING_SWXLZJT",
+		"cost": 300,
+		"isWonder": true,
+        "uniques": ["Must be next to [Tundra]",
+		"[+1 Production, +1 Culture] from [Tundra] tiles [in this city]",
+		"[+1 Food] from [Tundra] tiles [in all cities]"
+	],
+		"requiredTech": "Theology"	,
+		"quote":"TEXT_21"
+	},
 	//外交胜利新建筑
 	{
 		"name": "BUILDING_ZYZZ",
