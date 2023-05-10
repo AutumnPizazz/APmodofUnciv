@@ -1,6 +1,14 @@
 [
-
-	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+	//新增医疗兵单位
+	{
+		"name": "UNIT_YLB",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"uniques": ["All adjacent units heal [+10] HP when healing", "[+10] HP when healing","[-1] Sight"],
+		"hurryCostModifier": 20
+	},
 
 	/* Ancient Era */
 	{
@@ -350,18 +358,19 @@
 	},
 	{
 		"name": "Persian Immortal",
-		"unitType": "Sword",
+		"unitType": "Archery",
 		"replaces": "Spearman",
 		"uniqueTo": "Persia",
 		"movement": 2,
-		"strength": 12,
+		"range":2,
+		"rangedStrength":8,
+		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions":["[Persian Immortal] ability"],
-		"attackSound": "metalhit"
+		"uniques": ["[+50]% Strength <vs [Mounted] units> <when defending>","[+100]% Strength <vs [Archery] units> <when defending>"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Battering Ram",
@@ -1708,10 +1717,9 @@
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 5
+		"movement": 6
 	},
 	{
 		"name": "UNIT_ALSTGLS",
