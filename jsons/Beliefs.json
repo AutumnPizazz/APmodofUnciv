@@ -13,7 +13,7 @@
     {
         "name": "PANTHEON_CSSHNS",
         "type": "Pantheon",
-        "uniques": ["[+50]% Production when constructing [BUILDING_DISTRICT_JY_2] buildings [in cities following this religion]"]
+        "uniques": ["[+50]% Production when constructing [BUILDING_DISTRICT_JY_NUM2] buildings [in cities following this religion]"]
     },
     {
         "name": "PANTHEON_DZZS",

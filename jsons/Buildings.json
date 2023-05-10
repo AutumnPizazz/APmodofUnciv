@@ -70,11 +70,11 @@
 		"greatPersonPoints": {"Great Scientist": 2}
 	},
 	{
-		"name": "BUILDING_DISTRICT_JY_1",
+		"name": "BUILDING_DISTRICT_JY_NUM1",
 		"cost": 100,
 		"hurryCostModifier": 100,
 		"requiredTech": "Drama and Poetry",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_1] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_NUM1] appears"],
 		"greatPersonPoints": {"Great Artist": 2}
 	},
 	{
@@ -118,11 +118,11 @@
 		"greatPersonPoints": {"Great General": 2}
 	},
 	{
-		"name": "BUILDING_DISTRICT_JY_2",
+		"name": "BUILDING_DISTRICT_JY_NUM2",
 		"cost": 75,
 		"hurryCostModifier": 75,
 		"requiredTech": "Bronze Working",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_2] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_NUM2] appears"],
 		"greatPersonPoints": {"Great General": 2}
 	},
 
@@ -220,7 +220,8 @@
 		"maintenance": 1,
 		"science":2,
 		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"],
-		"requiredTech": "Writing"
+		"requiredTech": "Writing",
+		"greatPersonPoints": {"Great Scientist": 1}
 	},
 	{
 		"name": "Pyramid",
@@ -231,7 +232,8 @@
 		"maintenance": 1,
 		"science":2,
 		"requiredTech": "Writing",
-		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"],
+		"greatPersonPoints": {"Great Scientist": 1}
 	},
 	{
 		"name": "Paper Maker",
@@ -241,6 +243,7 @@
 		"gold": 2,
 		"science":2,
 		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"],
+		"greatPersonPoints": {"Great Scientist": 1},
 		"requiredTech": "Writing"
 	},
 	{
@@ -318,9 +321,11 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
-		"New [Military] units start with [15] Experience [in this city]"],
-		"requiredTech": "Bronze Working"
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion"
+	],
+		"requiredTech": "Bronze Working",
+		"greatPersonPoints": {"Great General": 1}
 	},
 	{
 		"name": "Krepost",
@@ -329,9 +334,11 @@
 		"hurryCostModifier": 25,
 		"cost":50,
 		"maintenance": 1,
-		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
-		"New [Military] units start with [15] Experience [in this city]"],
-		"requiredTech": "Bronze Working"
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion"
+	],
+		"requiredTech": "Bronze Working",
+		"greatPersonPoints": {"Great General": 1}
 	},
 	{
 		"name": "Statue of Zeus",
@@ -355,8 +362,11 @@
 		"maintenance": 1,
 		"uniques": ["Must have an owned [DISTRICT_GKQ] within [3] tiles",
 		"Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-		"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
-		"requiredTech": "Optics"
+		"[+1 Food] from [Coast] tiles [in this city]","[+1 Food] from [Fish] tiles [in this city]",
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_GKXL_NUM1] promotion"
+	],
+		"requiredTech": "Optics",
+		"greatPersonPoints": {"Great General": 1}
 	},
 	{
 		"name": "The Great Lighthouse",
@@ -521,8 +531,10 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"],
-		"requiredTech": "Drama and Poetry"
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM1] within [3] tiles"],
+		"requiredTech": "Drama and Poetry",
+		"greatPersonPoints": {"Great Artist": 1}
+
 	},
 	{
 		"name": "National Epic",
@@ -541,7 +553,8 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency",
-		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"],
+		"greatPersonPoints": {"Great Merchant": 2}
 	},
 	{
 		"name": "Bazaar",
@@ -555,7 +568,8 @@
 		            "Provides 1 extra copy of each improved luxury resource near this City",
 			        "[+2 Gold] from [Oil] tiles [in this city]",
 					"[+2 Gold] from [Oasis] tiles [in this city]"],
-		"requiredTech": "Currency"
+		"requiredTech": "Currency",
+		"greatPersonPoints": {"Great Merchant": 2}
 	},
 	{
 		"name": "Mint",
@@ -696,7 +710,8 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting",
-		"uniques":["Must have an owned [DISTRICT_GYQ] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_GYQ] within [3] tiles"],
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	{
 		"name": "Longhouse",
@@ -708,7 +723,8 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles"],
-		"requiredTech": "Metal Casting"
+		"requiredTech": "Metal Casting",
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	{
 		"name": "Forge",
@@ -728,8 +744,11 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Must have an owned [DISTRICT_GKQ] within [3] tiles",
 		"[+1 Production] from [Water resource] tiles [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]"],
-		"requiredTech": "Compass"
+			"Connects trade routes over water",
+			"All newly-trained [Land] units [in this city] receive the [PROMOTION_GKXL_NUM2] promotion",
+			"Must be next to [Coast]"],
+		"requiredTech": "Compass",
+		"greatPersonPoints": {"Great General": 1}
 	},
 	{
 		"name": "University",
@@ -741,7 +760,8 @@
 		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles",
 		"[+2 Science] from [Jungle] tiles [in this city]",
 		"[+1 Science] from [Mountain] tiles [in this city]"],
-		"requiredTech": "Education"
+		"requiredTech": "Education",
+		"greatPersonPoints": {"Great Scientist": 1}
 	},
 	{
 		"name": "Wat",
@@ -756,7 +776,8 @@
 		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles",
 		"[+2 Science] from [Jungle] tiles [in this city]",
 		"[+1 Science] from [Mountain] tiles [in this city]"],
-		"requiredTech": "Education"
+		"requiredTech": "Education",
+		"greatPersonPoints": {"Great Scientist": 1}
 	},
 	{
 		"name": "Oxford University",
@@ -855,9 +876,11 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
-		"New [Military] units start with [15] Experience [in this city]"],
-		"requiredTech": "Steel"
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM2] promotion"
+	],
+		"requiredTech": "Steel",
+		"greatPersonPoints": {"Great General": 1}
 	}
 
 	// Renaissance Era
@@ -871,7 +894,8 @@
 		"requiredBuilding": "Library",
 		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles",
 			"Must be next to [Mountain]"],
-		"requiredTech": "Astronomy"
+		"requiredTech": "Astronomy",
+		"greatPersonPoints": {"Great Scientist": 1}
 	},
 	{
 		"name": "Opera House",
@@ -881,7 +905,8 @@
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM1] within [3] tiles"],
+		"greatPersonPoints": {"Great Artist": 1}
 	},
 	{
 		"name": "Ceilidh Hall",
@@ -894,7 +919,8 @@
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM1] within [3] tiles"],
+		"greatPersonPoints": {"Great Artist": 1}
 	},
 	{
 		"name": "Sistine Chapel",
@@ -914,7 +940,8 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
-		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"],
+		"greatPersonPoints": {"Great Merchant": 2}
 	},
 	{
 		"name": "Satrap's Court",
@@ -927,7 +954,8 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
-		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"],
+		"greatPersonPoints": {"Great Merchant": 2}
 	},
 // will be introduced in BNW expansion pack
 //	{
@@ -996,8 +1024,11 @@
 		"requiredBuilding": "Harbor",
 		"uniques": ["Must have an owned [DISTRICT_GKQ] within [3] tiles",
 		"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
-		"requiredTech": "Navigation"
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]",
+			"All newly-trained [Land] units [in this city] receive the [PROMOTION_GKXL_NUM3] promotion"
+		],
+		"requiredTech": "Navigation",
+		"greatPersonPoints": {"Great General": 1}
 	},
 	{
 		"name": "Hermitage",
@@ -1039,7 +1070,8 @@
 		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 			"Must not be on [Hill]",
 			 "[+10]% Production when constructing [All] buildings [in this city]"],
-		"requiredTech": "Economics"
+		"requiredTech": "Economics",
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	{
 		"name": "Coffee House",
@@ -1052,7 +1084,8 @@
 		"maintenance": 2,
 		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 			"[+25]% Great Person generation [in this city]"],
-		"requiredTech": "Economics"
+		"requiredTech": "Economics",
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	{
 		"name": "Arsenal",
@@ -1087,7 +1120,8 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
-		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM1] within [3] tiles"],
+		"greatPersonPoints": {"Great Artist": 1}
 	},
 	{
 		"name": "The Louvre",
@@ -1109,7 +1143,8 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": ["Must have an owned [DISTRICT_XY] within [3] tiles"],
-		"requiredTech": "Scientific Theory"
+		"requiredTech": "Scientific Theory",
+		"greatPersonPoints": {"Great Scientist": 1}
 	},
 	{
 		"name": "Factory",
@@ -1122,7 +1157,8 @@
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization",
-		"uniques":["Must have an owned [DISTRICT_GYQ] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_GYQ] within [3] tiles"],
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	{
 		"name": "Big Ben",
@@ -1141,9 +1177,11 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["Must have an owned [DISTRICT_JY_2] within [3] tiles",
-		"New [Military] units start with [15] Experience [in this city]", " "],
-		"requiredTech": "Military Science"
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM3] promotion"
+	],
+		"requiredTech": "Military Science",
+		"greatPersonPoints": {"Great General": 1}
 	},
 	{
 		"name": "Brandenburg Gate",
@@ -1172,7 +1210,8 @@
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity",
-		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"]
+		"uniques":["Must have an owned [DISTRICT_SYZX] within [3] tiles"],
+		"greatPersonPoints": {"Great Merchant": 2}
 	},
 	{
 		"name": "Hydro Plant",
@@ -1201,7 +1240,8 @@
 		"requiredBuilding": "Museum",
 		"maintenance": 3,
 		"requiredTech": "Radio",
-		"uniques": ["Must have an owned [DISTRICT_JY_1] within [3] tiles"]
+		"uniques": ["Must have an owned [DISTRICT_JY_NUM1] within [3] tiles"],
+		"greatPersonPoints": {"Great Artist": 1}
 	},
 	{
 		"name": "Eiffel Tower",
@@ -1254,7 +1294,8 @@
 		"maintenance": 3,
 		"uniques":["Must have an owned [DISTRICT_XY] within [3] tiles",
 		"[+1 Science] from [Mountain] tiles [in this city]"],
-		"requiredTech": "Plastics"
+		"requiredTech": "Plastics",
+		"greatPersonPoints": {"Great Scientist": 1}
 	},
 	{
 		"name": "Cristo Redentor",
@@ -1303,7 +1344,8 @@
 		"maintenance": 3,
 		"requiredTech": "Ecology",
 		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
-		"Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
+		"Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"],
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	{
 		"name": "Recycling Center",
@@ -1332,7 +1374,8 @@
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
-		"Only available <in cities without a [Solar Plant]>"]
+		"Only available <in cities without a [Solar Plant]>"],
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	{
 		"name": "Apollo Program",
@@ -1384,7 +1427,8 @@
 		"requiredBuilding": "Factory",
 		"uniques": ["Must have an owned [DISTRICT_GYQ] within [3] tiles",
 		"[+50]% Production when constructing [Spaceship part] units [in this city]"],
-		"requiredTech": "Robotics"
+		"requiredTech": "Robotics",
+		"greatPersonPoints": {"Great Engineer": 1}
 	},
 	// Column 16
 	{

@@ -715,9 +715,9 @@
 		"uniqueTo": "Mongolia",
 		"range": 2,
 		"movement": 4,
-		"strength": 13,
+		"strength": 6,
 		"rangedStrength": 16,
-		"cost": 120,
+		"cost": 150,
 		"requiredTech": "Machinery",
 		"requiredResource": "Horses",
 		"upgradesTo": "Gatling Gun",
@@ -1748,9 +1748,9 @@
 		"movement": 4
 	},
 	{
-		"name": "UNIT_DISTRICT_JY_1",
+		"name": "UNIT_DISTRICT_JY_NUM1",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_JY_1] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_JY_NUM1] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -1790,9 +1790,9 @@
 		"movement": 4
 	},
 	{
-		"name": "UNIT_DISTRICT_JY_2",
+		"name": "UNIT_DISTRICT_JY_NUM2",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_JY_2] improvement <by consuming this unit>", 
+		"uniques": ["Can instantly construct a [DISTRICT_JY_NUM2] improvement <by consuming this unit>", 
 			"Unbuildable", "Uncapturable"],
 		"movement": 4
 	},

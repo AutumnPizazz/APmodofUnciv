@@ -11,6 +11,30 @@
 		"name":"[Keshik] ability",
 		"uniques": ["[+1] Sight"]
 	},
+	{
+		"name":"PROMOTION_JYXL_NUM1",
+		"uniques": ["[+25]% XP gained from combat"]
+	},
+	{
+		"name":"PROMOTION_JYXL_NUM2",
+		"uniques": ["[+25]% XP gained from combat"]
+	},
+	{
+		"name":"PROMOTION_JYXL_NUM3",
+		"uniques": ["[+50]% XP gained from combat"]
+	},
+	{
+		"name":"PROMOTION_GKXL_NUM1",
+		"uniques": ["[+25]% XP gained from combat"]
+	},
+	{
+		"name":"PROMOTION_GKXL_NUM2",
+		"uniques": ["[+25]% XP gained from combat"]
+	},
+	{
+		"name":"PROMOTION_GKXL_NUM3",
+		"uniques": ["[+50]% XP gained from combat"]
+	},
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",

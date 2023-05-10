@@ -48,7 +48,7 @@
             "Pillaging this improvement yields approximately [+18 Science]"]
 	},
 	{
-		"name": "DISTRICT_JY_1",
+		"name": "DISTRICT_JY_NUM1",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,
@@ -124,7 +124,7 @@
         "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
 	{
-		"name": "DISTRICT_JY_2",
+		"name": "DISTRICT_JY_NUM2",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
 		"production":-1,

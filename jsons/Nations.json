@@ -7,9 +7,9 @@
 	},
 
 	{
-		"name": "NATION_BB_1",
+		"name": "NATION_BB_NUM1",
 		"leaderName": "LEADER_DL",
-		"adjective": ["NATION_BB_1"],
+		"adjective": ["NATION_BB_NUM1"],
 	
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -33,9 +33,9 @@
 	},
 	
 	{
-	"name": "NATION_BB_2",
+	"name": "NATION_BB_NUM2",
 	"leaderName": "LEADER_DL",
-	"adjective": ["NATION_BB_2"],
+	"adjective": ["NATION_BB_NUM2"],
 
 	"startIntroPart1": "",
 	"startIntroPart2": "",
@@ -58,9 +58,9 @@
     "cities": ["NO.1 CITY OF BB_2","NO.2 CITY OF BB_2","NO.3 CITY OF BB_2","NO.4 CITY OF BB_2","NO.5 CITY OF BB_2","NO.6 CITY OF BB_2","NO.7 CITY OF BB_2","NO.8 CITY OF BB_2","NO.9 CITY OF BB_2","NO.10 CITY OF BB_2","NO.11 CITY OF BB_2","NO.12 CITY OF BB_2","NO.13 CITY OF BB_2","NO.14 CITY OF BB_2","NO.15 CITY OF BB_2","NO.16 CITY OF BB_2","NO.17 CITY OF BB_2","NO.18 CITY OF BB_2","NO.19 CITY OF BB_2","NO.20 CITY OF BB_2","NO.21 CITY OF BB_2","NO.22 CITY OF BB_2","NO.23 CITY OF BB_2","NO.24 CITY OF BB_2","NO.25 CITY OF BB_2","NO.26 CITY OF BB_2","NO.27 CITY OF BB_2","NO.28 CITY OF BB_2","NO.29 CITY OF BB_2","NO.30 CITY OF BB_2","NO.31 CITY OF BB_2","NO.32 CITY OF BB_2","NO.33 CITY OF BB_2","NO.34 CITY OF BB_2","NO.35 CITY OF BB_2"]
 },
 {
-	"name": "NATION_FM_1",
+	"name": "NATION_FM_NUM1",
 	"leaderName": "LEADER_JL",
-	"adjective": ["NATION_FM_1"],
+	"adjective": ["NATION_FM_NUM1"],
 
 	"startIntroPart1": "",
 	"startIntroPart2": "",
@@ -88,9 +88,9 @@
 	"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
 },
 {
-	"name": "NATION_FM_2",
+	"name": "NATION_FM_NUM2",
 	"leaderName": "LEADER_JL",
-	"adjective": ["NATION_FM_2"],
+	"adjective": ["NATION_FM_NUM2"],
 
 	"startIntroPart1": "",
 	"startIntroPart2": "",
@@ -464,15 +464,15 @@
 		"uniqueName": "KEY_MZWX",
 		"uniques": ["[+1 Faith] from every [BUILDING_DISTRICT_SD]",
 		"[+1 Science] from every [BUILDING_DISTRICT_XY]",
-		"[+1 Culture] from every [BUILDING_DISTRICT_JY_1]",
+		"[+1 Culture] from every [BUILDING_DISTRICT_JY_NUM1]",
 		"[+1 Gold] from every [BUILDING_DISTRICT_SYZX]",
 		"[+1 Gold] from every [BUILDING_DISTRICT_GKQ]",
-		"[+1 Production] from every [BUILDING_DISTRICT_JY_2]",
+		"[+1 Production] from every [BUILDING_DISTRICT_JY_NUM2]",
 		"[+1 Production] from every [BUILDING_DISTRICT_GYQ]",
 		"[+1 Production] from every [BUILDING_DISTRICT_YHZX]",
 	    "[+50]% Production when constructing [BUILDING_DISTRICT_SD] buildings [in all cities]",
-	    "[+50]% Production when constructing [BUILDING_DISTRICT_JY_1] buildings [in all cities]",
-	    "[+50]% Production when constructing [BUILDING_DISTRICT_JY_2] buildings [in all cities]"],
+	    "[+50]% Production when constructing [BUILDING_DISTRICT_JY_NUM1] buildings [in all cities]",
+	    "[+50]% Production when constructing [BUILDING_DISTRICT_JY_NUM2] buildings [in all cities]"],
 		"uniqueText":"TEXT_7",
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -1218,7 +1218,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
-		            "[+15]% Strength <when fighting in [Hill] tiles>"],
+		            "[+10]% Strength <when fighting in [Hill] tiles>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
