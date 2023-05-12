@@ -601,7 +601,7 @@
         ],
         "policies": [
             {
-                "name": "POLICY_YZHC",
+                "name": "POLICY_YJHC",
                 "uniques": [
                     "[+15 Food] [in all cities]"
                 ],
