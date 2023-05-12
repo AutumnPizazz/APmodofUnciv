@@ -63,9 +63,9 @@
         ]
     },
     {
-        "name": "POLICY_GTZT",
-        "era": "Classical era",
-        "priorities": 
+        "name": "POLICY_GTZT",//寡头政体
+        "era": "Classical era",//古典时代解锁
+        "priorities": //AI倾向
         {
             "Neutral": 0,//中立倾向
             "Cultural": 0,//文化倾向
@@ -78,54 +78,57 @@
         "Only available <before adopting [POLICY_GDGH]>"],
         "policies": [
             {
-                "name": "POLICY_LB",
+                "name": "POLICY_LB",//棱堡
                 "uniques": [
-                    "[+50]% Strength for cities <when attacking>"
+                    "[+50]% Strength for cities <when attacking>",
+                    "[+100]% Production when constructing [Walls] buildings [in all cities]"
                 ],
                 "row": 1,
-                "column": 2
+                "column": 1
             },
             {
-                "name": "POLICY_BJ",
+                "name": "POLICY_BJ",//边界
                 "uniques": ["Enables Open Borders agreements",
                 "[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
                 "row": 1,
-                "column": 4
-            },
-            {
-                "name": "POLICY_JY",
-                "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]"
-                ],
-                "requires": ["POLICY_LB","POLICY_BJ"],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "POLICY_QSJJ",
-                "uniques": [
-                    "Provides [4] [Horses]",
-                    "Provides [4] [Iron]"
-                ],
-                "requires": ["POLICY_LB","POLICY_BJ"],
-                "row": 2,
                 "column": 3
             },
             {
-                "name": "POLICY_TX",
+                "name": "POLICY_TX",//突袭
                 "uniques": [
                     "[+5]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
                     "[+5]% Strength <when attacking> <for [Military] units>"
                 ],
-                "requires": ["POLICY_LB","POLICY_BJ"],
-                "row": 2,
+                 "row": 1,
                 "column": 5
             },
             {
+                "name": "POLICY_JY",//经验
+                "uniques": [
+                    "[+50]% Production when constructing [Spearman] units [in all cities]",
+                    "[+50]% Production when constructing [Swordsman] units [in all cities]"
+                ],
+                "requires": ["POLICY_LB","POLICY_BJ"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "POLICY_QSJJ",//骑士阶级
+                "uniques": [
+                    "Provides [4] [Horses]",
+                    "Provides [4] [Iron]",
+                    "[+50]% Production when constructing [Horseman] units [in all cities]"
+                ],
+                "requires": ["POLICY_TX","POLICY_BJ"],
+                "row": 2,
+                "column": 4
+            },
+            {
                 "name": "POLICY_GTZT Complete",
-                "uniques": ["[+100]% Production when constructing [Walls] buildings [in all cities]",
-                "[+100]% Production when constructing [Castle] buildings [in all cities]"]
+                "uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>",
+                "Free [Great General] appears"
+            ]
             }
         ]
     },
