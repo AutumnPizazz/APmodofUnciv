@@ -1,83 +1,83 @@
 [
     {
-        "name": "Civilian",
+        "name": "Civilian",//平民
         "movementType": "Land"
     },
     {
-        "name": "Sword",
+        "name": "Sword",//近战
         "movementType": "Land"
     },
     {
-        "name": "Gunpowder",
+        "name": "Gunpowder",//火器
         "movementType": "Land"
     },
     {
-        "name": "Archery",
+        "name": "Archery",//弓箭
         "movementType": "Land"
     },
     {
-        "name": "Ranged Gunpowder",
+        "name": "Ranged Gunpowder",//远程火器
         "movementType": "Land"
     },
     {
-        "name": "Scout",
+        "name": "Scout",//斥候or侦查
         "movementType": "Land"
     },
     {
-        "name": "Mounted",
+        "name": "Mounted",//骑乘
         "movementType": "Land"
     },
     {
-        "name": "Armored",
+        "name": "Armored",//装甲（骑乘的升级）
         "movementType": "Land"
     },
     {
-        "name": "Siege",
+        "name": "Siege",//攻城
         "movementType": "Land"
     },
     {
-        "name": "Civilian Water",
+        "name": "Civilian Water",//水上平民
         "movementType": "Water"
     },
     {
-        "name": "Melee Water",
+        "name": "Melee Water",//水面近战
         "movementType": "Water"
     },
     {
-        "name": "Ranged Water",
+        "name": "Ranged Water",//水面远程
         "movementType": "Water"
     },
     {
-        "name": "Submarine",
+        "name": "Submarine",//潜艇
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
     {
-        "name": "Aircraft Carrier",
+        "name": "Aircraft Carrier",//
         "movementType": "Water"
     },
     {
-        "name": "Fighter",
+        "name": "Fighter",//空中斗士or战斗机
         "movementType": "Air",
         "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
-        "name": "Bomber",
+        "name": "Bomber",//轰炸机
         "movementType": "Air",
         "uniques": ["Aircraft"]
     },
     {
-        "name": "Atomic Bomber",
+        "name": "Atomic Bomber",//核弹
         "movementType": "Air",
         "uniques": ["Aircraft"]
     },
     {
-        "name": "Missile",
+        "name": "Missile",//（一次性）导弹
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
     {
-        "name": "Helicopter",
+        "name": "Helicopter",//直升机（反骑的升级）
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
     },
@@ -85,39 +85,39 @@
     // Deprecated unit types required for mods without a UnitTypes.json file to work
 
     {
-        "name": "Melee",
+        "name": "Melee",//近战
         "movementType": "Land"
     },
     {
-        "name": "Ranged",
+        "name": "Ranged",//远程
         "movementType": "Land"
     },
     {
-        "name": "Armor",
+        "name": "Armor",//装甲
         "movementType": "Land"
     },
     {
-        "name": "WaterCivilian",
+        "name": "WaterCivilian",//水上平民
         "movementType": "Water"
     },
     {
-        "name": "WaterMelee",
+        "name": "WaterMelee",//水面近战
         "movementType": "Water"
     },
     {
-        "name": "WaterRanged",
+        "name": "WaterRanged",//水面远程
         "movementType": "Water"
     },
     {
-        "name": "WaterSubmarine",
+        "name": "WaterSubmarine",//潜艇
         "movementType": "Water"
     },
     {
-        "name": "WaterAircraftCarrier",
+        "name": "WaterAircraftCarrier",//航母
         "movementType": "Water"
     },
     {
-        "name": "AtomicBomber",
+        "name": "AtomicBomber",//核弹
         "movementType": "Air"
     }
 ]

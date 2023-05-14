@@ -84,7 +84,7 @@
                     "[+100]% Production when constructing [Walls] buildings [in all cities]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "POLICY_BJ",//边界
@@ -92,6 +92,26 @@
                 "[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
                 "row": 1,
+                "column": 4
+            },
+            {
+                "name": "POLICY_JY",//经验
+                "uniques": [
+                    "[+15]% Production when constructing [Sword] units [in all cities]"
+                ],
+                "requires": ["POLICY_LB"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "POLICY_QSJJ",//骑士阶级
+                "uniques": [
+                    "Provides [6] [Horses]",
+                    "Provides [6] [Iron]",
+                    "[+20]% Production when constructing [Mounted] units [in all cities]"
+                ],
+                "requires": ["POLICY_BJ","POLICY_LB"],
+                "row": 2,
                 "column": 3
             },
             {
@@ -100,29 +120,9 @@
                     "[+5]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
                     "[+5]% Strength <when attacking> <for [Military] units>"
                 ],
-                 "row": 1,
-                "column": 5
-            },
-            {
-                "name": "POLICY_JY",//经验
-                "uniques": [
-                    "[+50]% Production when constructing [Spearman] units [in all cities]",
-                    "[+50]% Production when constructing [Swordsman] units [in all cities]"
-                ],
-                "requires": ["POLICY_LB","POLICY_BJ"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "POLICY_QSJJ",//骑士阶级
-                "uniques": [
-                    "Provides [4] [Horses]",
-                    "Provides [4] [Iron]",
-                    "[+50]% Production when constructing [Horseman] units [in all cities]"
-                ],
-                "requires": ["POLICY_TX","POLICY_BJ"],
-                "row": 2,
-                "column": 4
+                 "row": 2,
+                "column": 5,
+                "requires": ["POLICY_BJ"]
             },
             {
                 "name": "POLICY_GTZT Complete",
