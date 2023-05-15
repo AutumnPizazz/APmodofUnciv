@@ -1547,7 +1547,7 @@
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [2]", "Consumes [2] [RESOURCE_WJZC]"],
+			"Blast radius [2]", "Consumes [2] [Uranium]"],
 		"attackSound": "nuke"
 	},
 	{
@@ -1862,5 +1862,436 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
-	}
+	},
+	//拉丁美洲文明mod部分
+	{ //Argentina's
+	"name": "Gaucho",
+	"unitType": "Mounted",
+	"replaces": "UNIT_QCFZ",
+	"movement": 4,
+	"strength": 25,
+	"cost": 180,
+	"hurryCostModifier": 25,
+	"requiredResource": "Horses",
+	"requiredTech": "Metallurgy",
+	"obsoleteTech": "Combined Arms",
+	"upgradesTo": "Anti-Tank Gun",
+	"uniqueTo": "Argentina",
+	"uniques": ["Can move after attacking", "No defensive terrain bonus"],
+	"promotions": ["[Gaucho] ability"],
+	"civilopediaText": [
+		{
+			"text": "Men mounted on horse, the skilled Gauchos from the Northern river plains were masters at the livestock work, who were the cogs behind the important livestock economy. Good warriors as well, fighting for independence and conquering the Patagonia for Argentina."
+		}
+	],
+	"attackSound": "horse",
+},
+{ //Bolivia's
+	"name": "Colorado",
+	"unitType": "Gunpowder",
+	"replaces": "Rifleman",
+	"movement": 2,
+	"strength": 34,
+	"cost": 225,
+	"requiredTech": "Rifling",
+	"obsoleteTech": "Replaceable Parts",
+	"upgradesTo": "Great War Infantry",
+	"uniqueTo": "Bolivia",
+	"promotions": ["Woodsman"],
+	"civilopediaText": [
+		{
+			"text": "This elite and ferrous unit is not to be underestimated. Their homeland is the only thing they strive for, having a great performance on the wars, although it was not enough for the bad government's strategy."
+		}
+	],
+	"attackSound": "shot",
+},
+{ //Brasil's
+	"name": "Cascavel",
+	"unitType": "Armored",
+	"replaces": "Tank",
+	"movement": 5,
+	"strength": 70,
+	"cost": 375,
+	"requiredResource": "Oil",
+	"requiredTech": "Combined Arms",
+	"obsoleteTech": "Lasers",
+	"upgradesTo": "Modern Armor",
+	"uniqueTo": "Brazil",
+	"uniques": ["Can move after attacking"],
+	"promotions": ["Ignore terrain cost"],
+	"civilopediaText": [
+		{
+			"text": "Arguably the best piece of military equipment made in Latin America. The EE-09 Cascavel is a tank but on wheels, but a dangerous tank for the enemy, allowing it more agility and versatility in the rough terrains of the continent."
+		}
+	],
+	"attackSound": "tankshot"
+},
+{ //Chile's
+	"name": "Liberator Scuadron",
+	"replaces": "Frigate",
+	"unitType": "WaterRanged",
+	"movement": 5,
+	"strength": 25,
+	"rangedStrength": 28,
+	"cost": 185,
+	"hurryCostModifier": 20,
+	"requiredResource": "Iron",
+	"requiredTech": "Navigation",
+	"obsoleteTech": "Electronics",
+	"upgradesTo": "Battleship",
+	"uniqueTo": "Chile",
+	"promotions": ["[Liberator Scuadron] ability"],
+	"civilopediaText": [
+		{
+			"text": "The patriotic sail men of the squadrons defeated both the Spanish and Peruvian fleets against expectations. They don't fear nor the terrific Pacific nor a heavy Ironclad."
+		}
+	],
+	"attackSound": "shipguns",
+},
+{ //Colombia's
+	"name": "Jungla",
+	"replaces": "Infantry",
+	"uniqueTo": "Colombia",
+	"unitType": "Gunpowder",
+	"movement": 2,
+	"strength": 70,
+	"cost": 400,
+	"requiredTech": "Plastics",
+	"upgradesTo": "Mechanized Infantry",
+	"obsoleteTech": "Mobile Tactics",
+	"promotions": ["[Jungla] ability"],
+	"civilopediaText": [
+		{
+			"text": "The best elite commando units of, arguably, the hemisphere, they specialize in Jungle combat and anti-narcotraffic operations. These spec ops units excel at headhunting, annd they continue to prove their skill to this very day."
+		}
+	],
+	"attackSound": "shot",
+},
+{ //Costa Rica's
+	"name": "Campesino Patriota",
+	"replaces": "Longswordsman",
+	"unitType": "Sword",
+	"movement": 2,
+	"strength": 21,
+	"cost": 120,
+	"requiredTech": "Steel",
+	"upgradesTo": "Musketman",
+	"uniqueTo": "Costa Rica",
+	"uniques": ["Unable to capture cities",
+			"[-100]% Strength <when fighting in [Foreign Land] tiles>",
+			"[+15]% Strength <during the [Renaissance era]>","[+62]% Strength <during the [Industrial era]>","[+139]% Strength <during the [Modern era]>"],
+	"promotions": ["[Campesino Patriota] ability"],
+	"civilopediaText": [
+		{
+			"text": "Drafted patriotic men willing to give it all for their country's sovereignty. Going through volcanic chains, jungles and forest, these brave warriors fought to the bitter end to give their country hope."
+		}
+	],
+},
+{  //Cuba's
+	"name": "Guerrillero",
+	"replaces": "Great War Infantry",
+	"uniqueTo": "Cuba",
+	"unitType": "Gunpowder",
+	"movement": 2,
+	"strength": 50,
+	"cost": 240,
+	"requiredTech": "Replaceable Parts",
+	"upgradesTo": "Infantry",
+	"obsoleteTech": "Plastics",
+	"uniques": ["Ignores terrain cost","Invisible to non-adjacent units"],
+	"promotions": ["Guerrillero ability"],
+	"civilopediaText": [
+		{
+			"text": "These sons of a mother fought on all corners of the world to spread their beloved revolution and founding countless guerrilla groups to be feared, from South America to Africa, causing terror and chaos to the inhabiants."
+		}
+	],
+	"attackSound": "shot"
+},
+{ //Ecuador's
+	"name": "Tarqui Grenadiers",
+	"unitType": "Mounted",
+	"replaces": "Cavalry",
+	"movement": 4,
+	"strength": 34,
+	"cost": 225,
+	"requiredResource": "Horses",
+	"requiredTech": "Military Science",
+	"obsoleteTech": "Combustion",
+	"upgradesTo": "Landship",
+	"uniqueTo": "Ecuador",
+	"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
+	"promotions": ["[Tarqui Grenadiers] ability","Home Sweet Home"],
+	"civilopediaText": [
+		{
+			"text": "Their show of discipline elevated them to be the elite cavalry of equatorial nation. Having fought on harsh terrain, the grenadiers didn't break their discipline."
+		}
+	],
+	"attackSound": "horse"
+},
+{ //Mexico's
+	"name": "201 Scuadron",
+	"replaces": "Fighter",
+	"unitType": "Fighter",
+	"movement": 1,
+	"strength": 48,
+	"rangedStrength": 45,
+	"range": 9,
+	"interceptRange": 9,
+	"cost": 375,
+	"requiredResource": "Oil",
+	"requiredTech": "Radar",
+	"obsoleteTech": "Lasers",
+	"upgradesTo": "Jet Fighter",
+	"promotions": ["Bombardment I"],
+	"uniqueTo": "Mexico",
+	"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>",
+			"[+35]% Strength <vs [Fighter] units>"],
+	"civilopediaText": [
+		{
+			"text": "Fierce pilots who trained and fought with the US against a common enemy, the Empire of Japan. Battling with the unstoppable warriors of Japan on the Pacific Ocean, the brave men earned their respect and marked high the name of their country."
+		}
+	],
+	"attackSound": "machinegun",
+},
+/*	{ //Panama's
+	"name": "Fuerza Publica",
+	"replaces": "Infantry",
+	"uniqueTo": "Panama",
+	"unitType": "Gunpowder",
+	"movement": 2,
+	"strength": 70,
+	"cost": 375,
+	"requiredTech": "Plastics",
+	"upgradesTo": "Mechanized Infantry",
+	"obsoleteTech": "Mobile Tactics",
+	"uniques": ["[+50]% Strength decreasing with distance from the capital","Limited to [5] per Civilization"],
+	"civilopediaText": [
+		{
+			"text": "missing text"
+		}
+	],
+	"attackSound": "shot"
+},
+{ //Panama's
+	"name": "Buccaneer",
+	"unitType": "Melee Water",
+	"replaces": "Privateer",
+	"uniqueTo": "Panama",
+	"movement": 5,
+	"strength": 28,
+	"cost": 150,
+	"requiredTech": "Navigation",
+	"upgradesTo": "Destroyer",
+	"promotions": ["Coastal Raider I"],
+	"uniques": ["May capture killed [Water] units","Can move after attacking"],
+	"civilopediaText": [
+		{
+			"text": "missing text"
+		}
+	],
+	"attackSound": "cannon"
+},*/
+{ //Paraguay's
+	"name": "Aca Yboty",
+	"replaces": "Landship",
+	"unitType": "Mounted",
+	"movement": 4,
+	"strength": 62,
+	"cost": 300,
+	"requiredTech": "Combustion",
+	"obsoleteTech": "Combined Arms",
+	"upgradesTo": "Tank",
+	"uniqueTo": "Paraguay",
+	"uniques": ["Can move after attacking", "[-33]% Strength <vs cities>",
+			"[-20]% Strength <vs [Armored] units>",
+			"[+20]% Strength <vs [Gunpowder] units>","[+20]% Strength <vs [Ranged Gunpowder] units>"],
+	"civilopediaText": [
+		{
+			"text": "Courageous horsemen who fought to the bitter end, on harsh biomes, climate and conditions, but nevertheless their lion courage made all their acts heroic."
+		}
+	],
+	"attackSound": "horse",
+},
+{ //Peru's
+	"name": "Peruvian Legion",
+	"unitType": "Gunpowder",
+	"replaces": "Gatling Gun",
+	"movement": 2,
+	"strength": 30,
+	"rangedStrength": 35,
+	"range": 1,
+	"cost": 225,
+	"hurryCostModifier": 40,
+	"requiredTech": "Industrialization",
+	"obsoleteTech": "Ballistics",
+	"upgradesTo": "Machine Gun",
+	"uniqueTo": "Peru",
+	"uniques": ["Ignores terrain cost"],
+	"civilopediaText": [
+		{
+			"text": "Marching on the Andes is no easy task, even less when you are forced to in order to capture the mayor population centers. But these units did the task as hard as it was."
+		}
+	],
+	"attackSound": "shot",
+},
+{ //Venezuela's
+	"name": "Patriot Army",
+	"unitType": "Gunpowder",
+	"replaces": "Rifleman",
+	"movement": 2,
+	"strength": 34,
+	"cost": 245,
+	"requiredTech": "Rifling",
+	"obsoleteTech": "Replaceable Parts",
+	"upgradesTo": "Great War Infantry",
+	"uniqueTo": "Venezuela",
+	"uniques": ["Can pass through impassable tiles"],
+	"promotions": ["[Patriot Army] ability","Great Generals I"],
+	"civilopediaText": [
+		{
+			"text": "From a rag-tag arm, to one of the most professional ones on the continent, soldiers from three countries join together to earn freedom for their people and the rest of the continent."
+		}
+	],
+	"attackSound": "shot",
+},
+{ //Venezuela's
+	"name": "Mixed Militia",
+	"unitType": "Scout",
+	"replaces": "UNIT_CH",
+	"movement": 2,
+	"strength": 5,
+	"cost": 50,
+	"obsoleteTech": "Scientific Theory",
+	"upgradesTo": "Crossbowman",
+	"uniqueTo": "Venezuela",
+	"uniques": ["[+20]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles",
+			"May upgrade to [Archer] through ruins-like effects"],
+	"promotions": ["Ignore terrain cost"],
+	"civilopediaText": [
+		{
+			"text": "Mixed groups of natives and Spaniards created to do a variety of jobs: Patrol the lands, defense against aggressive groups, exercise dominion of the territories, develop infrastructure projects, etc."
+		}
+	],
+	"attackSound": "shot"
+ },
+ //丧尸mod部分
+ {
+	"name": "Gravedigger",
+	"uniqueTo": "The Undead",
+	"replaces": "Settler",
+	"unitType": "Civilian",
+	"movement": 2,
+	"uniques": ["Founds a new city",
+		"Unbuildable"]
+},
+{
+	"name": "Ghost",
+	"uniqueTo": "The Undead",
+	"replaces": "UNIT_CH",
+	"unitType": "Scout",
+	"strength": 4,
+	"movement": 3,
+	"cost": 25,
+	"uniques": ["All tiles cost 1 movement",
+		"Ignores Zone of Control",
+		"May enter foreign tiles without open borders",
+		"Can pass through impassable tiles",
+		"Invisible to non-adjacent units",
+		"Can see invisible [Land] units",
+		"[+1] Sight",
+		"May withdraw before melee ([100]%)",
+		"Cannot attack"]
+},
+{
+	"name": "Black Death",
+	"uniqueTo": "The Undead",
+	"replaces": "Knight",
+	"unitType": "Mounted",
+	"movement": 5,
+	"strength": 16,
+	"cost": 80,
+	"requiredTech": "Chivalry",
+	"obsoleteTech": "Military Science",
+	"upgradesTo": "Cavalry",
+	"requiredResource": "Horses",
+	"uniques": ["Can move after attacking",
+		"No defensive terrain bonus"],
+	"promotions": ["Sickening Plague","Rejuvenation"],
+	"attackSound": "horse"
+},
+{
+	"name": "Bone Dragon",
+	"unitType": "Helicopter",
+	"replaces": "Helicopter Gunship",
+	"uniqueTo": "The Undead",
+	"movement": 6,
+	"strength": 55,
+	"cost": 475,
+	"requiredTech": "Computers",
+	"requiredResource": "Aluminum",
+	"uniques": ["[+100]% Strength <vs [Armored] units>",
+		"No defensive terrain bonus",
+		"Can move after attacking",
+		"All tiles cost 1 movement",
+		"Ignores Zone of Control"],
+	"attackSound": "gdrAttack"
+},
+{
+	"name": "Angel of Death",
+	"uniqueTo": "The Undead",
+	"replaces": "Stealth Bomber",
+	"unitType": "Bomber",
+	"movement": 2,
+	"strength": 100,
+	"rangedStrength": 100,
+	"range": 20,
+	"cost": 450,
+	"requiredTech": "Stealth",
+	"requiredResource": "Uranium",
+	"uniques": ["Damage taken from interception reduced by [100]%",
+		"Cannot be carried by [Carrier] units",
+		"[+4] Sight", "Can see over obstacles"],
+	"attackSound": "bombing"
+},
+{
+	"name": "Arms Merchant",
+	"uniqueTo": "The Undead",
+	"replaces": "Great Merchant",
+	"unitType": "Civilian",
+	"uniques": ["Empire enters a [6]-turn Golden Age <by consuming this unit>",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
+		"Can instantly construct a [Customs house] improvement <by consuming this unit>",
+		"Great Person - [Gold]",
+		"Unbuildable",
+		"Uncapturable"],
+	"movement": 2
+},
+{
+	"name": "Necromancer",
+	"uniqueTo":"The Undead",
+	"replaces": "Great Artist",
+	"unitType": "Civilian",
+	"uniques": ["Empire enters a [6]-turn Golden Age <by consuming this unit>",
+		"Can instantly construct a [Abyss] improvement <by consuming this unit>",
+		"Great Person - [Culture]",
+		"Unbuildable",
+		"Uncapturable"],
+	"movement": 2
+},
+{
+	"name": "Lich King",
+	"unitType": "Civilian",
+	"uniqueTo": "The Undead",
+	"replaces": "Great General",
+	"uniques": ["Ignores terrain cost",
+		"Empire enters a [6]-turn Golden Age <by consuming this unit>",
+		"All adjacent units heal [+5] HP when healing",
+		"[+5] HP when healing",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"Great Person - [War]",
+		"Unbuildable",
+		"Uncapturable"],
+	"movement": 3
+}
 ]

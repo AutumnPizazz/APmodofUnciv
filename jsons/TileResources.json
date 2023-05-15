@@ -523,5 +523,53 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
-	}
+	},
+	//拉丁美洲文明mod部分_开始
+	{
+		"name": "Cocoa", 
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 1},
+	},
+		{
+		"name": "Coffee", 
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
+		"gold": 1,
+		"production": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 1},
+	},
+		{
+		"name": "Colombian Coffee", //Unique to Colombia, doesn't spawn on the map
+		"resourceType": "Luxury",
+		"gold": 1,
+	},
+	{
+		"name": "Cuban Cigars", //Unique to Cuba, doesn't spawn on map
+		"resourceType": "Luxury",
+		"gold": 1
+	},
+		{
+		"name": "Rubber", 
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Lumber mill",
+		"improvementStats": {"food": -2,"production": 1,"gold": 1},
+	},
+	{
+		"name": "Capybara",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Marsh","Flood plains"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [4] tiles <in [Marsh] tiles>","Generated on every [18] tiles <in [River] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
+	},
+		//拉丁美洲文明mod部分_结束
 ]
