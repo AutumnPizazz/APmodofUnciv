@@ -177,7 +177,7 @@
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": false,
-		"unbuildable": true,//这里改为false会�?�么样呢�?
+		"unbuildable": true,//这里改为false会怎么样呢
 		"defenceBonus": 0.15,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
