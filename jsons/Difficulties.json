@@ -1,8 +1,8 @@
 [
 	{
 		"name": "DIFFICULTY_LJZYND",//联机专用难度
-		"baseHappiness": 5,
-		"extraHappinessPerLuxury": 4,
+		"baseHappiness": 9,
+		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 20,

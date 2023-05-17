@@ -180,6 +180,7 @@
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
+    /*
     {
         "name": "Future era",
         "researchAgreementCost": 400,
@@ -207,8 +208,7 @@
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
-    }
-    /*
+    },*/
     {
         "name": "ERA_JWLSD",
         "researchAgreementCost": 400,
@@ -238,7 +238,7 @@
         ]
     },
     {
-        "name": "ERA_YWLSD",
+        "name": "Future era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
@@ -265,5 +265,4 @@
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
     }
-    */
 ]

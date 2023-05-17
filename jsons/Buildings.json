@@ -106,8 +106,7 @@
 		"cost": 90,
 		"hurryCostModifier": 90,
 		"requiredTech": "Construction",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YLZX] appears"],
-		"greatPersonPoints": {"Great Artist": 2}
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YLZX] appears"]
 	},
 	{
 		"name": "BUILDING_DISTRICT_GKQ",
@@ -439,7 +438,7 @@
 	{
 		"name": "Colosseum",
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 3,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
 		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"]
@@ -449,7 +448,7 @@
 		"replaces": "Colosseum",
 		"uniqueTo": "Aztecs",
 		"maintenance": 0,
-		"happiness": 3,
+		"happiness": 5,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
 		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles",
@@ -984,7 +983,7 @@
 	},
 	{
 		"name": "Theatre",
-		"happiness": 3,
+		"happiness": 5,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"requiredBuilding": "Colosseum",
@@ -1227,7 +1226,7 @@
 	// Column 11
 	{
 		"name": "Stadium",
-		"happiness": 4,
+		"happiness": 7,
 		"requiredBuilding": "Theatre",
 		"maintenance": 2,
 		"requiredTech": "Refrigeration",

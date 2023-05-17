@@ -18,8 +18,8 @@
 		"uniques": ["Can build [Land] improvements on tiles",
 		"Can build [Fishing Boats] improvements on tiles",
 		"Can build [Offshore Platform] improvements on tiles",
-	    "Can build [IMPROVEMENT_HXC] improvements on tiles"/*,
-		"Can build [IMPROVEMENT_HYJY] improvements on tiles"*/],
+	    "Can build [IMPROVEMENT_HXC] improvements on tiles",
+		"Can build [IMPROVEMENT_HYJY] improvements on tiles"],
 		"cost": 70
 	},
 	{

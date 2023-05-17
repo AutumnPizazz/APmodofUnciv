@@ -646,7 +646,7 @@
 			}
 		]
 	},
-	{
+	/*{
 		"columnNumber": 17,
 		"era": "Future era",
 		"techCost": 9500,
@@ -663,9 +663,9 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]
-	}
+	}*/
 	//近未来时代科技树
-	/*
+	
 	{
 		"columnNumber": 17,
 		"era": "ERA_JWLSD",
@@ -734,7 +734,7 @@
 	},
 	{
 		"columnNumber": 19,
-		"era": "ERA_YWLSD",
+		"era": "Future era",
 		"techCost": 13000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -745,11 +745,10 @@
 				"prerequisites": ["TECHNOLOGY_WXRW"],
 				"uniques": ["Who knows what the future holds?", 
 				            "[+5]% [Production] [in all cities]",
-							"Gain [1000] [Gold]",
+							"Gain [1000]-[1200] [Gold]",
 				            "Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]
 	}
-	*/
 ]
