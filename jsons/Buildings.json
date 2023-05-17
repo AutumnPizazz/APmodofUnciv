@@ -444,12 +444,16 @@
 		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"]
 	},
 	{
-		"name": "BUILDING_CQC",
+		"name": "BUILDING_JQC",
 		"replaces": "Colosseum",
 		"uniqueTo": "Aztecs",
+		"cost":150,
 		"maintenance": 0,
-		"happiness": 5,
+		"happiness": 3,
+		"culture":2,
+		"faith":2,
 		"hurryCostModifier": 25,
+		"greatPersonPoints": {"Great General": 2},
 		"requiredTech": "Construction",
 		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles",
 		           "New [Sword] units start with [10] Experience [in this city]"]
