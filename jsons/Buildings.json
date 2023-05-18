@@ -1,15 +1,15 @@
 [
-	//新奇观
-	{
+	
+	/*新奇观*/
+	{//大浴场
 		"name": "BUILDING_DYC",
 		"cost": 160,
 		"isWonder": true,
         "uniques": ["Must be on [River]","[+1 Faith] from [River] tiles [in this city]"],
 		"requiredTech": "Pottery",
 		"quote":"TEXT_12"
-
 	},	
-	{
+	{//休伊神庙
 		"name": "BUILDING_XYSM",
 		"cost": 300,
 		"isWonder": true,
@@ -19,7 +19,7 @@
 		"requiredTech": "Civil Service"	,
 		"quote":"TEXT_13"
 	},
-	{
+	{//圣瓦西里主教堂
 		"name": "BUILDING_SWXLZJT",
 		"cost": 300,
 		"isWonder": true,
@@ -31,7 +31,7 @@
 		"quote":"TEXT_21"
 	},
 	//外交胜利新建筑
-	{
+	{//众拥之证
 		"name": "BUILDING_ZYZZ",
 		"isNationalWonder": true,
 		"cost":100,
@@ -42,7 +42,7 @@
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	}
 	//新增区域系统
-	{
+	{//圣地地基项目
 		"name": "BUILDING_DISTRICT_SD",
 		"cost": 70,
 		"faith":1,
@@ -50,7 +50,7 @@
 		"requiredTech": "Calendar",
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SD] appears"]
 	},
-	{
+	{//学院地基项目
 		"name": "BUILDING_DISTRICT_XY",
 		"cost": 75,
 		"hurryCostModifier": 75,
@@ -58,7 +58,7 @@
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears"],
 		"greatPersonPoints": {"Great Scientist": 2}
 	},
-	{
+	{//书院地基项目
 		"name": "BUILDING_DISTRICT_SY",
 		"cost": 75,
 		"hurryCostModifier": 75,
@@ -69,7 +69,7 @@
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears","获得额外2个科学家席位"],
 		"greatPersonPoints": {"Great Scientist": 2}
 	},
-	{
+	{//剧院地基项目
 		"name": "BUILDING_DISTRICT_JY_NUM1",
 		"cost": 100,
 		"hurryCostModifier": 100,
@@ -77,7 +77,7 @@
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_NUM1] appears"],
 		"greatPersonPoints": {"Great Artist": 2}
 	},
-	{
+	{//商业中心地基项目
 		"name": "BUILDING_DISTRICT_SYZX",
 		"cost": 100,
 		"hurryCostModifier": 100,
@@ -85,7 +85,7 @@
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SYZX] appears"],
 		"greatPersonPoints": {"Great Merchant": 2}
 	},
-	{
+	{//工业区地基项目
 		"name": "BUILDING_DISTRICT_GYQ",
 		"cost": 120,
 		"hurryCostModifier": 120,
@@ -93,7 +93,7 @@
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GYQ] appears"],
 		"greatPersonPoints": {"Great Engineer": 2}
 	},
-	{
+	{//宇航中心地基项目
 		"name": "BUILDING_DISTRICT_YHZX",
 		"cost": 700,
 		"hurryCostModifier": 700,
@@ -101,14 +101,14 @@
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YHZX] appears"],
 		"greatPersonPoints": {"Great Engineer": 2}
 	},
-	{
+	{//娱乐中心地基项目
 		"name": "BUILDING_DISTRICT_YLZX",
 		"cost": 90,
 		"hurryCostModifier": 90,
 		"requiredTech": "Construction",
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YLZX] appears"]
 	},
-	{
+	{//港口区地基项目
 		"name": "BUILDING_DISTRICT_GKQ",
 		"cost": 90,
 		"hurryCostModifier": 90,
@@ -116,7 +116,7 @@
 		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GKQ] appears"],
 		"greatPersonPoints": {"Great General": 2}
 	},
-	{
+	{//军营地基项目
 		"name": "BUILDING_DISTRICT_JY_NUM2",
 		"cost": 75,
 		"hurryCostModifier": 75,
@@ -812,19 +812,6 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "休伊神庙",
-		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"uniques": ["[-25]% maintenance costs <for [Land] units>",
-	                "Free [Great General] appears",
-					"[+1 Gold] per [1] population [in this city]",
-					"Must not be on [Plains]"
-				],
-		"requiredTech": "Chivalry",
-		"quote": "但维齐洛波奇特利非常生气，作为牺牲，穿过了4个房间，献身于太阳神，天空中的太阳小时了，或再次出现了。 ————福莱"
 	},
 	{
 		"name": "Mughal Fort",

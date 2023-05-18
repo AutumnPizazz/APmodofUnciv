@@ -1,6 +1,55 @@
 [
-	//新增医疗兵单位
-	{
+	{//苏格兰-高地军团
+		"name": "UNIT_GDJT",
+		"replaces":"UNIT_SB",
+		"uniqueTo":"NATION_SGL",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 14,
+		"range": 1,
+		"rangedStrength": 14,
+		"cost": 90,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Radar",
+		"upgradesTo": "UNIT_TZBD",
+		"attackSound": "nonmetalhit",
+		"uniques":["Can move after attacking","[+15]% Strength <when fighting in [Rough terrain] tiles>"]
+    },
+	{//曼德卡鲁骑兵
+		"name":"UNIT_MDKLQB",
+		"replaces": "Horseman",
+		"uniqueTo":"NATION_ML",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","[-50]% Strength <vs cities> <when attacking>","Consumes [2] [Horses]"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{//印度尼西亚-戎克船
+		"name": "UNIT_RKC",
+		"uniqueTo":"NATION_YDNXY",
+		"replaces":"Frigate",
+		"uniques":["[+15]% Strength <vs [Water] units>"],
+		"promotions": ["Great Generals II"],
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"range":3,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{//医疗兵
 		"name": "UNIT_YLB",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -9,9 +58,36 @@
 		"uniques": ["All adjacent units heal [+10] HP when healing", "[+10] HP when healing","[-1] Sight"],
 		"hurryCostModifier": 20
 	},
+	{//散兵
+		"name": "UNIT_SB",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 10,
+		"range": 1,
+		"rangedStrength": 10,
+		"cost": 90,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Radar",
+		"upgradesTo": "UNIT_TZBD",
+		"attackSound": "nonmetalhit",
+		"uniques":["Can move after attacking","Can build [Road] improvements on tiles"]
+    },
+	{//特种部队
+		"name": "UNIT_TZBD",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 40,
+		"range": 1,
+		"rangedStrength": 55,
+		"cost": 300,
+		"requiredTech": "Radar",
+		"attackSound": "nonmetalhit",
+		"uniques":["Can move after attacking","Invisible to non-adjacent units", "Can see invisible [Scout] units",
+"Can build [Road] improvements on tiles"]
+},
 
 	/* Ancient Era */
-	{
+	{//工人
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -22,7 +98,7 @@
 		"Can build [IMPROVEMENT_HYJY] improvements on tiles"],
 		"cost": 70
 	},
-	{
+	{//移民
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -31,7 +107,7 @@
 		    "[+1] Sight",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
-		//这么写还是不能读取
+		//这么写不能读取
 		//"obsoleteTech": ["Philosophy","Drama and Poetry","Currency","Engineering","Ironworks"]
 	},
 	/*
@@ -46,7 +122,7 @@
         "hurryCostModifier": 40
 	},
 	*/
-    {
+    {//斥候
 		"name": "UNIT_CH",
 		"unitType": "Scout",
 		"movement": 2,
@@ -57,34 +133,6 @@
 		"attackSound": "nonmetalhit",
 		"uniques":["Can build [Road] improvements on tiles"]
 	},
-	{
-		"name": "UNIT_SB",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 10,
-		"range": 1,
-		"rangedStrength": 10,
-		"cost": 90,
-		"requiredTech": "Machinery",
-		"obsoleteTech": "Radar",
-		"upgradesTo": "UNIT_TZBD",
-		"attackSound": "nonmetalhit",
-		"uniques":["Can move after attacking","Can build [Road] improvements on tiles"]
-	},
-	{
-		"name": "UNIT_TZBD",
-		"unitType": "Scout",
-		"movement": 4,
-		"strength": 40,
-		"range": 1,
-		"rangedStrength": 55,
-		"cost": 300,
-		"requiredTech": "Radar",
-		"attackSound": "nonmetalhit",
-		"uniques":["Can move after attacking","Invisible to non-adjacent units", "Can see invisible [Scout] units",
-	"Can build [Road] improvements on tiles"]
-	},
-
 	{
 		"name": "Warrior",
 		"unitType": "Sword",

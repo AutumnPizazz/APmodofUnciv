@@ -1,24 +1,75 @@
 [
+	/*便利贴-所有地块类型Terrains
+	Ocean			海洋
+	Coast			海滨
+	Grassland		草原
+	Plains			平原
+	Tundra			冻土
+	Desert			沙漠
+	Lakes			湖泊
+	Mountain		山脉
+	Snow			雪原
+	Hill			丘陵
+	Forest			森林
+	Jungle			丛林
+	Marsh			沼泽
+	Fallout			核辐射
+	Oasis			绿洲
+	Flood plains	冲积平原
+	Ice				冰区
+	Atoll			环礁
+	*/
 	//新增改良
-	{
+	{//苏格兰-高尔夫球场
+		"name": "IMPROVEMENT_GEFQC",
+		"turnsToBuild": 8,
+		"techRequired": "Theology",
+		"happiness":1,
+		"gold":2,
+		"uniqueTo":"NATION_SGL",
+		"terrainsCanBeBuiltOn": ["Tundra","Plains","Grassland"],
+		"uniques":["[+1 Culture] for each adjacent [City center]","[+2 Culture] <after discovering [Flight]>","Pillaging this improvement yields approximately [+30 Gold]"]
+	},
+	{//马里-曼丁哥市场
+		"name": "IMPROVEMENT_MDGSC",
+		"turnsToBuild": 6,
+		"techRequired": "Mathematics",
+		"food":2,
+		"gold":5,
+		"uniqueTo":"NATION_ML",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"uniques":["[+2 Gold] <after discovering [Guilds]>",
+		"[+2 Gold] <after discovering [Electronics]>","Pillaging this improvement yields approximately [+30 Gold]"]
+	},
+	{//印度尼西亚-甘榜屋
+		"name": "IMPROVEMENT_GBW",
+		"turnsToBuild": 8,
+		"techRequired": "Sailing",
+		"production":1,
+		"uniqueTo":"NATION_YDNXY",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Flood plains"],
+		"uniques":["Can only be built on [Coastal] tiles",
+		"[+1 Production] for each adjacent [Fishing Boats]",
+		"[+1 Production] <after discovering [Industrialization]>","Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{//全文明通用-滑雪场
 		"name": "IMPROVEMENT_HXC",
 		"turnsToBuild": 6,
 		"techRequired": "Flight",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
-		"uniques":["[+1 Happiness, +1 Culture] for each adjacent [Mountain]"]
+		"uniques":["[+1 Happiness, +1 Culture] for each adjacent [Mountain]","Pillaging this improvement yields approximately [+20 Culture]"]
 	},
-	//海洋家园
-	{
+	{//全文明通用-海洋家园
 		"name": "IMPROVEMENT_HYJY",
 		"turnsToBuild": 6,
 		"techRequired": "TECHNOLOGY_HYJY",
 		"terrainsCanBeBuiltOn": ["Ocean"],
 		"food":2,
 		"production":1,
-		"uniques":["[+1 Food] for each adjacent [IMPROVEMENT_HYJY]","[+1 Production] for each adjacent [Fishing Boats]"]
+		"uniques":["[+1 Food] for each adjacent [IMPROVEMENT_HYJY]","[+1 Production] for each adjacent [Fishing Boats]","Pillaging this improvement yields approximately [+45 Gold]"]
 	},
 	//新增区域
-	{
+	{//圣地
 		"name": "DISTRICT_SD",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
@@ -32,7 +83,7 @@
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Faith]"]
 	},
-	{
+	{//学院
 		"name": "DISTRICT_XY",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
@@ -45,7 +96,7 @@
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Science]"]
 	},
-	{
+	{//剧院
 		"name": "DISTRICT_JY_NUM1",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
@@ -57,7 +108,7 @@
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Culture]"]
 	},
-	{
+	{//商业中心
 		"name": "DISTRICT_SYZX",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"gold":2,
@@ -70,7 +121,7 @@
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
-	{
+	{//工业区
 		"name": "DISTRICT_GYQ",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
@@ -83,7 +134,7 @@
 			"Removes removable features when built",
             "Pillaging this improvement yields approximately [+36 Gold]"]
 	},
-	{
+	{//宇航中心
 		"name": "DISTRICT_YHZX",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
@@ -94,7 +145,7 @@
 		"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
-	{
+	{//娱乐中心
 		"name": "DISTRICT_YLZX",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains","Coast"],
 		"food": -1,
@@ -107,7 +158,7 @@
 		"Removes removable features when built",
             "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
-	{
+	{//港口区
 		"name": "DISTRICT_GKQ",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": -1,
@@ -121,7 +172,7 @@
 		"Removes removable features when built",
         "Pillaging this improvement yields approximately [+18 Gold]"]
 	},
-	{
+	{//军营
 		"name": "DISTRICT_JY_NUM2",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
 		"food": -1,
@@ -232,7 +283,9 @@
 		            //海洋家园-近未来时代
 					"[+1 Food, +2 Gold] <after discovering [TECHNOLOGY_HYJY]>",
 				    "[+1 Food] for each adjacent [IMPROVEMENT_HYJY]",
-		            "Pillaging this improvement yields approximately [+10 Gold]"],
+		            "Pillaging this improvement yields approximately [+10 Gold]",
+					//印度尼西亚-甘榜屋
+					"[+1 Food] for each adjacent [IMPROVEMENT_GBW]"],
 		"shortcutKey": "F"
 	},
 	{

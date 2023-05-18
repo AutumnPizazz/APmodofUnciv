@@ -1,9 +1,140 @@
 [
-	//观海
-	{
+	/*便利贴-所有地块类型Terrains
+		Ocean			海洋
+		Coast			海滨
+		Grassland		草原
+		Plains			平原
+		Tundra			冻土
+		Desert			沙漠
+		Lakes			湖泊
+		Mountain		山脉
+		Snow			雪原
+		Hill			丘陵
+		Forest			森林
+		Jungle			丛林
+		Marsh			沼泽
+		Fallout			核辐射
+		Oasis			绿洲
+		Flood plains	冲积平原
+		Ice				冰区
+		Atoll			环礁
+	所有胜利偏好
+		Neutral			中立
+		Domination		征服
+		Diplomatic		外交
+		Cultural		文化
+		Scientific		科技
+		VICTORY_TYPE_ZJ	宗教*/
+	{//观海
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
+		//"innerColor": [255,255,255]
+	},
+		{//苏格兰
+		"name": "NATION_SGL",
+		"leaderName": "LEADER_LBTYS",
+		"adjective": ["NATION_ADJ_SGL"],
+		"startBias": ["[Plains]"],
+		"preferredVictoryType": "Neutral",
+	
+		"startIntroPart1": "Welcome, esteemed leader. You are now at the helm of Scotland, a great civilization with a rich history of trade and culture. Scotland was once ruled by great kings such as Robert I, who led the Scots to victory in the Wars of Scottish Independence and created a powerful Scottish state. Our people are proud and resilient, and we strive for excellence in all that we do. The Scottish Empire was known for its wealth, architectural marvels, and intellectual achievements, and we continue to build upon this legacy today.",
+
+		"startIntroPart2": "As our new leader, you have the responsibility to guide us to greater heights. Can you lead our civilization to prosperity and glory? The challenges we face are great, but so are the rewards.",
+		
+		"declaringWar": "Your aggression will not go unpunished. We declare war on you.",
+		
+		"attacked": "We will not stand idly by while you attack us. Prepare for our retaliation.",
+		
+		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again and reclaim our place in history.",
+		
+		"introduction": "Greetings. I am Musa Keita, King of Scotland. Our civilization values trade and culture, and we look forward to establishing positive relations with you.",
+		
+		"neutralHello": "Greetings.",
+		
+		"hateHello": "I have no interest in speaking with you.",
+		
+		"tradeRequest": "Let us engage in trade and mutual benefit.",
+		
+		"outerColor": [0, 0, 255],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "TEXT_TOPIC_SGL",
+		"uniques":["[+5]% [Science] [in all cities] <when between [6] and [9] Happiness>",
+		"[+5]% [Science] [in all cities] <when between [10] and [100000] Happiness>",
+		"[+5]% [Culture] [in all cities] <when between [6] and [9] Happiness>",
+		"[+5]% [Cuture] [in all cities] <when between [10] and [100000] Happiness>",
+		"[+5]% [Gold] [in all cities] <when between [6] and [9] Happiness>",
+		"[+5]% [Gold] [in all cities] <when between [10] and [100000] Happiness>"
+	],
+		"uniqueText":"TEXT_INTRODUCE_SGL",
+
+		"cities": ["CITY_NAME_SGL1", "CITY_NAME_SGL2", "CITY_NAME_SGL3", "CITY_NAME_SGL4", "CITY_NAME_SGL5", "CITY_NAME_SGL6", "CITY_NAME_SGL7", "CITY_NAME_SGL8", "CITY_NAME_SGL9", "CITY_NAME_SGL10", "CITY_NAME_SGL11", "CITY_NAME_SGL12", "CITY_NAME_SGL13", "CITY_NAME_SGL14", "CITY_NAME_SGL15", "CITY_NAME_SGL16", "CITY_NAME_SGL17", "CITY_NAME_SGL18", "CITY_NAME_SGL19", "CITY_NAME_SGL20"]
+	},
+	{//马里
+		"name": "NATION_ML",
+		"leaderName": "LEADER_MSMS",
+		"adjective": ["NATION_ADJ_ML"],
+		"startBias": ["[Desert]"],
+		"preferredVictoryType": "Neutral",
+	
+		"startIntroPart1": "Welcome, esteemed leader. You are now at the helm of Mali, a great civilization with a rich history of trade and culture. Mali was once ruled by great kings such as Mansa Musa, who made the pilgrimage to Mecca and brought back incredible wealth to his people. Our people are proud and resilient, and we strive for excellence in all that we do. The Malian Empire was known for its wealth, architectural marvels, and intellectual achievements, and we continue to build upon this legacy today.",
+		"startIntroPart2": "As our new leader, you have the responsibility to guide us to greater heights. Can you lead our civilization to prosperity and glory? The challenges we face are great, but so are the rewards.",
+	
+		"declaringWar": "Your aggression will not go unpunished. We declare war on you.",
+		"attacked": "We will not stand idly by while you attack us. Prepare for our retaliation.",
+		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again and reclaim our place in history.",
+		"introduction": "Greetings. I am Musa Keita, King of Mali. Our civilization values trade and culture, and we look forward to establishing positive relations with you.",
+	
+		"neutralHello": "Greetings.",
+		"hateHello": "I have no interest in speaking with you.",
+	
+		"tradeRequest": "Let us engage in trade and mutual benefit.",
+	
+		"outerColor": [255, 204, 0],
+		"innerColor": [83, 0, 208],
+		"favoredReligion": "Islam",
+		"uniqueName": "TEXT_TOPIC_ML",
+		"uniques":["[+2 Faith, +2 Food] [in all cities] <with [1] to [3] neighboring [Desert] tiles>",
+		"[+4 Faith, +4 Food] [in all cities] <with [4] to [6] neighboring [Desert] tiles>",
+		"[-1 Production, +4 Gold] from every [Mine]",
+		"[-30]% Production when constructing [All] units [in all cities]",
+		"[Gold] cost of purchasing [All] units [-30]%"
+	],
+		"cities": ["CITY_NAME_ML1","CITY_NAME_ML2","CITY_NAME_ML3","CITY_NAME_ML4","CITY_NAME_ML5","CITY_NAME_ML6","CITY_NAME_ML7","CITY_NAME_ML8","CITY_NAME_ML9","CITY_NAME_ML10","CITY_NAME_ML11","CITY_NAME_ML12","CITY_NAME_ML13","CITY_NAME_ML14","CITY_NAME_ML15","CITY_NAME_ML16","CITY_NAME_ML17","CITY_NAME_ML18","CITY_NAME_ML19","CITY_NAME_ML20"]
+	},
+	{//印度尼西亚
+		"name": "NATION_YDNXY",
+		"leaderName": "LEADER_TLBWN",
+		"adjective": ["NATION_ADJ_YDNXYD"],
+		"startBias": ["[Coast]"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "Mr. President, welcome. As you know, you lead the great, multicultural nation of Indonesia. The nation has a rich history of trade, culture, and religion, being influenced by various external powers throughout the centuries. The nation is composed of thousands of islands, each with its own unique culture and traditions. Indonesia has a lot to offer to the world, and its people aspire to be a global player in the international community.",
+		"startIntroPart2": "Great governor, your people want to further develop their tourism industry and make Indonesia a hub of culture and entertainment. Will you accept the offer? Can you lead a civilization that can stand the test of time?",
+	
+		"declaringWar": "Your actions have left us with no other option but to declare war. Prepare for the consequences.",
+		"attacked": "You will regret the day you decided to attack us. Our response will be swift and fierce.",
+		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again and reclaim our rightful place in the world.",
+		"introduction": "Greetings. I am Joko Widodo, President of Indonesia. I hope we can establish a mutually beneficial relationship.",
+	
+		"neutralHello": "Greetings.",
+		"hateHello": "I have no interest in talking to you.",
+	
+		"tradeRequest": "Let us trade and prosper together.",
+	
+		"outerColor": [0, 167, 157],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Hinduism",
+		"uniqueName": "TEXT_TOPIC_YDNXY",
+		"uniques":["[+1 Science, +1 Culture, +1 Gold, +1 Faith] [in all coastal cities] <with [1] to [2] neighboring [Coast] tiles>",
+		"[+3 Science, +3 Culture, +3 Gold, +3 Faith] [in all coastal cities] <with [3] to [4] neighboring [Coast] tiles>",
+		"[+5 Science, +5 Culture, +5 Gold, +5 Faith] [in all coastal cities] <with [5] to [6] neighboring [Coast] tiles>",
+		"[+1 Science, +1 Culture, +1 Gold, +1 Faith] [in all coastal cities] <with [1] to [2] neighboring [Coast] tiles> <starting from the [Medieval era]>",
+		"[+3 Science, +3 Culture, +3 Gold, +3 Faith] [in all coastal cities] <with [3] to [4] neighboring [Coast] tiles> <starting from the [Medieval era]>",
+		"[+5 Science, +5 Culture, +5 Gold, +5 Faith] [in all coastal cities] <with [5] to [6] neighboring [Coast] tiles> <starting from the [Medieval era]>"
+	],
+		"uniqueText":"TEXT_INTRODUCE_YDNXY",
+		"cities": ["CITY_NAME_YDNXY1","CITY_NAME_YDNXY2","CITY_NAME_YDNXY3","CITY_NAME_YDNXY4","CITY_NAME_YDNXY5","CITY_NAME_YDNXY6","CITY_NAME_YDNXY7","CITY_NAME_YDNXY8","CITY_NAME_YDNXY9","CITY_NAME_YDNXY10","CITY_NAME_YDNXY11","CITY_NAME_YDNXY12","CITY_NAME_YDNXY13","CITY_NAME_YDNXY14","CITY_NAME_YDNXY15","CITY_NAME_YDNXY16","CITY_NAME_YDNXY17","CITY_NAME_YDNXY18","CITY_NAME_YDNXY19","CITY_NAME_YDNXY20"]
 	},
 //丧尸
 {
@@ -234,7 +365,7 @@
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
 			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
 			"Patras","Lamia","Nafplion","Apolyton"],
-        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
     },
 	{
 		"name": "China",
@@ -367,7 +498,7 @@
 		"leaderName": "Catherine",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "ZJ",
+		"preferredVictoryType": "VICTORY_TYPE_ZJ",
 
 
         "startIntroPart1": "",
@@ -2258,57 +2389,57 @@
 
 "cities": ["Asuncion","Ciudad del Este","San Lorenzo","Encarnacion","Ñemby","Oviedo","Capiata","Limpio","Lambare","Itaugua","Luque","Villa Elisa","Villarrica","Hermandarias","Aregua","Caacupe","Minga Guazu",]
 },
-{
-"name": "Peru",
+	{
+		"name": "Peru",
 		"leaderName": "Martin Vizcarra",
-"adjective": "Peruvian",
-"outerColor": [217,16,35],
-"innerColor": [255,255,255],
-"spyNames": ["Pedro"],
+		"adjective": "Peruvian",
+		"outerColor": [217,16,35],
+		"innerColor": [255,255,255],
+		"spyNames": ["Pedro"],
 
-"startBias": ["Hill","Coast"],
-"preferredVictoryType": "Cultural",
-"favoredReligion": "Christianity",
+		"startBias": ["Hill","Coast"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity",
 	
-	"startIntroPart1": "Mr. President, welcome.  As you know, you lead the great, ancient, cultural nation of the Peru. The nation dates back to the mighty Incas, after being colonized. The colony was one of the major ones for the Spanish - and that wasn't for no reason -. The ungrateful Spaniards wasted all the money, increased taxes, and combined with many other things, Peru rebelled. After a failed attempt, the joint effort of Simon Bolivar, and most importantly, San Martín, gave the freedom to the Peruvians, which continued to exploit their mineral riches, and culture abundance.",
-	"startIntroPart2": "Great governor, your people want to further expand their culture and get more prestige. Will you accept the offer? Can you make a civilization that can stand the pass of time?",
+		"startIntroPart1": "Mr. President, welcome.  As you know, you lead the great, ancient, cultural nation of the Peru. The nation dates back to the mighty Incas, after being colonized. The colony was one of the major ones for the Spanish - and that wasn't for no reason -. The ungrateful Spaniards wasted all the money, increased taxes, and combined with many other things, Peru rebelled. After a failed attempt, the joint effort of Simon Bolivar, and most importantly, San Martín, gave the freedom to the Peruvians, which continued to exploit their mineral riches, and culture abundance.",
+		"startIntroPart2": "Great governor, your people want to further expand their culture and get more prestige. Will you accept the offer? Can you make a civilization that can stand the pass of time?",
 
-"introduction": "Greetings. I am Martin Vizcarra, president of Perú. I hope you can become a valuable ally.",
-"declaringWar": "Great lands ruled by a bad lider, your people don't deserve you, I will take care of them better than you.",
-"attacked": "I will give you one of the best wars on history! And the worst defeat in yours.",
-"afterPeace": "I hope you have regreted your decisions that have lead to this.",
-"defeated": "History repeats it self. Therefore, Peru shall rise again.",
+		"introduction": "Greetings. I am Martin Vizcarra, president of Perú. I hope you can become a valuable ally.",
+		"declaringWar": "Great lands ruled by a bad lider, your people don't deserve you, I will take care of them better than you.",
+		"attacked": "I will give you one of the best wars on history! And the worst defeat in yours.",
+		"afterPeace": "I hope you have regreted your decisions that have lead to this.",
+		"defeated": "History repeats it self. Therefore, Peru shall rise again.",
 
-"neutralHello": "I salute you",
-"hateHello": "Get out of my sight!",
+		"neutralHello": "I salute you",
+		"hateHello": "Get out of my sight!",
 
-"tradeRequest": "Look at all these goods! We should trade, don't we?",
-"neutralLetsHearIt": "I believe this could be an opportunity.",
-"hateLetsHearIt": "Come on, impress me if you can.",
-"neutralNo": "This has to be declined",
-"neutralYes": "I see potential in this trade",
-"hateNo": ["That is outrageous, that's unfair.", "I profusely decline."],
-"hateYes": ["This may be worst deal in the history of deals...", "*frustation noises*", "This should be ilegal. ..."],
+		"tradeRequest": "Look at all these goods! We should trade, don't we?",
+		"neutralLetsHearIt": "I believe this could be an opportunity.",
+		"hateLetsHearIt": "Come on, impress me if you can.",
+		"neutralNo": "This has to be declined",
+		"neutralYes": "I see potential in this trade",
+		"hateNo": ["That is outrageous, that's unfair.", "I profusely decline."],
+		"hateYes": ["This may be worst deal in the history of deals...", "*frustation noises*", "This should be ilegal. ..."],
 
-"uniqueName": "Peruvian Gastronomy",
-"uniques": ["[+2 Culture] from each Trade Route", "[+2 Food] from every [Plantation]"],
+		"uniqueName": "Peruvian Gastronomy",
+		"uniques": ["[+2 Culture] from each Trade Route", "[+2 Food] from every [Plantation]"],
 
-"cities": ["Lima","Cusco","Arequipa","Trujillo","Iquitos","Chiclayo","Puno","Tacna","Huancayo","Chimbote", "Juliaca","Ayacucho","Ica","Pucallpa","Huaraz","Cajamarca","Tarapoto","Piura","Sullana","Callao", "Maldonado Port","Chincha Alta","Tumbes","Abancay","Talara","Pasco Hill","Jaen","Moyobamba","Catacaos","Moquegua"]
-},
-{
-"name": "Venezuela",
+		"cities": ["Lima","Cusco","Arequipa","Trujillo","Iquitos","Chiclayo","Puno","Tacna","Huancayo","Chimbote", "Juliaca","Ayacucho","Ica","Pucallpa","Huaraz","Cajamarca","Tarapoto","Piura","Sullana","Callao", "Maldonado Port","Chincha Alta","Tumbes","Abancay","Talara","Pasco Hill","Jaen","Moyobamba","Catacaos","Moquegua"]
+	},
+	{
+		"name": "Venezuela",
 		"leaderName": "Marcos Perez Jimenez",
-"adjective": ["Venezuelan"],
-"outerColor": [127,0,40],
-"innerColor": [245,217,0],
-"spyNames": ["Simón"],
+		"adjective": ["Venezuelan"],
+		"outerColor": [127,0,40],
+		"innerColor": [245,217,0],
+		"spyNames": ["Simón"],
 
-"startBias": ["Plains","Coast"],
-//		"preferredVictoryType": "Scientific",
-"favoredReligion": "Christianity",
+		"startBias": ["Plains","Coast"],
+		//"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity",
 
-"startIntroPart1": "Colonel Marcos Perez Jimenez, you have been a great disciplined, one who built this country. Its richness and beauty wonder many countries. The beautiful country born with the first settlers, warriors and fishermen. But our republican history starts when, Francisco de Miranda, a great excellent general, and Simon Bolivar, a Venezuelan strategist and fearless warrior, taking advantage of the weakened position of Spain would proclaim Venezuelan independence. The so dreamed independence would not come until the Battle of Carabobo, glory to the brave people, Venezuela has been born in Carabobo!, and the Venezuelan richness would have a rise in the middle of the 20th century, thanks to their resources.",
-"startIntroPart2": "Colonel! Your people call you, and express their affect, it's time to achieve what we have been waiting for years, it's time to bring back the glory that Venezuela deserves! Do you accept the challenge, your highness? Can you build a civilization that can stand the pass of time?",
+		"startIntroPart1": "Colonel Marcos Perez Jimenez, you have been a great disciplined, one who built this country. Its richness and beauty wonder many countries. The beautiful country born with the first settlers, warriors and fishermen. But our republican history starts when, Francisco de Miranda, a great excellent general, and Simon Bolivar, a Venezuelan strategist and fearless warrior, taking advantage of the weakened position of Spain would proclaim Venezuelan independence. The so dreamed independence would not come until the Battle of Carabobo, glory to the brave people, Venezuela has been born in Carabobo!, and the Venezuelan richness would have a rise in the middle of the 20th century, thanks to their resources.",
+		"startIntroPart2": "Colonel! Your people call you, and express their affect, it's time to achieve what we have been waiting for years, it's time to bring back the glory that Venezuela deserves! Do you accept the challenge, your highness? Can you build a civilization that can stand the pass of time?",
 
 "introduction": "A pleasure to meet you, I am Pérez Jimenez, governor of Venezuela. I hope we get along.",
 "declaringWar": "Your nation is a danger to our sovereignty.",
