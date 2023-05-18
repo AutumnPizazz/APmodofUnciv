@@ -4,3025 +4,3095 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/BUILDING_DISTRICT_GKQ
+BuildingIcons/BUILDING_JQC
   rotate: false
-  xy: 1621, 1131
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/PROMOTION_GKXL_NUM1
-  rotate: false
-  xy: 1621, 1131
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/PROMOTION_GKXL_NUM2
-  rotate: false
-  xy: 1621, 1131
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/PROMOTION_GKXL_NUM3
-  rotate: false
-  xy: 1621, 1131
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DISTRICT_GYQ
-  rotate: false
-  xy: 1621, 1023
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/DISTRICT_GYQ
-  rotate: false
-  xy: 1621, 1023
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DISTRICT_JY_NUM1
-  rotate: false
-  xy: 171, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-CityStateIcons/Cultured
-  rotate: false
-  xy: 171, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DISTRICT_JY_NUM2
-  rotate: false
-  xy: 279, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/PROMOTION_JYXL_NUM1
-  rotate: false
-  xy: 279, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/PROMOTION_JYXL_NUM2
-  rotate: false
-  xy: 279, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/PROMOTION_JYXL_NUM3
-  rotate: false
-  xy: 279, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DISTRICT_SY
-  rotate: false
-  xy: 387, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DISTRICT_SYZX
-  rotate: false
-  xy: 495, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/DISTRICT_SYZX
-  rotate: false
-  xy: 495, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DISTRICT_XY
-  rotate: false
-  xy: 1509, 687
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/DISTRICT_XY
-  rotate: false
-  xy: 1509, 687
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DISTRICT_YLZX
-  rotate: false
-  xy: 1509, 579
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/DISTRICT_YLZX
-  rotate: false
-  xy: 1509, 579
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_DYC
-  rotate: false
-  xy: 1509, 471
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_GQ
-  rotate: false
-  xy: 1605, 363
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_XYSM
-  rotate: false
-  xy: 1617, 687
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/BUILDING_ZYZZ
-  rotate: false
-  xy: 1707, 915
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Chapultepec Castle
-  rotate: false
-  xy: 1621, 1239
-  size: 169, 174
-  orig: 169, 174
+  xy: 536, 1308
+  size: 336, 289
+  orig: 336, 289
   offset: 0, 0
   index: -1
 BuildingIcons/Coffee Axis
   rotate: false
-  xy: 565, 536
+  xy: 1032, 660
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Coffee Hacienda
   rotate: false
-  xy: 565, 536
+  xy: 1032, 660
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Coffee Hacienda
   rotate: false
-  xy: 565, 536
+  xy: 1032, 660
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Colon Free Port
   rotate: false
-  xy: 1093, 539
+  xy: 1025, 452
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Criollo Cannon
   rotate: false
-  xy: 1398, 1629
+  xy: 1359, 1077
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Ecotouristic Hotel
   rotate: false
-  xy: 1205, 864
+  xy: 1240, 868
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Folkloric Comparse
-  rotate: false
-  xy: 1509, 795
-  size: 190, 202
-  orig: 190, 202
-  offset: 0, 0
-  index: -1
 BuildingIcons/Free education
   rotate: false
-  xy: 1301, 656
+  xy: 1240, 660
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Free healthcare
   rotate: false
-  xy: 1301, 656
+  xy: 1240, 660
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Trade unions
   rotate: false
-  xy: 1301, 656
+  xy: 1240, 660
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Germ Warfare
-  rotate: false
-  xy: 1725, 699
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Infection
-  rotate: false
-  xy: 1906, 1405
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Jesuit Hacienda
   rotate: false
-  xy: 1606, 1421
+  xy: 1656, 869
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Latinity School
   rotate: false
-  xy: 1301, 448
+  xy: 1065, 244
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Lich King's Tomb
-  rotate: false
-  xy: 1922, 1729
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Main Square
   rotate: false
-  xy: 357, 328
+  xy: 1273, 244
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Mass Grave
-  rotate: false
-  xy: 1922, 1513
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Memento Mori
-  rotate: false
-  xy: 1725, 483
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Morgue
-  rotate: false
-  xy: 1821, 375
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/National Tombstone
-  rotate: false
-  xy: 1833, 591
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Peruvian Restaurant
-  rotate: false
-  xy: 4, 11
-  size: 159, 150
-  orig: 159, 150
   offset: 0, 0
   index: -1
 BuildingIcons/Public Veterinary
   rotate: false
-  xy: 981, 123
+  xy: 1689, 245
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Saltpeter Office
-  rotate: false
-  xy: 359, 764
-  size: 140, 122
-  orig: 140, 122
   offset: 0, 0
   index: -1
 BuildingIcons/Sambadrome
   rotate: false
-  xy: 212, 120
+  xy: 1689, 37
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Tango Theatre
+ImprovementIcons/IMPROVEMENT_GBW
   rotate: false
-  xy: 359, 894
-  size: 157, 174
-  orig: 157, 174
-  offset: 0, 0
-  index: -1
-BuildingIcons/Tasty Brains
-  rotate: false
-  xy: 1929, 267
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-CityStateIcons/CITY_STATE_TYPE_GYX
-  rotate: false
-  xy: 1814, 1729
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-CityStateIcons/CITY_STATE_TYPE_KYX
-  rotate: false
-  xy: 1814, 1621
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-CityStateIcons/Maritime
-  rotate: false
-  xy: 1922, 1621
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-CityStateIcons/Mechantile
-  rotate: false
-  xy: 1725, 591
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-CityStateIcons/Militaristic
-  rotate: false
-  xy: 1713, 147
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-CityStateIcons/Religious
-  rotate: false
-  xy: 952, 15
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Abyss
-  rotate: false
-  xy: 1095, 1172
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/DISTRICT_GKQ
-  rotate: false
-  xy: 1605, 147
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/DISTRICT_JY_NUM1
-  rotate: false
-  xy: 1189, 132
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/DISTRICT_JY_NUM2
-  rotate: false
-  xy: 1297, 132
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Graveyard
-  rotate: false
-  xy: 1837, 1205
-  size: 100, 100
-  orig: 100, 100
+  xy: 4, 104
+  size: 409, 471
+  orig: 409, 471
   offset: 0, 0
   index: -1
 ImprovementIcons/IMPROVEMENT_HYJY
   rotate: false
-  xy: 4, 766
+  xy: 421, 4
   size: 347, 302
   orig: 347, 302
   offset: 0, 0
   index: -1
+ImprovementIcons/IMPROVEMENT_MDGSC
+  rotate: false
+  xy: 536, 1605
+  size: 422, 410
+  orig: 422, 410
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Panama Canal
   rotate: false
-  xy: 565, 328
+  xy: 1441, 452
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/The Panama Canal
   rotate: false
-  xy: 565, 328
+  xy: 1441, 452
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Vigilance Post
-  rotate: false
-  xy: 1397, 240
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/Argentina
-  rotate: false
-  xy: 628, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Bolivia
-  rotate: false
-  xy: 1798, 1313
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Brazil
-  rotate: false
-  xy: 1707, 807
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Chile
-  rotate: false
-  xy: 1814, 1513
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Colombia
-  rotate: false
-  xy: 1617, 471
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Costa Rica
-  rotate: false
-  xy: 1605, 255
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Cuba
   rotate: false
-  xy: 1552, 1837
+  xy: 1567, 1077
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Ecuador
+NationIcons/NATION_ML
   rotate: false
-  xy: 1405, 132
-  size: 100, 100
-  orig: 100, 100
+  xy: 1774, 1723
+  size: 251, 292
+  orig: 251, 292
   offset: 0, 0
   index: -1
-NationIcons/El Salvador
+NationIcons/NATION_YDNXY
   rotate: false
-  xy: 1713, 363
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Mexico
-  rotate: false
-  xy: 1713, 255
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/NATION_BB_NUM1
-  rotate: false
-  xy: 1833, 699
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/NATION_BB_NUM2
-  rotate: false
-  xy: 1833, 699
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/NATION_FM_NUM1
-  rotate: false
-  xy: 1833, 699
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/NATION_FM_NUM2
-  rotate: false
-  xy: 1833, 699
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Panama
-  rotate: false
-  xy: 982, 1167
-  size: 105, 105
-  orig: 105, 105
-  offset: 0, 0
-  index: -1
-NationIcons/Paraguay
-  rotate: false
-  xy: 844, 15
-  size: 100, 100
-  orig: 100, 100
+  xy: 459, 689
+  size: 357, 357
+  orig: 357, 357
   offset: 0, 0
   index: -1
 NationIcons/Peru
   rotate: false
-  xy: 1189, 240
+  xy: 1481, 244
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/The Undead
-  rotate: false
-  xy: 1929, 159
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_FXSZY
-  rotate: false
-  xy: 1923, 989
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_GCZY
-  rotate: false
-  xy: 1923, 881
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_GDGH
-  rotate: false
-  xy: 1821, 267
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_GTZT
-  rotate: false
-  xy: 1821, 159
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_HCZJTZ
-  rotate: false
-  xy: 1821, 51
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_JZZ
-  rotate: false
-  xy: 1513, 39
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_QB
-  rotate: false
-  xy: 1621, 39
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_SQZT
-  rotate: false
-  xy: 1189, 24
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_SZHMZ
-  rotate: false
-  xy: 1297, 24
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_TTZYYZZY
-  rotate: false
-  xy: 1405, 24
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyBranchIcons/POLICY_ZBZY
-  rotate: false
-  xy: 736, 15
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Capybara
   rotate: false
-  xy: 1190, 1280
+  xy: 824, 660
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Cocoa
-  rotate: false
-  xy: 1617, 579
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 ResourceIcons/Coffee
   rotate: false
-  xy: 357, 536
+  xy: 1032, 868
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Cuban Cigars
   rotate: false
-  xy: 1398, 1421
+  xy: 1775, 1094
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Torcedores
   rotate: false
-  xy: 1398, 1421
+  xy: 1775, 1094
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Rubber
   rotate: false
-  xy: 536, 1637
+  xy: 966, 1615
   size: 400, 400
   orig: 400, 400
   offset: 0, 0
   index: -1
 TechIcons/TECHNOLOGY_GJNLDC
   rotate: false
-  xy: 527, 1119
+  xy: 4, 583
   size: 447, 463
   orig: 447, 463
   offset: 0, 0
   index: -1
 TechIcons/TECHNOLOGY_GJRGZN
   rotate: false
-  xy: 4, 1076
+  xy: 4, 1054
   size: 515, 506
   orig: 515, 506
   offset: 0, 0
   index: -1
 TechIcons/TECHNOLOGY_HYJY
   rotate: false
-  xy: 4, 1590
+  xy: 4, 1568
   size: 524, 447
   orig: 524, 447
   offset: 0, 0
   index: -1
-TechIcons/TECHNOLOGY_KX
-  rotate: false
-  xy: 1929, 375
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 TechIcons/TECHNOLOGY_KZL
   rotate: false
-  xy: 4, 377
+  xy: 1374, 1285
   size: 345, 381
   orig: 345, 381
   offset: 0, 0
   index: -1
 TechIcons/TECHNOLOGY_WXRW
   rotate: false
-  xy: 944, 1696
+  xy: 1374, 1674
   size: 392, 341
   orig: 392, 341
   offset: 0, 0
   index: -1
 TechIcons/TECHNOLOGY_YBXT
   rotate: false
-  xy: 885, 747
+  xy: 1727, 1302
   size: 312, 364
   orig: 312, 364
   offset: 0, 0
   index: -1
 TechIcons/TECHNOLOGY_ZNCL
   rotate: false
-  xy: 527, 744
+  xy: 459, 314
   size: 350, 367
   orig: 350, 367
   offset: 0, 0
   index: -1
 UnitIcons/201 Scuadron
   rotate: false
-  xy: 982, 1488
+  xy: 527, 1100
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Aca Yboty
   rotate: false
-  xy: 1190, 1488
+  xy: 735, 1076
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Angel of Death
-  rotate: false
-  xy: 773, 636
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Arms Merchant
-  rotate: false
-  xy: 628, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Black Death
-  rotate: false
-  xy: 1729, 1131
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Bone Dragon
-  rotate: false
-  xy: 1729, 1023
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Buccaneer
   rotate: false
-  xy: 1344, 1837
+  xy: 943, 1076
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Campesino Patriota
   rotate: false
-  xy: 982, 1280
+  xy: 824, 868
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Cascavel
   rotate: false
-  xy: 885, 539
+  xy: 817, 452
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Colorado
   rotate: false
-  xy: 1205, 1072
+  xy: 1151, 1076
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Fuerza Publica
   rotate: false
-  xy: 1413, 1213
+  xy: 1233, 452
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Gaucho
   rotate: false
-  xy: 1606, 1629
+  xy: 1448, 869
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Ghost
-  rotate: false
-  xy: 1815, 915
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Gravedigger
-  rotate: false
-  xy: 1815, 807
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Guerrillero
   rotate: false
-  xy: 1760, 1837
+  xy: 1448, 661
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Jungla
   rotate: false
-  xy: 1413, 1005
+  xy: 1656, 661
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Liberator Scuadron
   rotate: false
-  xy: 773, 331
+  xy: 1065, 36
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Lich King
-  rotate: false
-  xy: 1837, 1097
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mixed Militia
   rotate: false
-  xy: 4, 169
+  xy: 1273, 36
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Necromancer
-  rotate: false
-  xy: 1833, 483
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Patriot Army
   rotate: false
-  xy: 981, 331
+  xy: 1649, 453
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Peruvian Legion
   rotate: false
-  xy: 773, 123
+  xy: 1481, 36
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Rurales
+UnitIcons/UNIT_MDKLQB
   rotate: false
-  xy: 1060, 15
-  size: 100, 100
-  orig: 100, 100
+  xy: 776, 23
+  size: 281, 283
+  orig: 281, 283
   offset: 0, 0
   index: -1
-UnitIcons/Tarqui Grenadiers
+UnitIcons/UNIT_RKC
   rotate: false
-  xy: 420, 120
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/UNIT_ALSTGLS
-  rotate: false
-  xy: 1929, 57
-  size: 100, 94
-  orig: 100, 94
-  offset: 0, 0
-  index: -1
-UnitIcons/UNIT_DISTRICT_GKQ
-  rotate: false
-  xy: 1941, 773
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/UNIT_DISTRICT_GYQ
-  rotate: false
-  xy: 1941, 665
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/UNIT_DISTRICT_JY_NUM1
-  rotate: false
-  xy: 1941, 557
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/PROMOTION_CHZC
-  rotate: false
-  xy: 603, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/UNIT_CH
-  rotate: false
-  xy: 603, 4
-  size: 100, 100
-  orig: 100, 100
+  xy: 880, 1284
+  size: 313, 313
+  orig: 313, 313
   offset: 0, 0
   index: -1
 
 game2.png
-size: 2048, 256
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/BUILDING_DISTRICT_GKQ
+  rotate: false
+  xy: 904, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/PROMOTION_GKXL_NUM1
+  rotate: false
+  xy: 904, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/PROMOTION_GKXL_NUM2
+  rotate: false
+  xy: 904, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/PROMOTION_GKXL_NUM3
+  rotate: false
+  xy: 904, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DISTRICT_GYQ
+  rotate: false
+  xy: 1012, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DISTRICT_GYQ
+  rotate: false
+  xy: 1012, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DISTRICT_JY_NUM1
+  rotate: false
+  xy: 1120, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cultured
+  rotate: false
+  xy: 1120, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DISTRICT_JY_NUM2
+  rotate: false
+  xy: 1228, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/PROMOTION_JYXL_NUM1
+  rotate: false
+  xy: 1228, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/PROMOTION_JYXL_NUM2
+  rotate: false
+  xy: 1228, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/PROMOTION_JYXL_NUM3
+  rotate: false
+  xy: 1228, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/BUILDING_DISTRICT_SD
   rotate: false
-  xy: 1804, 202
+  xy: 1984, 970
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DISTRICT_SY
+  rotate: false
+  xy: 1336, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DISTRICT_SYZX
+  rotate: false
+  xy: 1444, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DISTRICT_SYZX
+  rotate: false
+  xy: 1444, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DISTRICT_XY
+  rotate: false
+  xy: 1552, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DISTRICT_XY
+  rotate: false
+  xy: 1552, 920
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/BUILDING_DISTRICT_YHZX
   rotate: false
-  xy: 1862, 202
+  xy: 1837, 538
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DISTRICT_YLZX
+  rotate: false
+  xy: 1660, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DISTRICT_YLZX
+  rotate: false
+  xy: 1660, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_DYC
+  rotate: false
+  xy: 1768, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_GQ
+  rotate: false
+  xy: 1876, 920
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/BUILDING_SWXLZJT
   rotate: false
-  xy: 1920, 202
+  xy: 1984, 912
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+BuildingIcons/BUILDING_XYSM
+  rotate: false
+  xy: 575, 807
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/BUILDING_ZYZZ
+  rotate: false
+  xy: 212, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Chapultepec Castle
+  rotate: false
+  xy: 4, 430
+  size: 169, 174
+  orig: 169, 174
+  offset: 0, 0
+  index: -1
+BuildingIcons/Folkloric Comparse
+  rotate: false
+  xy: 212, 818
+  size: 190, 202
+  orig: 190, 202
+  offset: 0, 0
+  index: -1
+BuildingIcons/Germ Warfare
+  rotate: false
+  xy: 436, 228
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Infection
+  rotate: false
+  xy: 328, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lich King's Tomb
+  rotate: false
+  xy: 544, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mass Grave
+  rotate: false
+  xy: 688, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Memento Mori
+  rotate: false
+  xy: 904, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Morgue
+  rotate: false
+  xy: 1228, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/National Tombstone
+  rotate: false
+  xy: 1444, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Peruvian Restaurant
+  rotate: false
+  xy: 212, 660
+  size: 159, 150
+  orig: 159, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Saltpeter Office
+  rotate: false
+  xy: 4, 300
+  size: 140, 122
+  orig: 140, 122
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tango Theatre
+  rotate: false
+  xy: 410, 846
+  size: 157, 174
+  orig: 157, 174
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tasty Brains
+  rotate: false
+  xy: 644, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/CITY_STATE_TYPE_GYX
+  rotate: false
+  xy: 112, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/CITY_STATE_TYPE_KYX
+  rotate: false
+  xy: 379, 710
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Maritime
+  rotate: false
+  xy: 428, 602
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Mechantile
+  rotate: false
+  xy: 796, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Militaristic
+  rotate: false
+  xy: 1120, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Religious
+  rotate: false
+  xy: 1763, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Abyss
+  rotate: false
+  xy: 4, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DISTRICT_GKQ
+  rotate: false
+  xy: 476, 336
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DISTRICT_JY_NUM1
+  rotate: false
+  xy: 220, 214
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DISTRICT_JY_NUM2
+  rotate: false
+  xy: 220, 106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/DISTRICT_SD
   rotate: false
-  xy: 544, 30
+  xy: 1984, 854
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ImprovementIcons/DISTRICT_YHZX
   rotate: false
-  xy: 652, 138
+  xy: 1953, 538
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Graveyard
+  rotate: false
+  xy: 544, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/IMPROVEMENT_GEFQC
+  rotate: false
+  xy: 428, 557
+  size: 34, 37
+  orig: 34, 37
   offset: 0, 0
   index: -1
 ImprovementIcons/IMPROVEMENT_HXC
   rotate: false
-  xy: 826, 138
+  xy: 945, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+ImprovementIcons/Vigilance Post
+  rotate: false
+  xy: 4, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Argentina
+  rotate: false
+  xy: 4, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Bolivia
+  rotate: false
+  xy: 320, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Brazil
+  rotate: false
+  xy: 112, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Chile
+  rotate: false
+  xy: 397, 444
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Colombia
+  rotate: false
+  xy: 260, 336
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Costa Rica
+  rotate: false
+  xy: 368, 336
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Ecuador
+  rotate: false
+  xy: 328, 228
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/El Salvador
+  rotate: false
+  xy: 328, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Mexico
+  rotate: false
+  xy: 1012, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/NATION_BB_NUM1
+  rotate: false
+  xy: 1336, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/NATION_BB_NUM2
+  rotate: false
+  xy: 1336, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/NATION_FM_NUM1
+  rotate: false
+  xy: 1336, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/NATION_FM_NUM2
+  rotate: false
+  xy: 1336, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/NATION_SGL
+  rotate: false
+  xy: 379, 667
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+NationIcons/Panama
+  rotate: false
+  xy: 575, 915
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+NationIcons/Paraguay
+  rotate: false
+  xy: 1655, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Undead
+  rotate: false
+  xy: 752, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Venezuela
   rotate: false
-  xy: 544, 152
+  xy: 721, 488
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_FXSZY
+  rotate: false
+  xy: 1660, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_GCZY
+  rotate: false
+  xy: 1768, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_GDGH
+  rotate: false
+  xy: 1876, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_GTZT
+  rotate: false
+  xy: 683, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_HCZJTZ
+  rotate: false
+  xy: 791, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_JZZ
+  rotate: false
+  xy: 899, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_QB
+  rotate: false
+  xy: 1007, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_SQZT
+  rotate: false
+  xy: 1115, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_SZHMZ
+  rotate: false
+  xy: 1223, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_TTZYYZZY
+  rotate: false
+  xy: 1331, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/POLICY_ZBZY
+  rotate: false
+  xy: 1439, 704
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/POLICY_CB
   rotate: false
-  xy: 884, 138
+  xy: 1003, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/POLICY_CSGH
   rotate: false
-  xy: 942, 138
+  xy: 1061, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/POLICY_DC
   rotate: false
-  xy: 1000, 138
+  xy: 1119, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/POLICY_FY
   rotate: false
-  xy: 1058, 138
+  xy: 1177, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/POLICY_JL
   rotate: false
-  xy: 1116, 138
+  xy: 1235, 474
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cocoa
+  rotate: false
+  xy: 152, 322
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/RESOURCE_WJZC
   rotate: false
-  xy: 1174, 138
+  xy: 1293, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+TechIcons/TECHNOLOGY_KX
+  rotate: false
+  xy: 536, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Anti-Aircraft Gun-Undead
   rotate: false
-  xy: 1446, 160
+  xy: 1525, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Anti-Aircraft Gun-Undead
   rotate: false
-  xy: 1446, 160
+  xy: 1525, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Aircraft Gun-Undead
   rotate: false
-  xy: 1446, 160
+  xy: 1525, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Anti-Aircraft Gun-Undead
   rotate: false
-  xy: 1446, 160
+  xy: 1525, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Anti-Tank Gun-Undead
   rotate: false
-  xy: 44, 8
+  xy: 545, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Anti-Tank Gun-Undead
   rotate: false
-  xy: 44, 8
+  xy: 545, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Tank Gun-Undead
   rotate: false
-  xy: 44, 8
+  xy: 545, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Anti-Tank Gun-Undead
   rotate: false
-  xy: 44, 8
+  xy: 545, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Archaeologist-Undead
   rotate: false
-  xy: 1486, 160
+  xy: 1565, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Archaeologist-Undead
   rotate: false
-  xy: 1486, 160
+  xy: 1565, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archaeologist-Undead
   rotate: false
-  xy: 1486, 160
+  xy: 1565, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Archaeologist-Undead
   rotate: false
-  xy: 1486, 160
+  xy: 1565, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Archer-Undead
   rotate: false
-  xy: 84, 8
+  xy: 585, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Archer-Undead
   rotate: false
-  xy: 84, 8
+  xy: 585, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Undead
   rotate: false
-  xy: 84, 8
+  xy: 585, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Archer-Undead
   rotate: false
-  xy: 84, 8
+  xy: 585, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Arms Merchant
   rotate: false
-  xy: 1526, 160
+  xy: 1605, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Arms Merchant
   rotate: false
-  xy: 1526, 160
+  xy: 1605, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arms Merchant
   rotate: false
-  xy: 1526, 160
+  xy: 1605, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Arms Merchant
   rotate: false
-  xy: 1526, 160
+  xy: 1605, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Artillery-Undead
   rotate: false
-  xy: 124, 8
+  xy: 625, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Artillery-Undead
   rotate: false
-  xy: 124, 8
+  xy: 625, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Artillery-Undead
   rotate: false
-  xy: 124, 8
+  xy: 625, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Artillery-Undead
   rotate: false
-  xy: 124, 8
+  xy: 625, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bazooka-Undead
   rotate: false
-  xy: 1566, 160
+  xy: 1645, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Bazooka-Undead
   rotate: false
-  xy: 1566, 160
+  xy: 1645, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bazooka-Undead
   rotate: false
-  xy: 1566, 160
+  xy: 1645, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bazooka-Undead
   rotate: false
-  xy: 1566, 160
+  xy: 1645, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Black Death
   rotate: false
-  xy: 164, 8
+  xy: 665, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Black Death
   rotate: false
-  xy: 164, 8
+  xy: 665, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Death
   rotate: false
-  xy: 164, 8
+  xy: 665, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Black Death
   rotate: false
-  xy: 164, 8
+  xy: 665, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bone Dragon
   rotate: false
-  xy: 1606, 160
+  xy: 1685, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Bone Dragon
   rotate: false
-  xy: 1606, 160
+  xy: 1685, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bone Dragon
   rotate: false
-  xy: 1606, 160
+  xy: 1685, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bone Dragon
   rotate: false
-  xy: 1606, 160
+  xy: 1685, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Caravel-Undead
   rotate: false
-  xy: 1686, 160
+  xy: 745, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Caravel-Undead
   rotate: false
-  xy: 1686, 160
+  xy: 745, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Caravel-Undead
   rotate: false
-  xy: 1686, 160
+  xy: 745, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Caravel-Undead
   rotate: false
-  xy: 1686, 160
+  xy: 745, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cavalry-Undead
   rotate: false
-  xy: 1726, 160
+  xy: 785, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Cavalry-Undead
   rotate: false
-  xy: 1726, 160
+  xy: 785, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Undead
   rotate: false
-  xy: 1726, 160
+  xy: 785, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Cavalry-Undead
   rotate: false
-  xy: 1726, 160
+  xy: 785, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Chariot Archer-Undead
   rotate: false
-  xy: 324, 8
+  xy: 584, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Chariot Archer-Undead
   rotate: false
-  xy: 324, 8
+  xy: 584, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Undead
   rotate: false
-  xy: 324, 8
+  xy: 584, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Chariot Archer-Undead
   rotate: false
-  xy: 324, 8
+  xy: 584, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Composite Bowman-Undead
   rotate: false
-  xy: 1846, 166
+  xy: 704, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Composite Bowman-Undead
   rotate: false
-  xy: 1846, 166
+  xy: 704, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Undead
   rotate: false
-  xy: 1846, 166
+  xy: 704, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Composite Bowman-Undead
   rotate: false
-  xy: 1846, 166
+  xy: 704, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Crossbowman-Undead
   rotate: false
-  xy: 1886, 166
+  xy: 704, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Crossbowman-Undead
   rotate: false
-  xy: 1886, 166
+  xy: 704, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Undead
   rotate: false
-  xy: 1886, 166
+  xy: 704, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Crossbowman-Undead
   rotate: false
-  xy: 1886, 166
+  xy: 704, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Frigate-Undead
   rotate: false
-  xy: 1966, 166
+  xy: 744, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Frigate-Undead
   rotate: false
-  xy: 1966, 166
+  xy: 744, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Frigate-Undead
   rotate: false
-  xy: 1966, 166
+  xy: 744, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Frigate-Undead
   rotate: false
-  xy: 1966, 166
+  xy: 744, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Future Infantry-Undead
   rotate: false
-  xy: 2006, 166
+  xy: 784, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Future Infantry-Undead
   rotate: false
-  xy: 2006, 166
+  xy: 784, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Future Infantry-Undead
   rotate: false
-  xy: 2006, 166
+  xy: 784, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Future Infantry-Undead
   rotate: false
-  xy: 2006, 166
+  xy: 784, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Galleass-Undead
   rotate: false
-  xy: 1406, 119
+  xy: 784, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Galleass-Undead
   rotate: false
-  xy: 1406, 119
+  xy: 784, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Galleass-Undead
   rotate: false
-  xy: 1406, 119
+  xy: 784, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Galleass-Undead
   rotate: false
-  xy: 1406, 119
+  xy: 784, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Gatling Gun-Undead
   rotate: false
-  xy: 1446, 124
+  xy: 624, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Gatling Gun-Undead
   rotate: false
-  xy: 1446, 124
+  xy: 624, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gatling Gun-Undead
   rotate: false
-  xy: 1446, 124
+  xy: 624, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Gatling Gun-Undead
   rotate: false
-  xy: 1446, 124
+  xy: 624, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ghost
   rotate: false
-  xy: 1526, 124
+  xy: 704, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Ghost
   rotate: false
-  xy: 1526, 124
+  xy: 704, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ghost
   rotate: false
-  xy: 1526, 124
+  xy: 704, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Ghost
   rotate: false
-  xy: 1526, 124
+  xy: 704, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Giant Death Robot-Undead
   rotate: false
-  xy: 1566, 124
+  xy: 744, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Giant Death Robot-Undead
   rotate: false
-  xy: 1566, 124
+  xy: 744, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Giant Death Robot-Undead
   rotate: false
-  xy: 1566, 124
+  xy: 744, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Giant Death Robot-Undead
   rotate: false
-  xy: 1566, 124
+  xy: 744, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Gravedigger
   rotate: false
-  xy: 1606, 124
+  xy: 784, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Gravedigger
   rotate: false
-  xy: 1606, 124
+  xy: 784, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gravedigger
   rotate: false
-  xy: 1606, 124
+  xy: 784, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Gravedigger
   rotate: false
-  xy: 1606, 124
+  xy: 784, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great Engineer-Undead
   rotate: false
-  xy: 1686, 124
+  xy: 1845, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Great Engineer-Undead
   rotate: false
-  xy: 1686, 124
+  xy: 1845, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Undead
   rotate: false
-  xy: 1686, 124
+  xy: 1845, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Great Engineer-Undead
   rotate: false
-  xy: 1686, 124
+  xy: 1845, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great Musician-Undead
   rotate: false
-  xy: 1726, 124
+  xy: 1885, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Great Musician-Undead
   rotate: false
-  xy: 1726, 124
+  xy: 1885, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Musician-Undead
   rotate: false
-  xy: 1726, 124
+  xy: 1885, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Great Musician-Undead
   rotate: false
-  xy: 1726, 124
+  xy: 1885, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great Prophet-Undead
   rotate: false
-  xy: 1766, 124
+  xy: 1925, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Great Prophet-Undead
   rotate: false
-  xy: 1766, 124
+  xy: 1925, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Prophet-Undead
   rotate: false
-  xy: 1766, 124
+  xy: 1925, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Great Prophet-Undead
   rotate: false
-  xy: 1766, 124
+  xy: 1925, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great Scientist-Undead
   rotate: false
-  xy: 1806, 130
+  xy: 1965, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Great Scientist-Undead
   rotate: false
-  xy: 1806, 130
+  xy: 1965, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Scientist-Undead
   rotate: false
-  xy: 1806, 130
+  xy: 1965, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Great Scientist-Undead
   rotate: false
-  xy: 1806, 130
+  xy: 1965, 502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great War Infantry-Undead
   rotate: false
-  xy: 1846, 130
+  xy: 1525, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Great War Infantry-Undead
   rotate: false
-  xy: 1846, 130
+  xy: 1525, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great War Infantry-Undead
   rotate: false
-  xy: 1846, 130
+  xy: 1525, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Great War Infantry-Undead
   rotate: false
-  xy: 1846, 130
+  xy: 1525, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Horseman-Undead
   rotate: false
-  xy: 1926, 130
+  xy: 1605, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Horseman-Undead
   rotate: false
-  xy: 1926, 130
+  xy: 1605, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Undead
   rotate: false
-  xy: 1926, 130
+  xy: 1605, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Horseman-Undead
   rotate: false
-  xy: 1926, 130
+  xy: 1605, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Infantry-Undead
   rotate: false
-  xy: 1966, 130
+  xy: 1645, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Infantry-Undead
   rotate: false
-  xy: 1966, 130
+  xy: 1645, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Undead
   rotate: false
-  xy: 1966, 130
+  xy: 1645, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Infantry-Undead
   rotate: false
-  xy: 1966, 130
+  xy: 1645, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Lancer-Undead
   rotate: false
-  xy: 602, 51
+  xy: 1725, 459
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Lancer-Undead
   rotate: false
-  xy: 602, 51
+  xy: 1725, 459
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lancer-Undead
   rotate: false
-  xy: 602, 51
+  xy: 1725, 459
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Lancer-Undead
   rotate: false
-  xy: 602, 51
+  xy: 1725, 459
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/LandUnit-Undead
   rotate: false
-  xy: 602, 15
+  xy: 1765, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/LandUnit-Undead
   rotate: false
-  xy: 602, 15
+  xy: 1765, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/LandUnit-Undead
   rotate: false
-  xy: 602, 15
+  xy: 1765, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/LandUnit-Undead
   rotate: false
-  xy: 602, 15
+  xy: 1765, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Landship-Undead
   rotate: false
-  xy: 1806, 94
+  xy: 1805, 455
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Landship-Undead
   rotate: false
-  xy: 1806, 94
+  xy: 1805, 455
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landship-Undead
   rotate: false
-  xy: 1806, 94
+  xy: 1805, 455
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Landship-Undead
   rotate: false
-  xy: 1806, 94
+  xy: 1805, 455
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Lich King
   rotate: false
-  xy: 1886, 91
+  xy: 1885, 463
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Lich King
   rotate: false
-  xy: 1886, 91
+  xy: 1885, 463
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lich King
   rotate: false
-  xy: 1886, 91
+  xy: 1885, 463
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Lich King
   rotate: false
-  xy: 1886, 91
+  xy: 1885, 463
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Longswordsman-Undead
   rotate: false
-  xy: 1926, 94
+  xy: 1925, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Longswordsman-Undead
   rotate: false
-  xy: 1926, 94
+  xy: 1925, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Undead
   rotate: false
-  xy: 1926, 94
+  xy: 1925, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Longswordsman-Undead
   rotate: false
-  xy: 1926, 94
+  xy: 1925, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Machine Gun-Undead
   rotate: false
-  xy: 1966, 94
+  xy: 1965, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Machine Gun-Undead
   rotate: false
-  xy: 1966, 94
+  xy: 1965, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Undead
   rotate: false
-  xy: 1966, 94
+  xy: 1965, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Machine Gun-Undead
   rotate: false
-  xy: 1966, 94
+  xy: 1965, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Marine-Undead
   rotate: false
-  xy: 2006, 90
+  xy: 2011, 520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Marine-Undead
   rotate: false
-  xy: 2006, 90
+  xy: 2011, 520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Marine-Undead
   rotate: false
-  xy: 2006, 90
+  xy: 2011, 520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Marine-Undead
   rotate: false
-  xy: 2006, 90
+  xy: 2011, 520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Mechanized Infantry-Undead
   rotate: false
-  xy: 1446, 88
+  xy: 2005, 484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Mechanized Infantry-Undead
   rotate: false
-  xy: 1446, 88
+  xy: 2005, 484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mechanized Infantry-Undead
   rotate: false
-  xy: 1446, 88
+  xy: 2005, 484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Mechanized Infantry-Undead
   rotate: false
-  xy: 1446, 88
+  xy: 2005, 484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Mobile SAM-Undead
   rotate: false
-  xy: 1566, 88
+  xy: 905, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Mobile SAM-Undead
   rotate: false
-  xy: 1566, 88
+  xy: 905, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mobile SAM-Undead
   rotate: false
-  xy: 1566, 88
+  xy: 905, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Mobile SAM-Undead
   rotate: false
-  xy: 1566, 88
+  xy: 905, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Modern Armor-Undead
   rotate: false
-  xy: 1606, 88
+  xy: 945, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Modern Armor-Undead
   rotate: false
-  xy: 1606, 88
+  xy: 945, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Modern Armor-Undead
   rotate: false
-  xy: 1606, 88
+  xy: 945, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Modern Armor-Undead
   rotate: false
-  xy: 1606, 88
+  xy: 945, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Necromancer
   rotate: false
-  xy: 1646, 83
+  xy: 985, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Necromancer
   rotate: false
-  xy: 1646, 83
+  xy: 985, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Necromancer
   rotate: false
-  xy: 1646, 83
+  xy: 985, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Necromancer
   rotate: false
-  xy: 1646, 83
+  xy: 985, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Paratrooper-Undead
   rotate: false
-  xy: 1726, 88
+  xy: 1065, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Paratrooper-Undead
   rotate: false
-  xy: 1726, 88
+  xy: 1065, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Paratrooper-Undead
   rotate: false
-  xy: 1726, 88
+  xy: 1065, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Paratrooper-Undead
   rotate: false
-  xy: 1726, 88
+  xy: 1065, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pikeman-Undead
   rotate: false
-  xy: 1846, 58
+  xy: 1185, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Pikeman-Undead
   rotate: false
-  xy: 1846, 58
+  xy: 1185, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Undead
   rotate: false
-  xy: 1846, 58
+  xy: 1185, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Pikeman-Undead
   rotate: false
-  xy: 1846, 58
+  xy: 1185, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Privateer-Undead
   rotate: false
-  xy: 1886, 55
+  xy: 1225, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Privateer-Undead
   rotate: false
-  xy: 1886, 55
+  xy: 1225, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Privateer-Undead
   rotate: false
-  xy: 1886, 55
+  xy: 1225, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Privateer-Undead
   rotate: false
-  xy: 1886, 55
+  xy: 1225, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Rifleman-Undead
   rotate: false
-  xy: 2006, 54
+  xy: 1345, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Rifleman-Undead
   rotate: false
-  xy: 2006, 54
+  xy: 1345, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Undead
   rotate: false
-  xy: 2006, 54
+  xy: 1345, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Rifleman-Undead
   rotate: false
-  xy: 2006, 54
+  xy: 1345, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Rocket Artillery-Undead
   rotate: false
-  xy: 1686, 52
+  xy: 1385, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Rocket Artillery-Undead
   rotate: false
-  xy: 1686, 52
+  xy: 1385, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rocket Artillery-Undead
   rotate: false
-  xy: 1686, 52
+  xy: 1385, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Rocket Artillery-Undead
   rotate: false
-  xy: 1686, 52
+  xy: 1385, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Spearman-Undead
   rotate: false
-  xy: 1806, 22
+  xy: 1425, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Spearman-Undead
   rotate: false
-  xy: 1806, 22
+  xy: 1425, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Undead
   rotate: false
-  xy: 1806, 22
+  xy: 1425, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Spearman-Undead
   rotate: false
-  xy: 1806, 22
+  xy: 1425, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Swordsman-Undead
   rotate: false
-  xy: 1846, 22
+  xy: 864, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Swordsman-Undead
   rotate: false
-  xy: 1846, 22
+  xy: 864, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Undead
   rotate: false
-  xy: 1846, 22
+  xy: 864, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Swordsman-Undead
   rotate: false
-  xy: 1846, 22
+  xy: 864, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tank-Undead
   rotate: false
-  xy: 1886, 19
+  xy: 1465, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Tank-Undead
   rotate: false
-  xy: 1886, 19
+  xy: 1465, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tank-Undead
   rotate: false
-  xy: 1886, 19
+  xy: 1465, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Tank-Undead
   rotate: false
-  xy: 1886, 19
+  xy: 1465, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Trireme-Undead
   rotate: false
-  xy: 1966, 22
+  xy: 904, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Trireme-Undead
   rotate: false
-  xy: 1966, 22
+  xy: 904, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Undead
   rotate: false
-  xy: 1966, 22
+  xy: 904, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Trireme-Undead
   rotate: false
-  xy: 1966, 22
+  xy: 904, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Warrior-Undead
   rotate: false
-  xy: 2006, 18
+  xy: 904, 366
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Warrior-Undead
   rotate: false
-  xy: 2006, 18
+  xy: 904, 366
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Undead
   rotate: false
-  xy: 2006, 18
+  xy: 904, 366
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Warrior-Undead
   rotate: false
-  xy: 2006, 18
+  xy: 904, 366
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/WaterUnit-Undead
   rotate: false
-  xy: 616, 104
+  xy: 944, 404
   size: 32, 26
   orig: 32, 26
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/WaterUnit-Undead
   rotate: false
-  xy: 616, 104
+  xy: 944, 404
   size: 32, 26
   orig: 32, 26
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/WaterUnit-Undead
   rotate: false
-  xy: 616, 104
+  xy: 944, 404
   size: 32, 26
   orig: 32, 26
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/WaterUnit-Undead
   rotate: false
-  xy: 616, 104
+  xy: 944, 404
   size: 32, 26
   orig: 32, 26
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Work Boats-Undead
   rotate: false
-  xy: 656, 102
+  xy: 944, 368
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Work Boats-Undead
   rotate: false
-  xy: 656, 102
+  xy: 944, 368
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Undead
   rotate: false
-  xy: 656, 102
+  xy: 944, 368
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Work Boats-Undead
   rotate: false
-  xy: 656, 102
+  xy: 944, 368
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Worker-Undead
   rotate: false
-  xy: 696, 102
+  xy: 984, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Units/Worker-Undead
   rotate: false
-  xy: 696, 102
+  xy: 984, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Undead
   rotate: false
-  xy: 696, 102
+  xy: 984, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Worker-Undead
   rotate: false
-  xy: 696, 102
+  xy: 984, 402
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Tiles/Abyss
   rotate: false
-  xy: 1406, 155
+  xy: 1984, 813
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyss
   rotate: false
-  xy: 1406, 155
+  xy: 1984, 813
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Abyss
   rotate: false
-  xy: 1406, 155
+  xy: 1984, 813
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/FantasyHex/Tiles/Graveyard
   rotate: false
-  xy: 1646, 119
+  xy: 1805, 491
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Graveyard
   rotate: false
-  xy: 1646, 119
+  xy: 1805, 491
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Graveyard
   rotate: false
-  xy: 1646, 119
+  xy: 1805, 491
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Capybara
   rotate: false
-  xy: 1646, 160
+  xy: 1725, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Capybara+Pasture
   rotate: false
-  xy: 244, 4
+  xy: 2011, 556
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cocoa
   rotate: false
-  xy: 364, 8
+  xy: 584, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee
   rotate: false
-  xy: 404, 4
+  xy: 624, 412
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee Hacienda
   rotate: false
-  xy: 444, 8
+  xy: 584, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee+Plantation
   rotate: false
-  xy: 484, 8
+  xy: 664, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Jungle Hills
   rotate: false
-  xy: 2006, 126
+  xy: 1685, 456
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Panama Canal
   rotate: false
-  xy: 1686, 88
+  xy: 1025, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Puesto vigilancia Salvador
   rotate: false
-  xy: 1926, 58
+  xy: 1265, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Vigilance Post
   rotate: false
-  xy: 1926, 58
+  xy: 1265, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rubber
   rotate: false
-  xy: 1726, 48
+  xy: 824, 398
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rubber+Lumber mill
   rotate: false
-  xy: 1766, 48
+  xy: 824, 358
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Aca Yboty
   rotate: false
-  xy: 4, 8
+  xy: 505, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Campesino Patriota
   rotate: false
-  xy: 204, 8
+  xy: 705, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cascavel
   rotate: false
-  xy: 284, 8
+  xy: 1765, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Colorado
   rotate: false
-  xy: 1766, 160
+  xy: 624, 376
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Comando Jungla
   rotate: false
-  xy: 1806, 166
+  xy: 664, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jungla
   rotate: false
-  xy: 1806, 166
+  xy: 664, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/First of Line
   rotate: false
-  xy: 1926, 166
+  xy: 744, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gaucho
   rotate: false
-  xy: 1486, 124
+  xy: 664, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guerrillero
   rotate: false
-  xy: 1886, 130
+  xy: 1565, 460
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Liberator Scuadron
   rotate: false
-  xy: 1846, 94
+  xy: 1845, 466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Milicia Mixta
   rotate: false
-  xy: 1486, 88
+  xy: 825, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mixed Militia
   rotate: false
-  xy: 1486, 88
+  xy: 825, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Milicia Mixta2
   rotate: false
-  xy: 1526, 88
+  xy: 865, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mixed Militia-2
   rotate: false
-  xy: 1526, 88
+  xy: 865, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Patriot Army
   rotate: false
-  xy: 1766, 88
+  xy: 1105, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Peruvian Legion
   rotate: false
-  xy: 1806, 58
+  xy: 1145, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rabona
   rotate: false
-  xy: 1966, 58
+  xy: 1305, 438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tarqui Grenadier
   rotate: false
-  xy: 1926, 22
+  xy: 864, 366
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabybara
   rotate: false
-  xy: 544, 88
+  xy: 4, 20
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Capybara
   rotate: false
-  xy: 544, 88
+  xy: 4, 20
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabybara1
   rotate: false
-  xy: 652, 196
+  xy: 829, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Capybara2
   rotate: false
-  xy: 652, 196
+  xy: 829, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Capybara+Pasture
   rotate: false
-  xy: 724, 196
+  xy: 76, 20
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Capybara+Pasture2
   rotate: false
-  xy: 796, 196
+  xy: 148, 20
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Capybara+Pasture3
   rotate: false
-  xy: 868, 196
+  xy: 901, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cocoa
   rotate: false
-  xy: 940, 196
+  xy: 973, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cocoa+Plantation
   rotate: false
-  xy: 1012, 196
+  xy: 1045, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Coffee
   rotate: false
-  xy: 1084, 196
+  xy: 1117, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Coffee Hacienda
   rotate: false
-  xy: 1156, 196
+  xy: 1189, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Coffee Hacienda-Industrial era
   rotate: false
-  xy: 1228, 196
+  xy: 1261, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Coffee+Plantation
   rotate: false
-  xy: 1300, 196
+  xy: 1333, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Flood plains
   rotate: false
-  xy: 1372, 196
+  xy: 1405, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Jungle Hills
   rotate: false
-  xy: 1444, 196
+  xy: 1477, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Panama Canal
   rotate: false
-  xy: 1516, 196
+  xy: 1549, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Puesto vigilancia
   rotate: false
-  xy: 1588, 196
+  xy: 1621, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Vigilance Post
   rotate: false
-  xy: 1588, 196
+  xy: 1621, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rubber
   rotate: false
-  xy: 1660, 196
+  xy: 1693, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rubber+Lumber mill
   rotate: false
-  xy: 1732, 196
+  xy: 1765, 532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+UnitIcons/Angel of Death
+  rotate: false
+  xy: 688, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Arms Merchant
+  rotate: false
+  xy: 796, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Black Death
+  rotate: false
+  xy: 181, 444
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bone Dragon
+  rotate: false
+  xy: 289, 444
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ghost
+  rotate: false
+  xy: 436, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gravedigger
+  rotate: false
+  xy: 544, 228
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lich King
+  rotate: false
+  xy: 436, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Necromancer
+  rotate: false
+  xy: 1552, 812
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Rurales
+  rotate: false
+  xy: 1871, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tarqui Grenadiers
+  rotate: false
+  xy: 4, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/UNIT_ALSTGLS
+  rotate: false
+  xy: 220, 4
+  size: 100, 94
+  orig: 100, 94
+  offset: 0, 0
+  index: -1
+UnitIcons/UNIT_DISTRICT_GKQ
+  rotate: false
+  xy: 860, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/UNIT_DISTRICT_GYQ
+  rotate: false
+  xy: 968, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/UNIT_DISTRICT_JY_NUM1
+  rotate: false
+  xy: 1076, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/UNIT_DISTRICT_JY_NUM2
   rotate: false
-  xy: 4, 152
+  xy: 1184, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_DISTRICT_SD
   rotate: false
-  xy: 4, 44
+  xy: 1292, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_DISTRICT_SYZZ
   rotate: false
-  xy: 112, 152
+  xy: 1400, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_DISTRICT_XY
   rotate: false
-  xy: 112, 44
+  xy: 1508, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_DISTRICT_YHZX
   rotate: false
-  xy: 220, 152
+  xy: 1616, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_DISTRICT_YLZX
   rotate: false
-  xy: 220, 44
+  xy: 1724, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/UNIT_GDJT
+  rotate: false
+  xy: 470, 565
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
 UnitIcons/UNIT_QCFZ
   rotate: false
-  xy: 328, 152
+  xy: 1832, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_SB
   rotate: false
-  xy: 328, 44
+  xy: 1940, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_TZBD
   rotate: false
-  xy: 436, 152
+  xy: 505, 488
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UNIT_YLB
   rotate: false
-  xy: 436, 44
+  xy: 613, 488
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Breach the Walls
   rotate: false
-  xy: 1978, 202
+  xy: 1895, 538
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Eat the Living
   rotate: false
-  xy: 710, 138
+  xy: 829, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hard to Kill Twice
   rotate: false
-  xy: 768, 138
+  xy: 887, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/PROMOTION_CHZC
+  rotate: false
+  xy: 1547, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/UNIT_CH
+  rotate: false
+  xy: 1547, 704
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Sickening Plague
   rotate: false
-  xy: 1232, 138
+  xy: 1351, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Summon the Lich King
   rotate: false
-  xy: 1290, 138
+  xy: 1409, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Undead
   rotate: false
-  xy: 1348, 138
+  xy: 1467, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
