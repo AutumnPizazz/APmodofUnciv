@@ -4,7 +4,7 @@
 		"name":"UNIT_WJG",
 		"unitType":"Civilian",
 		"movement":4,
-		"cost":300,
+		"cost":10000,
 		"requiredTech":"Philosophy",
 		"uniques":["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Ignores Zone of Control","Uncapturable"]
 	},
@@ -141,13 +141,44 @@
 		"uniques":["Can move after attacking","Invisible to non-adjacent units", "Can see invisible [Scout] units",
 		"Can build [Road] improvements on tiles"]
 	},
+	/*陆地运输单位
+	目前做不到
+	{//1级运兵车
+		"name":"UNIT_YBC1",
+		"unitType":"UNIT_TYPE_TRANSPORTATION",
+		"requiredTech":"The Wheel",
+		"obsoleteTech":"Machinery",
+		"upgradesTo":"UNIT_YBC2",
+		"movement":3,
+		"cost":55,
+		//"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+		"uniques":["Cannot attack","[+1] Movement bonus for [Military] units within [4] tiles","[-1] Sight"]
+	},
+	{//2级运兵车
+		"name":"UNIT_YBC2",
+		"unitType":"UNIT_TYPE_TRANSPORTATION",
+		"upgradesTo":"UNIT_YBC3",
+		"requiredTech":"Machinery",
+		"obsoleteTech":"Steam Power",
+		"movement":5,
+		"cost":115,
+		"uniques":["Cannot attack","Can carry [4] [{Military} {Land}] units","[-1] Sight"]
+	},
+	{//3级运兵车
+		"name":"UNIT_YBC3",
+		"unitType":"UNIT_TYPE_TRANSPORTATION",
+		"strength":30,
+		"requiredTech":"Steam Power",
+		"cost":240,
+		"uniques":["Cannot attack","Can carry [6] [{Military} {Land}] units","[-1] Sight"]
+	},
+	*/
 	/* Ancient Era */
 	{//工人
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": [
-		"Can build [Land] improvements on tiles",
+		"uniques": ["Can build [Land] improvements on tiles",
 		"Can build [Fishing Boats] improvements on tiles",
 		"Can build [Offshore Platform] improvements on tiles",
 	    "Can build [IMPROVEMENT_HXC] improvements on tiles",
@@ -437,7 +468,6 @@
 	{//希腊-希腊重步兵
 		"name": "Hoplite",
 		"unitType": "Sword",
-		"replaces": "Spearman",
 		"uniqueTo": "Greece",
 		"movement": 1,
 		"strength": 15,

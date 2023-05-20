@@ -1,4 +1,9 @@
 [
+/*    {
+        "name": "UNIT_TYPE_TRANSPORTATION",//运输
+        "movementType": "Land"
+    },
+*/
     {
         "name": "Civilian",//平民
         "movementType": "Land"
@@ -53,7 +58,7 @@
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
     {
-        "name": "Aircraft Carrier",//
+        "name": "Aircraft Carrier",//航空部件
         "movementType": "Water"
     },
     {

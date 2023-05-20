@@ -7,7 +7,7 @@
 		"quote":"GOVERNEOR_DIPLOMAT_AMANI_QUOTE",
 		"uniques":["Resting point for Influence with City-States is increased by [10]",
 				"Gifts of Gold to City-States generate [50]% more Influence <starting from the [Classical era]>",
-				"May buy [UNIT_WJG] units with [Faith] for [1] times their normal Production cost <starting from the [Medieval era]>",
+				"May buy [UNIT_WJG] units for [200] [Faith] [in this city] <starting from the [Medieval era]>",
 				"Provides [1] [RESOURCE_WJZC] <starting from the [Renaissance era]>",
 				"[-25]% Unhappiness from [Population] [in this city] <starting from the [Renaissance era]>",
 				"Destroyed when the city is captured",
