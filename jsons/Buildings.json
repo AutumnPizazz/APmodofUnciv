@@ -1,5 +1,135 @@
 [
-	
+	/*总督系统*/
+	{//阿玛尼
+		"name":"GOVERNEOR_DIPLOMAT_AMANI",
+		"cost":80,
+		"requiredTech":"Writing",
+		"quote":"GOVERNEOR_DIPLOMAT_AMANI_QUOTE",
+		"uniques":["Resting point for Influence with City-States is increased by [10]",
+				"Gifts of Gold to City-States generate [50]% more Influence <starting from the [Classical era]>",
+				"May buy [UNIT_WJG] units with [Faith] for [1] times their normal Production cost <starting from the [Medieval era]>",
+				"Provides [1] [RESOURCE_WJZC] <starting from the [Renaissance era]>",
+				"[-25]% Unhappiness from [Population] [in this city] <starting from the [Renaissance era]>",
+				"Destroyed when the city is captured",
+				"Governors building",
+				"Only available <in cities without a [Governors building]>",
+				"Limited to [1] per Civilization",
+				"Cannot be purchased"
+			]
+	},
+	{//梁
+		"name":"GOVERNEOR_SURVEROR_LIANG",
+		"cost":80,
+		"requiredTech":"The Wheel",
+		"quote":"GOVERNEOR_SURVEROR_LIANG_QUOTE",
+		"uniques":["All newly-trained [Worker] units [in this city] receive the [Mobility] promotion",
+				"[+25]% Production when constructing [District building] buildings [in this city] <starting from the [Classical era]>",
+				"[+1 Food] from [Water improvement] tiles <starting from the [Medieval era]>",
+				"[+1 Production] from [Water improvement] tiles <after discovering [Industrialization]>",
+				"May buy [UNIT_IMPROVEMENT_SLGY] units with [Faith] for [1] times their normal Production cost <starting from the [Renaissance era]>",
+				"[+2 Culture] from [IMPROVEMENT_SLGY] tiles [in this city]",
+				"Destroyed when the city is captured",
+				"Governors building",
+				"Only available <in cities without a [Governors building]>",
+				"Limited to [1] per Civilization",
+				"Cannot be purchased"
+			]
+	},
+	{//马格努斯
+		"name":"GOVERNEOR_STEWARD_MAGNUS",
+		"cost":80,
+		"requiredTech":"Bronze Working",
+		"quote":"GOVERNEOR_STEWARD_MAGNUS_QUOTE",
+		"uniques":["[+1 Gold] from [Road] tiles [in this city]",
+			"[+25]% Production when constructing [Settler] units [in this city]",
+			"[+20]% [Food] [in this city] <starting from the [Classical era]>",
+			"[25]% Food is carried over after population increases [in this city] <starting from the [Classical era]>",
+			"[+5 Production] from [DISTRICT_GYQ] tiles [in this city] <starting from the [Medieval era]>",
+			"[+25]% [Production] [in this city] <starting from the [Medieval era]>",
+			"[+1 Production] per [1] population [in this city] <starting from the [Renaissance era]>",
+			"Destroyed when the city is captured",
+			"Only available <in cities without a [Governors building]>",
+			"Governors building",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased"
+		]
+	},
+	{//莫克夏
+		"name":"GOVERNEOR_CARDINAL_MOKSHA",
+		"cost":80,
+		"requiredTech":"Calendar",
+		"quote":"GOVERNEOR_CARDINAL_MOKSHA_QUOTE",
+		"uniques":["[+2 Faith] from every [District building] [in this city]",
+		"[All] Units adjacent to this city heal [+10] HP per turn when healing <starting from the [Classical era]>",
+		"All newly-trained [Religious Unit] units [in this city] receive the [PROMOTION_CHZC] promotion <starting from the [Medieval era]>",
+		"All newly-trained [Religious Unit] units [in this city] receive the [PROMOTION_ZJRC] promotion <starting from the [Medieval era]>",
+		"[+3 Gold, +3 Culture, +3 Faith] from every [Holy site] [in this city] <starting from the [Renaissance era]>",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Governors building]>",
+		"Limited to [1] per Civilization",
+		"Governors building",
+		"Cannot be purchased"
+	]
+	},
+	{//平伽拉
+		"name":"GOVERNEOR_EDUCATOR_PINGALA",
+		"cost":100,
+		"requiredTech":"Writing",
+		"quote":"GOVERNEOR_EDUCATOR_PINGALA_QUOTE",
+		"percentStatBonus":{
+			"science":15,
+			"culture":15
+		},
+		"uniques":[
+		"[+50]% Production when constructing [Apollo Program] buildings [in this city]",
+		"[+1 Science, +1 Culture] per [2] population [in this city] <starting from the [Classical era]>",
+		"[+100]% Great Person generation [in this city] <starting from the [Medieval era]>",
+		"[+25]% [Culture] [in this city] <starting from the [Renaissance era]>",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Governors building]>",
+		"Limited to [1] per Civilization",
+		"Governors building",
+		"Cannot be purchased"
+	]
+	},
+	{//瑞娜
+		"name":"GOVERNEOR_FINANCIER_REYNA",
+		"cost":80,
+		"requiredTech":"The Wheel",
+		"quote":"GOVERNEOR_FINANCIER_REYNA_QUOTE",
+		"uniques":["[-30]% Culture cost of natural border growth [in this city]",
+		"[+1 Gold] from [Tree] tiles [in this city]",
+		"[+4 Gold, +1 Production] from [DISTRICT_SYZX] tiles [in this city] <starting from the [Classical era]>",
+		"[+4 Gold, +1 Production] from [DISTRICT_GKQ] tiles [in this city] <starting from the [Classical era]>",
+		"[+2 Gold] per [1] population [in this city] <starting from the [Medieval era]>",
+		"[+25]% [Gold] [in this city] <starting from the [Medieval era]>",
+		"[+4 Gold] from each Trade Route <starting from the [Renaissance era]>",
+		"Provides [1] [RESOURCE_WJZC] <starting from the [Renaissance era]>",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Governors building]>",
+		"Governors building",
+		"Limited to [1] per Civilization",
+		"Cannot be purchased"
+	]
+	},
+	{//维克多
+		"name":"GOVERNEOR_CASRELLAN_VICTOR",
+		"cost":50,
+		"requiredTech":"Masonry",
+		"quote":"GOVERNEOR_CASRELLAN_VICTOR_QUOTE",
+		"cityStrength":7,
+		"uniques":[
+		"[+15]% City Strength from defensive buildings <starting from the [Classical era]>",
+		"New [Military] units start with [10] Experience [in this city] <starting from the [Medieval era]>",
+		"All newly-trained [Military] units [in this city] receive the [Home Sweet Home] promotion <starting from the [Renaissance era]>",
+		"Destroyed when the city is captured",
+		"Only available <in cities without a [Governors building]>",
+		"Governors building",
+		"Limited to [1] per Civilization",
+		"Cannot be purchased"
+	]
+	},
+
 	/*新奇观*/
 	{//大浴场
 		"name": "BUILDING_DYC",
@@ -30,7 +160,8 @@
 		"requiredTech": "Theology"	,
 		"quote":"TEXT_21"
 	},
-	//外交胜利新建筑
+
+	/*外交胜利建筑*/
 	{//众拥之证
 		"name": "BUILDING_ZYZZ",
 		"isNationalWonder": true,
@@ -40,25 +171,34 @@
 		"Triggers a global alert upon completion",
 	    "Consumes [5] [RESOURCE_WJZC]"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	}
-	//新增区域系统
-	{//圣地地基项目
+	},
+	/*区域系统*/
+	{//市政部（市政广场）
+		"name":"BUILDING_DISTRICT_SZGC",
+		"isNationalWonder": true,
+		"cost":75,
+		"requiredTech":"Writing",
+		"hurryCostModifier":75,
+		"uniques":["[+1 Science, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in this city] <starting from the [Classical era]>",
+		"Free [UNIT_DISTRICT_SZGC] appears","District building"]
+	},
+	{//圣地地基
 		"name": "BUILDING_DISTRICT_SD",
 		"cost": 70,
 		"faith":1,
 		"hurryCostModifier": 70,
 		"requiredTech": "Calendar",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SD] appears"]
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SD] appears","District building"]
 	},
-	{//学院地基项目
+	{//学院地基
 		"name": "BUILDING_DISTRICT_XY",
 		"cost": 75,
 		"hurryCostModifier": 75,
 		"requiredTech": "Writing",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears","District building"],
 		"greatPersonPoints": {"Great Scientist": 2}
 	},
-	{//书院地基项目
+	{//朝鲜-书院地基
 		"name": "BUILDING_DISTRICT_SY",
 		"cost": 75,
 		"hurryCostModifier": 75,
@@ -66,62 +206,62 @@
 		"uniqueTo":"Korea",
 		"replaces":"BUILDING_DISTRICT_XY",
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears","获得额外2个科学家席位"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_XY] appears","Obtaining an additional 2 scientist positions","District building"],
 		"greatPersonPoints": {"Great Scientist": 2}
 	},
-	{//剧院地基项目
+	{//剧院地基
 		"name": "BUILDING_DISTRICT_JY_NUM1",
 		"cost": 100,
 		"hurryCostModifier": 100,
 		"requiredTech": "Drama and Poetry",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_NUM1] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_NUM1] appears","District building"],
 		"greatPersonPoints": {"Great Artist": 2}
 	},
-	{//商业中心地基项目
+	{//商业中心地基
 		"name": "BUILDING_DISTRICT_SYZX",
 		"cost": 100,
 		"hurryCostModifier": 100,
 		"requiredTech": "Currency",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SYZX] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_SYZX] appears","District building"],
 		"greatPersonPoints": {"Great Merchant": 2}
 	},
-	{//工业区地基项目
+	{//工业区地基
 		"name": "BUILDING_DISTRICT_GYQ",
 		"cost": 120,
 		"hurryCostModifier": 120,
 		"requiredTech": "Metal Casting",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GYQ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GYQ] appears","District building"],
 		"greatPersonPoints": {"Great Engineer": 2}
 	},
-	{//宇航中心地基项目
+	{//宇航中心地基
 		"name": "BUILDING_DISTRICT_YHZX",
 		"cost": 700,
 		"hurryCostModifier": 700,
 		"requiredTech": "Rocketry",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YHZX] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YHZX] appears","District building"],
 		"greatPersonPoints": {"Great Engineer": 2}
 	},
-	{//娱乐中心地基项目
+	{//娱乐中心地基
 		"name": "BUILDING_DISTRICT_YLZX",
 		"cost": 90,
 		"hurryCostModifier": 90,
 		"requiredTech": "Construction",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YLZX] appears"]
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_YLZX] appears","District building"]
 	},
-	{//港口区地基项目
+	{//港口区地基
 		"name": "BUILDING_DISTRICT_GKQ",
 		"cost": 90,
 		"hurryCostModifier": 90,
 		"requiredTech": "Optics",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GKQ] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_GKQ] appears","District building"],
 		"greatPersonPoints": {"Great General": 2}
 	},
-	{//军营地基项目
+	{//军营地基
 		"name": "BUILDING_DISTRICT_JY_NUM2",
 		"cost": 75,
 		"hurryCostModifier": 75,
 		"requiredTech": "Bronze Working",
-		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_NUM2] appears"],
+		"uniques": ["Unsellable","Free [UNIT_DISTRICT_JY_NUM2] appears","District building"],
 		"greatPersonPoints": {"Great General": 2}
 	},
 
@@ -130,7 +270,7 @@
 	// Ancient Era
 
 	// Always available
-	{
+	{//宫殿
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
@@ -141,7 +281,7 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
-	{
+	{//纪念碑
 		"name": "Monument",
 		"culture": 1,
 		"happiness":1,
@@ -149,7 +289,7 @@
 		"hurryCostModifier": 40,
 		"uniques": ["[+2 Culture] <after discovering [Archaeology]>"]
 	},
-	{
+	{//埃塞俄比亚-石碑
 		"name": "Stele",
 		"replaces": "Monument",
 		"uniqueTo": "Ethiopia",
@@ -161,7 +301,7 @@
 		"uniques": ["[+2 Culture] <after discovering [Archaeology]>"] //"Hidden when religion is disabled"
 	},
 	// Column 1
-	{
+	{//粮仓
 		"name": "Granary",
 		"food": 1,
 		"cost": 35,
@@ -169,7 +309,7 @@
 		"uniques": ["[+1 Food] per [4] population [in this city]"],
 		"requiredTech": "Pottery"
 	},
-	{
+	{//神社
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
@@ -443,7 +583,7 @@
 		"requiredTech": "Construction",
 		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"]
 	},
-	{
+	{//阿兹特克-蹴球场
 		"name": "BUILDING_JQC",
 		"replaces": "Colosseum",
 		"uniqueTo": "Aztecs",
@@ -1500,6 +1640,7 @@
 			"culture": 5,
 			"specialistSlots": {"Artist": 3},
 			"uniqueTo": "Argentina",
+			"uniques":["Must have an owned [DISTRICT_JY_NUM1] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "The most iconic music from the platine nation, this romantic and dramatic dances, played mainly by the accordion or piano. Birthed in the Golden Age, its characteristic moves make it the emblem of Argentina."
@@ -1513,11 +1654,12 @@
 			"requiredBuilding": "Monument",
 			"cost": 110,
 			"maintenance": 1,
-			"happiness": 1,
+			"happiness": 3,
 			"culture": 4,
 			"specialistSlots": {"Artist": 2},
 			"greatPersonPoints": {"Great Artist": 1},
 			"uniqueTo": "Bolivia",
+			"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "A complete carnival composed of many ethnicities celebrating and enjoying together under one banner, the Bolivian nation."
@@ -1532,7 +1674,7 @@
 			"maintenance": 2,
 			"specialistSlots": {"Artist": 1},
 			"uniqueTo": "Brazil",
-			"uniques": ["[+1 Happiness] per [4] population [in this city]","[+100]% [Culture] [in this city] <during a Golden Age>"],
+			"uniques": ["[+1 Happiness] per [3] population [in this city]","[+100]% [Culture] [in this city] <during a Golden Age>","Must have an owned [DISTRICT_YLZX] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "The most folkloric of the musical genres of Brazil is danced and spectated in these paths. Full of dances, decorated wagons, choreographed shows and loud music, it is truly a spectacle."
@@ -1549,7 +1691,7 @@
 			"percentStatBonus": {"production": 10},
 			"specialistSlots": {"Engineer": 1},
 			"uniqueTo": "Chile",
-			"uniques": ["Must be next to [Desert]", "[+2 Production] from [Salt] tiles [in this city]"],
+			"uniques": ["Must be next to [Desert]", "[+2 Production] from [Salt] tiles [in this city]","Must have an owned [DISTRICT_GYQ] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "These offices offered job and asylum to workers from all over the world who came to the driest desert to extract the valuable Nitratine. On the Atacama Desert, these posts were pivotal for the economy of whom controlled it, very important."
@@ -1564,6 +1706,7 @@
 			"uniqueTo": "Colombia",
 			"uniques": ["Creates a [Coffee Hacienda] improvement on a specific tile",
 					"+1 Coffee from Coffee Hacienda",
+					"Must have an owned [DISTRICT_GYQ] within [3] tiles",
 					"[+1 Production, +1 Culture, +1 Gold] from [Coffee Hacienda] tiles [in this city]",
 					"The Hacienda Cannot be build on Desert, Tundra nor Snow, only at Grassland/Plains Hills",
 					"Limited to [4] per Civilization","Destroyed when the city is captured","Unsellable"],
@@ -1594,7 +1737,7 @@
 			"percentStatBonus": {"gold": 25},
 			"uniqueTo": "Costa Rica",
 			"uniques": ["[+1 Gold] from every [Forest] tiles [in this city]","[+1 Gold] from every [Coast] tiles [in this city]",
-				   "[+15]% [Gold] <after discovering [Flight]>"],
+				   "[+15]% [Gold] <after discovering [Flight]>","Must have an owned [DISTRICT_SYZX] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "Pioneers on the ecotourism buisness, added with the Costa Rican landscapes and Caribbean shores, makes of them a great destiny for holiday vacation."
@@ -1610,8 +1753,8 @@
 			"hurryCostModifier": 15,
 			"percentStatBonus": {"gold": 25},
 			"requiredBuilding": "Market",
-			"uniques": ["Provides [1] [Cuban Cigars]","[+2 Gold] from [Plantation] tiles [in this city]"],
-			"requiredTech": "Banking",
+			"uniques": ["Provides [1] [Cuban Cigars]","[+2 Gold] from [Plantation] tiles [in this city]","Must have an owned [DISTRICT_SYZX] within [3] tiles"],
+			"requiredTech": "Banking"
 		},
 		{
 			"name": "Trade unions",
@@ -1620,7 +1763,7 @@
 			"cost": 1,
 			"requiredBuilding": "Factory",
 			"uniques": ["Free Social Policy", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Unsellable"],
-			"requiredTech": "Industrialization",
+			"requiredTech": "Industrialization"
 		},
 		{
 			"name": "Free education",
@@ -1629,7 +1772,7 @@
 			"cost": 1,
 			"requiredBuilding": "Public School",
 			"uniques": ["Free Social Policy", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Unsellable"],
-			"requiredTech": "Education",
+			"requiredTech": "Education"
 		},
 		{
 			"name": "Free healthcare",
@@ -1638,7 +1781,7 @@
 			"cost": 1,
 			"requiredBuilding": "Hospital",
 			"uniques": ["Free Social Policy", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Unsellable"],
-			"requiredTech": "Biology",
+			"requiredTech": "Biology"
 		},
 		{ //Ecuador's
 			"name": "Main Square",
@@ -1750,7 +1893,7 @@
 			"percentStatBonus": {"food": 5},
 			"specialistSlots": {"Engineer": 1},
 			"uniqueTo": "Paraguay",
-			"uniques": ["[+1 Culture] from [River] tiles [in this city]","[+10]% Production when constructing [All] buildings [in this city]"],
+			"uniques": ["[+1 Culture] from [River] tiles [in this city]","[+10]% Production when constructing [All] buildings [in this city]","Must have an owned [DISTRICT_GYQ] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "These Haciendas were formed by migrating Jesuits, and they were one of the reasons for the native people of Paraguay, the Guaranís, remained strong and gave Paraguay its culture, so much so, that the Guaraní is almost as much spoken as Spanish."
@@ -1768,6 +1911,7 @@
 			"gold": 1,
 			"percentStatBonus": {"culture": 25},
 			"uniqueTo": "Peru",
+			"uniques":[,"Must have an owned [DISTRICT_JY_NUM1] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "The globally famous Peruvian cuisine, dating back to Incan times, is the shiny jewel of Quechua dishes. Featuring the Cuy and the Ceviche, Peruvian food is to admire."
@@ -1785,7 +1929,7 @@
 			"science": 5,
 			"specialistSlots": {"Scientist": 2},
 			"uniqueTo": "Venezuela",
-			"uniques": ["[+1 Science] per [2] population [in this city]","Destroyed when the city is captured"],
+			"uniques": ["[+1 Science] per [2] population [in this city]","Destroyed when the city is captured","Must have an owned [DISTRICT_XY] within [3] tiles"],
 			"civilopediaText": [
 				{
 					"text": "Founded by the Spaniards, the Latinity Schools were meant to teach the locals the Spanish language, to read, write and the Catholic religion. These institutions played a mayor role in assimilating the natives."
@@ -1861,7 +2005,7 @@
 			"replaces": "Library",
 			"hurryCostModifier": 25,
 			"maintenance": 1,
-			"uniques": ["[+1 Science] per [3] population [in this city]"],
+			"uniques": ["[+1 Science] per [3] population [in this city]","Must have an owned [DISTRICT_XY] within [3] tiles"],
 			"requiredTech": "Writing"
 		},
 		{
@@ -1871,7 +2015,7 @@
 			"gold": 2,
 			"specialistSlots": {"Merchant": 1},
 			"uniques": ["Doubles Gold given to enemy if city is captured",
-				"All newly-trained [Military] units [in this city] receive the [Summon the Lich King] promotion"],
+				"All newly-trained [Military] units [in this city] receive the [Summon the Lich King] promotion","Must have an owned [DISTRICT_SYZX] within [3] tiles"],
 			"hurryCostModifier": 15,
 			"percentStatBonus": {"gold": 25},
 			"requiredBuilding": "Market",

@@ -1,4 +1,117 @@
 [
+	/*总督系统*/
+	{//外交官
+		"name":"UNIT_WJG",
+		"unitType":"Civilian",
+		"movement":4,
+		"cost":300,
+		"requiredTech":"Philosophy",
+		"uniques":["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Ignores Zone of Control","Uncapturable"]
+	},
+	{//公园建造者
+		"name":"UNIT_IMPROVEMENT_SLGY",
+		"unitType":"Civilian",
+		"movement":4,
+		"cost":350,
+		"requiredTech":"Acoustics",
+		"uniques":["Can instantly construct a [IMPROVEMENT_SLGY] improvement <by consuming this unit>"]
+	},
+	/*区域系统*/
+	{//市政广场建造者
+		"name":"UNIT_DISTRICT_SZGC",
+		"unitType":"Civilian",
+		"uniques":["Can instantly construct a [DISTRICT_SZGC] improvement <by consuming this unit>", 
+		"Unbuildable", "Uncapturable"]
+	},
+	{//圣地建造者
+		"name": "UNIT_DISTRICT_SD",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_SD] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//学院建造者
+		"name": "UNIT_DISTRICT_XY",
+		"unitType": "Civilian",
+			"uniques": ["Can instantly construct a [DISTRICT_XY] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//剧院建造者
+		"name": "UNIT_DISTRICT_JY_NUM1",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_JY_NUM1] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//商业中心建造者
+		"name": "UNIT_DISTRICT_SYZX",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_SYZX] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//工业区建造者
+		"name": "UNIT_DISTRICT_GYQ",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_GYQ] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//宇航中心建造者
+		"name": "UNIT_DISTRICT_YHZX",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_YHZX] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//娱乐中心建造者
+		"name": "UNIT_DISTRICT_YLZX",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_YLZX] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//港口区建造者
+		"name": "UNIT_DISTRICT_GKQ",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_GKQ] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{//军营建造者
+		"name": "UNIT_DISTRICT_JY_NUM2",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [DISTRICT_JY_NUM2] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	/*侦查单位*/
+	{//斥候
+		"name": "UNIT_CH",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 30,
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "UNIT_SB",
+		"attackSound": "nonmetalhit",
+		"uniques":["Can build [Road] improvements on tiles"]
+	},
+	{//散兵
+		"name": "UNIT_SB",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 10,
+		"range": 1,
+		"rangedStrength": 10,
+		"cost": 90,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Radar",
+		"upgradesTo": "UNIT_TZBD",
+		"attackSound": "nonmetalhit",
+		"uniques":["Can move after attacking","Can build [Road] improvements on tiles"]
+	},
 	{//苏格兰-高地军团
 		"name": "UNIT_GDJT",
 		"replaces":"UNIT_SB",
@@ -14,64 +127,7 @@
 		"upgradesTo": "UNIT_TZBD",
 		"attackSound": "nonmetalhit",
 		"uniques":["Can move after attacking","[+15]% Strength <when fighting in [Rough terrain] tiles>"]
-    },
-	{//曼德卡鲁骑兵
-		"name":"UNIT_MDKLQB",
-		"replaces": "Horseman",
-		"uniqueTo":"NATION_ML",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","[-50]% Strength <vs cities> <when attacking>","Consumes [2] [Horses]"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
 	},
-	{//印度尼西亚-戎克船
-		"name": "UNIT_RKC",
-		"uniqueTo":"NATION_YDNXY",
-		"replaces":"Frigate",
-		"uniques":["[+15]% Strength <vs [Water] units>"],
-		"promotions": ["Great Generals II"],
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 25,
-		"range":3,
-		"rangedStrength": 28,
-		"cost": 185,
-		"requiredResource": "Iron",
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "cannon"
-	},
-	{//医疗兵
-		"name": "UNIT_YLB",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"uniques": ["All adjacent units heal [+10] HP when healing", "[+10] HP when healing","[-1] Sight"],
-		"hurryCostModifier": 20
-	},
-	{//散兵
-		"name": "UNIT_SB",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 10,
-		"range": 1,
-		"rangedStrength": 10,
-		"cost": 90,
-		"requiredTech": "Machinery",
-		"obsoleteTech": "Radar",
-		"upgradesTo": "UNIT_TZBD",
-		"attackSound": "nonmetalhit",
-		"uniques":["Can move after attacking","Can build [Road] improvements on tiles"]
-    },
 	{//特种部队
 		"name": "UNIT_TZBD",
 		"unitType": "Scout",
@@ -83,15 +139,15 @@
 		"requiredTech": "Radar",
 		"attackSound": "nonmetalhit",
 		"uniques":["Can move after attacking","Invisible to non-adjacent units", "Can see invisible [Scout] units",
-"Can build [Road] improvements on tiles"]
-},
-
+		"Can build [Road] improvements on tiles"]
+	},
 	/* Ancient Era */
 	{//工人
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles",
+		"uniques": [
+		"Can build [Land] improvements on tiles",
 		"Can build [Fishing Boats] improvements on tiles",
 		"Can build [Offshore Platform] improvements on tiles",
 	    "Can build [IMPROVEMENT_HXC] improvements on tiles",
@@ -122,18 +178,7 @@
         "hurryCostModifier": 40
 	},
 	*/
-    {//斥候
-		"name": "UNIT_CH",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 5,
-		"cost": 30,
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "UNIT_SB",
-		"attackSound": "nonmetalhit",
-		"uniques":["Can build [Road] improvements on tiles"]
-	},
-	{
+	{//勇士
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
@@ -147,7 +192,7 @@
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
-	{
+	{//波利尼西亚-毛利勇士
 		"name": "Maori Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "Polynesia",
@@ -160,7 +205,7 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
-	{
+	{//阿兹特克-雄鹰战士
 		"name": "Jaguar",
 		"unitType": "Sword",
 		"uniqueTo": "Aztecs",
@@ -173,7 +218,7 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
-	{
+	{//蛮族-蛮族勇士
 		"name": "Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
@@ -185,7 +230,7 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
-	{
+	{//弓箭手
 		"name": "Archer",
 		"unitType": "Archery",
 		"movement": 2,
@@ -197,7 +242,7 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
-	{
+	{//巴比伦-巴比伦弓手
 		"name": "Bowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -211,7 +256,7 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
-	{
+	{//印加-投石手
 		"name": "Slinger",
 		"unitType": "Archery",
 		"uniqueTo": "Inca",
@@ -226,7 +271,7 @@
 		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow"
 	},
-	{
+	{//玛雅-投枪手
 		"name": "Atlatlist",
 		"unitType": "Archery",
 		"movement": 2,
@@ -241,7 +286,7 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
-	{
+	{//蛮族-蛮族弓箭手
 		"name": "Skirmisher",
 		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
@@ -255,7 +300,7 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
-	{
+	{//三列桨帆船
 		"name": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
@@ -267,7 +312,7 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
-	{
+	{//迦太基-五列桨帆船
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
 		"uniqueTo": "Carthage",
@@ -281,7 +326,7 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
-	{
+	{//拜占庭-德罗蒙战舰
 		"name": "Dromon",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Byzantium",
@@ -296,7 +341,7 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"
 	},
-	{
+	{//蛮族-桨帆船
 		"name": "Galley",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
@@ -309,7 +354,7 @@
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
-    {
+    {//战车射手
 		"name": "Chariot Archer",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -325,7 +370,7 @@
         "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
-	{
+	{//埃及-埃及战车
 		"name": "War Chariot",
 		"unitType": "Mounted",
 		"uniqueTo": "Egypt",
@@ -343,7 +388,7 @@
 		"Can move after attacking"],
 		"attackSound": "arrow"
 	},
-	{
+	{//匈人-骑射手
 		"name": "Horse Archer",
 		"unitType": "Mounted",
 		"uniqueTo": "The Huns",
@@ -361,7 +406,7 @@
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
 	},
-    {
+    {//印度-印度战象
 		"name": "War Elephant",
 		"unitType": "Mounted",
 		"uniqueTo": "India",
@@ -376,8 +421,8 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "elephant"
-	}
-	{
+	},
+	{//枪兵
 		"name": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -386,10 +431,10 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","UNIT_TYPE_FQ"],
 		"attackSound": "metalhit"
 	},
-	{
+	{//希腊-希腊重步兵
 		"name": "Hoplite",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -401,10 +446,11 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>",
-		"[+50]% Strength <vs [All] units> <when defending>"],
+		"[+50]% Strength <vs [All] units> <when defending>",
+		"UNIT_TYPE_FQ"],
 		"attackSound": "metalhit"
 	},
-	{
+	{//波斯-波斯长生军
 		"name": "Persian Immortal",
 		"unitType": "Archery",
 		"replaces": "Spearman",
@@ -417,12 +463,14 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when defending>","[+100]% Strength <vs [Archery] units> <when defending>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units> <when defending>",
+		"[+100]% Strength <vs [Archery] units> <when defending>",
+		"UNIT_TYPE_FQ"],
 		"attackSound": "arrow"
 	},
-	{
+	{//匈人-攻城锤
 		"name": "Battering Ram",
-		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
+		"unitType": "Sword",
 		"replaces": "Spearman",
 		"uniqueTo": "The Huns",
 		"movement": 2,
@@ -437,7 +485,7 @@
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
-	{
+	{//凯尔特-皮克特战士
 		"name": "Pictish Warrior",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -451,7 +499,7 @@
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
-	{
+	{//蛮族-掠夺者
 		"name": "Marauder",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -462,12 +510,12 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","UNIT_TYPE_FQ"],
 		"attackSound": "metalhit"
 	},
 
 	/* Classical Era */
-	{
+	{//骑手
 		"name": "Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -481,7 +529,22 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-	{
+	{//马里-曼德卡鲁骑兵
+		"name":"UNIT_MDKLQB",
+		"replaces": "Horseman",
+		"uniqueTo":"NATION_ML",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","[-50]% Strength <vs cities> <when attacking>","Consumes [2] [Horses]"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{//希腊-马其顿禁卫骑兵
 		"name": "Companion Cavalry",
 		"unitType": "Mounted",
 		"uniqueTo": "Greece",
@@ -498,7 +561,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-	{
+	{//迦太基-非洲森林象
 		"name": "African Forest Elephant",
 		"unitType": "Mounted",
 		"uniqueTo": "Carthage",
@@ -515,7 +578,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
-	{
+	{//拜占庭-甲胄骑兵
 		"name": "Cataphract",
 		"unitType": "Mounted",
 		"uniqueTo": "Byzantium",
@@ -531,7 +594,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-	{
+	{//投石车
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
@@ -546,7 +609,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
-	{
+	{//罗马-罗马弩炮
 		"name": "Ballista",
 		"unitType": "Siege",
 		"replaces": "Catapult",
@@ -563,7 +626,16 @@
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
-	{
+	{//医疗兵
+		"name": "UNIT_YLB",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"uniques": ["All adjacent units heal [+10] HP when healing", "[+10] HP when healing","[-1] Sight"],
+		"hurryCostModifier": 20
+	},
+	{//复合弓兵
 		"name": "Composite Bowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -575,7 +647,7 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
-	{
+	{//剑士
 		"name": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -588,7 +660,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-	{
+	{//罗马-古罗马军团
 		"name": "Legion",
 		"unitType": "Sword",
 		"uniqueTo": "Rome",
@@ -606,7 +678,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-	{
+	{//易洛魁-莫霍克战士
 		"name": "Mohawk Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "Iroquois",
@@ -639,19 +711,19 @@
 	*/
 
 	// Medieval Era
-	{
+	{//长枪兵
 		"name": "Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","UNIT_TYPE_FQ"],
 		"upgradesTo": "UNIT_QCFZ",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
-	{
+	{//德意志-德意志雇佣兵
 		"name": "Landsknecht",
 		"unitType": "Sword",
 		"replaces": "Pikeman",
@@ -660,7 +732,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought","UNIT_TYPE_FQ"],
 		"upgradesTo": "UNIT_QCFZ",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -1015,11 +1087,30 @@
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
 	},
-	{
+	{//护卫舰
 		"name": "Frigate",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{//印度尼西亚-戎克船
+		"name": "UNIT_RKC",
+		"uniqueTo":"NATION_YDNXY",
+		"replaces":"Frigate",
+		"uniques":["[+15]% Strength <vs [Water] units>"],
+		"promotions": ["Great Generals II"],
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"range":3,
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredResource": "Iron",
@@ -1046,14 +1137,14 @@
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
-	{
+	{//枪刺方阵（取代众神与国王的枪骑兵）
 		"name": "UNIT_QCFZ",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 28,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","UNIT_TYPE_FQ"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
@@ -1536,12 +1627,14 @@
 		"strength": 150,
 		"rangedStrength": 150,
 		"range": 10,
-		"cost": 600,
+		"cost": 800,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"promotions" : ["Evasion"],
-		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
-			"Blast radius [2]"],
+		"uniques": ["Nuclear weapon of Strength [1]",
+				"Only available <if [Manhattan Project] is constructed>",
+				"Self-destructs when attacking",
+				"Blast radius [1]"],
 		"attackSound": "nuke"
 		// Plane rather than a missile - can be based in city or Carrier only.
 		// Can be intercepted, but must die for it not to take effect.
@@ -1592,10 +1685,12 @@
 		"strength": 300,
 		"rangedStrength": 300,
 		"range": 12,
-		"cost": 1000,
+		"cost": 1400,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [2]", "Consumes [2] [Uranium]"],
+		"uniques": ["Nuclear weapon of Strength [2]",
+					"Only available <if [Manhattan Project] is constructed>",
+					"Blast radius [2]",
+					"Consumes [2] [Uranium]"],
 		"attackSound": "nuke"
 	},
 	{
@@ -1723,7 +1818,7 @@
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
@@ -1769,7 +1864,7 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 6
 	},
-	{
+	{//波斯-阿里斯塔格拉斯
 		"name": "UNIT_ALSTGLS",
 		"unitType": "Civilian",
 		"uniqueTo": "Persia",
@@ -1780,69 +1875,6 @@
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 3
-	},
-	{
-		"name": "UNIT_DISTRICT_SD",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_SD] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_XY",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_XY] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_JY_NUM1",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_JY_NUM1] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_SYZX",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_SYZX] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_GYQ",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_GYQ] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_YHZX",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_YHZX] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_YLZX",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_YLZX] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_GKQ",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_GKQ] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
-	{
-		"name": "UNIT_DISTRICT_JY_NUM2",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [DISTRICT_JY_NUM2] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable"],
-		"movement": 4
 	},
 
 	/* Religious units */

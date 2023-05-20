@@ -1,6 +1,10 @@
 [
 	//新增晋升
 	{
+		"name":"PROMOTION_ZJRC",
+		"uniques":["[+2] Movement"]
+	},
+	{
 		"name": "PROMOTION_CHZC",
 		"uniques": ["Ignores terrain cost","[+1] Sight","Heal this unit by [50] HP"],
 		"unitTypes": ["Scout"],

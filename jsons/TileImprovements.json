@@ -18,7 +18,10 @@
 	Flood plains	冲积平原
 	Ice				冰区
 	Atoll			环礁
-	*/
+	便利贴-新词条
+	"Will not be displayed in Civilopedia"	不会在文明百科中显示
+	"Unpillagable"							不可掠夺
+	"Irremovable"							不可移除*/
 	//新增改良
 	{//苏格兰-高尔夫球场
 		"name": "IMPROVEMENT_GEFQC",
@@ -39,7 +42,8 @@
 		"uniqueTo":"NATION_ML",
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"uniques":["[+2 Gold] <after discovering [Guilds]>",
-		"[+2 Gold] <after discovering [Electronics]>","Pillaging this improvement yields approximately [+30 Gold]"]
+		"[+2 Gold] <after discovering [Electronics]>",
+		"Pillaging this improvement yields approximately [+30 Gold]"]
 	},
 	{//印度尼西亚-甘榜屋
 		"name": "IMPROVEMENT_GBW",
@@ -50,7 +54,8 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Flood plains"],
 		"uniques":["Can only be built on [Coastal] tiles",
 		"[+1 Production] for each adjacent [Fishing Boats]",
-		"[+1 Production] <after discovering [Industrialization]>","Pillaging this improvement yields approximately [+20 Gold]"]
+		"[+1 Production] <after discovering [Industrialization]>",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{//全文明通用-滑雪场
 		"name": "IMPROVEMENT_HXC",
@@ -66,9 +71,32 @@
 		"terrainsCanBeBuiltOn": ["Ocean"],
 		"food":2,
 		"production":1,
-		"uniques":["[+1 Food] for each adjacent [IMPROVEMENT_HYJY]","[+1 Production] for each adjacent [Fishing Boats]","Pillaging this improvement yields approximately [+45 Gold]"]
+		"uniques":["[+1 Food] for each adjacent [IMPROVEMENT_HYJY]","[+1 Production] for each adjacent [Fishing Boats]","Pillaging this improvement yields approximately [+45 Gold]","Water improvement"]
 	},
-	//新增区域
+	/*总督系统*/
+	{//市立公园
+		"name":"IMPROVEMENT_SLGY",
+		"culture":3,
+		"happiness":3,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
+		"uniques":[
+		"Removes removable features when built",
+		"Pillaging this improvement yields approximately [+25 Culture]"],
+	},
+	/*区域系统*/
+	{//市政广场
+		"name":"DISTRICT_SZGC",
+		"food": -1,
+		"production":-1,
+		"gold":-1,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+25 Culture]",
+			"Irremovable"]
+	},
 	{//圣地
 		"name": "DISTRICT_SD",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill","Forest","Jungle","Marsh","Flood plains"],
@@ -80,8 +108,10 @@
 			"Tile provides yield without assigned population",
 			"[+1 Faith] for each adjacent [Mountain]",
 			"[+1 Faith] for each adjacent [Jungle]",
+			"[+1 Faith] for each adjacent [DISTRICT_SZGC]",
 			"Removes removable features when built",
-            "Pillaging this improvement yields approximately [+18 Faith]"]
+            "Pillaging this improvement yields approximately [+18 Faith]",
+			"Irremovable"]
 	},
 	{//学院
 		"name": "DISTRICT_XY",
@@ -93,8 +123,10 @@
 		"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Mountain]",
 			"[+1 Science] for each adjacent [Forest]",
+			"[+1 Science] for each adjacent [DISTRICT_SZGC]",
 			"Removes removable features when built",
-            "Pillaging this improvement yields approximately [+18 Science]"]
+            "Pillaging this improvement yields approximately [+18 Science]",
+			"Irremovable"]
 	},
 	{//剧院
 		"name": "DISTRICT_JY_NUM1",
@@ -103,10 +135,12 @@
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
-		"Tile provides yield without assigned population",
+			"Tile provides yield without assigned population",
 			"[+2 Culture] for each adjacent [DISTRICT_YLZX]",
+			"[+1 Culture] for each adjacent [DISTRICT_SZGC]",
 			"Removes removable features when built",
-            "Pillaging this improvement yields approximately [+18 Culture]"]
+            "Pillaging this improvement yields approximately [+18 Culture]",
+			"Irremovable"]
 	},
 	{//商业中心
 		"name": "DISTRICT_SYZX",
@@ -115,11 +149,13 @@
 		"food": -1,
 		"production":-1,
 		"uniques": ["Great Improvement",
-		    "Tile provides yield without assigned population",
-			"[+2 Gold] for each adjacent [DISTRICT_GYQ]",
-			"[+2 Gold] for each adjacent [City center]",
-			"Removes removable features when built",
-            "Pillaging this improvement yields approximately [+18 Gold]"]
+		    		"Tile provides yield without assigned population",
+					"[+2 Gold] for each adjacent [DISTRICT_GYQ]",
+					"[+2 Gold] for each adjacent [City center]",
+					"[+1 Gold] for each adjacent [DISTRICT_SZGC]",
+					"Removes removable features when built",
+            		"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable"]
 	},
 	{//工业区
 		"name": "DISTRICT_GYQ",
@@ -128,11 +164,13 @@
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
-		"Tile provides yield without assigned population",
-			"[+2 Production] for each adjacent [DISTRICT_SYZX]",
-			"[+2 Production] for each adjacent [DISTRICT_GKQ]",
-			"Removes removable features when built",
-            "Pillaging this improvement yields approximately [+36 Gold]"]
+					"Tile provides yield without assigned population",
+					"[+2 Production] for each adjacent [DISTRICT_SYZX]",
+					"[+2 Production] for each adjacent [DISTRICT_GKQ]",
+					"[+1 Production] for each adjacent [DISTRICT_SZGC]",
+					"Removes removable features when built",
+            		"Pillaging this improvement yields approximately [+36 Gold]",
+					"Irremovable"]
 	},
 	{//宇航中心
 		"name": "DISTRICT_YHZX",
@@ -141,9 +179,10 @@
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
-		"Tile provides yield without assigned population",
-		"Removes removable features when built",
-            "Pillaging this improvement yields approximately [+18 Gold]"]
+					"Tile provides yield without assigned population",
+					"Removes removable features when built",
+          		    "Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable"]
 	},
 	{//娱乐中心
 		"name": "DISTRICT_YLZX",
@@ -154,9 +193,12 @@
 		"happiness":1,
 		"overrideStats": true,
 		"uniques": ["Great Improvement",
-		"Tile provides yield without assigned population",
-		"Removes removable features when built",
-            "Pillaging this improvement yields approximately [+18 Gold]"]
+					"Tile provides yield without assigned population",
+					"Removes removable features when built",
+					"[+1 Happiness] for each adjacent [DISTRICT_SZGC]",
+					"[+1 Happiness] for each adjacent [IMPROVEMENT_SLGY]",
+        		    "Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable"]
 	},
 	{//港口区
 		"name": "DISTRICT_GKQ",
@@ -165,12 +207,14 @@
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
-		"Tile provides yield without assigned population",
-		"[+2 Gold] for each adjacent [DISTRICT_SYZX]",
-		"[+2 Gold] for each adjacent [DISTRICT_GYQ]",
-		"[+2 Gold] for each adjacent [City center]",
-		"Removes removable features when built",
-        "Pillaging this improvement yields approximately [+18 Gold]"]
+					"Tile provides yield without assigned population",
+					"[+2 Gold] for each adjacent [DISTRICT_SYZX]",
+					"[+2 Gold] for each adjacent [DISTRICT_GYQ]",
+					"[+2 Gold] for each adjacent [City center]",
+					"[+1 Gold] for each adjacent [DISTRICT_SZGC]",
+					"Removes removable features when built",
+     			    "Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable"]
 	},
 	{//军营
 		"name": "DISTRICT_JY_NUM2",
@@ -179,10 +223,11 @@
 		"production":-1,
 		"gold":-1,
 		"uniques": ["Great Improvement",
-		"Tile provides yield without assigned population",
-		"Gives a defensive bonus of [40]%",
-		"Removes removable features when built",
-        "Pillaging this improvement yields approximately [+18 Gold]"]
+					"Tile provides yield without assigned population",
+					"Gives a defensive bonus of [40]%",
+					"Removes removable features when built",
+        			"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable"]
 	},
 
 	//原版
@@ -193,10 +238,10 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[-1 Food] <after discovering [Fertilizer]>",
-			"[+1 Food] for each adjacent [Farm] <after discovering [Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+					"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+					"[-1 Food] <after discovering [Fertilizer]>",
+					"[+1 Food] for each adjacent [Farm] <after discovering [Fertilizer]>",
+           			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
 	{
@@ -244,18 +289,18 @@
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
 	},
-	{
+	{//海上油井
 		"name": "Offshore Platform",
 		"turnsToBuild": 9,
 		"techRequired": "Refrigeration",
-		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]","Water improvement"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Does not need removal of [Marsh]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -280,6 +325,7 @@
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": ["[+1 Gold] <after discovering [Compass]>",
+					"Water improvement",
 		            //海洋家园-近未来时代
 					"[+1 Food, +2 Gold] <after discovering [TECHNOLOGY_HYJY]>",
 				    "[+1 Food] for each adjacent [IMPROVEMENT_HYJY]",
@@ -482,13 +528,6 @@
 	},
 	//拉丁美洲文明mod部分
 	{
-		"name": "Pasture",
-		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Does not need removal of [Marsh]"],
-		"shortcutKey": "P"
-	},
-	{
 		"name": "Vigilance Post",
 		"uniqueTo": "El Salvador",
 		"techRequired": "Economics",
@@ -514,10 +553,10 @@
 		"name": "Panama Canal",
 		"uniqueTo": "Panama",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Forest","Jungle"],
-		"uniques": ["[+1 Gold] for each adjacent [Coast]"
+		"uniques": ["[+1 Gold] for each adjacent [Coast]",
 			"Cannot be built on [Tundra] tiles","Cannot be built on [Snow] tiles",
 			"Removes removable features when built", "Costs [1] [Gold] per turn when in your territory",
-			"Great Improvement","Will not be displayed in Civilopedia","Unpillagable","Irremovable"
+			"Great Improvement",/*"Will not be displayed in Civilopedia",为什么要隐藏巴拿马运河改良呢*/"Unpillagable","Irremovable"
 		]
 	},
 	//丧尸mod部分

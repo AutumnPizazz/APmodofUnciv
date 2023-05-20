@@ -1,7 +1,6 @@
-[	
-
-    //外交支持
-	{
+[
+	/*外交胜利*/
+	{//外交支持
 		"name": "RESOURCE_WJZC",
 		"resourceType": "Strategic",
 		"revealedBy": "Agriculture",
