@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+		"[-33]% Strength <for [All] units> <vs cities> <when attacking>",
 		"[-100]% Strength for cities <when attacking>",
         "[-50]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",

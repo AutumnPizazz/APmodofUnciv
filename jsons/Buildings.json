@@ -160,7 +160,6 @@
 		"requiredTech": "Theology"	,
 		"quote":"TEXT_21"
 	},
-
 	/*外交胜利建筑*/
 	{//众拥之证
 		"name": "BUILDING_ZYZZ",
@@ -461,7 +460,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
-		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion"
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion",
 	],
 		"requiredTech": "Bronze Working",
 		"greatPersonPoints": {"Great General": 1}
@@ -474,7 +473,8 @@
 		"cost":50,
 		"maintenance": 1,
 		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
-		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion"
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion",
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_GC] promotion"
 	],
 		"requiredTech": "Bronze Working",
 		"greatPersonPoints": {"Great General": 1}
@@ -502,7 +502,8 @@
 		"uniques": ["Must have an owned [DISTRICT_GKQ] within [3] tiles",
 		"Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
 		"[+1 Food] from [Coast] tiles [in this city]","[+1 Food] from [Fish] tiles [in this city]",
-		"All newly-trained [Water] units [in this city] receive the [PROMOTION_GKXL_NUM1] promotion"
+		"All newly-trained [Water] units [in this city] receive the [PROMOTION_GKXL_NUM1] promotion",
+		"All newly-trained [Water] units [in this city] receive the [PROMOTION_GCXL] promotion"
 	],
 		"requiredTech": "Optics",
 		"greatPersonPoints": {"Great General": 1}

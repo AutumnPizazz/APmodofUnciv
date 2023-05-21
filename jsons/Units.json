@@ -142,7 +142,6 @@
 		"Can build [Road] improvements on tiles"]
 	},
 	/*陆地运输单位
-	目前做不到
 	{//1级运兵车
 		"name":"UNIT_YBC1",
 		"unitType":"UNIT_TYPE_TRANSPORTATION",
@@ -171,8 +170,7 @@
 		"requiredTech":"Steam Power",
 		"cost":240,
 		"uniques":["Cannot attack","Can carry [6] [{Military} {Land}] units","[-1] Sight"]
-	},
-	*/
+	},*/
 	/* Ancient Era */
 	{//工人
 		"name": "Worker",
@@ -465,23 +463,42 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","UNIT_TYPE_FQ"],
 		"attackSound": "metalhit"
 	},
-	{//希腊-希腊重步兵
-		"name": "Hoplite",
+	{//希腊-希腊轻步兵
+		"name": "UNIT_XLQBB",
 		"unitType": "Sword",
 		"uniqueTo": "Greece",
-		"movement": 1,
-		"strength": 15,
+		"replaces":"Spearman",
+		"movement": 3,
+		"strength": 8,
 		"cost": 48,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>",
-		"[+50]% Strength <vs [All] units> <when defending>",
+		"[+50]% Strength <when attacking>",
+		"Can transform to [Hoplite]",
 		"UNIT_TYPE_FQ"],
 		"attackSound": "metalhit"
 	},
-	{//波斯-波斯长生军
-		"name": "Persian Immortal",
+	{//希腊-希腊重步兵
+		"name": "Hoplite",
+		"unitType": "Sword",
+		"replaces":"Spearman",
+		"uniqueTo": "Greece",
+		"movement": 2,
+		"strength": 14,
+		"cost": 48,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>",
+		"Can transform to [UNIT_XLQBB]",
+		"[-50]% Strength <when attacking>",
+		"UNIT_TYPE_FQ"],
+		"attackSound": "metalhit"
+	},
+	{//波斯-波斯长生军(远)
+		"name": "UNIT_BSCSJY",
 		"unitType": "Archery",
 		"replaces": "Spearman",
 		"uniqueTo": "Persia",
@@ -493,10 +510,24 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units> <when defending>",
-		"[+100]% Strength <vs [Archery] units> <when defending>",
-		"UNIT_TYPE_FQ"],
+		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>",
+		"Can transform to [Persian Immortal]"],
 		"attackSound": "arrow"
+	},
+	{//波斯-波斯长生军（近）
+		"name": "Persian Immortal",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Persia",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can transform to [UNIT_BSCSJY]","UNIT_TYPE_FQ"],
+		"promotions":["[Persian Immortal] ability"],
+		"attackSound": "metalhit"
 	},
 	{//匈人-攻城锤
 		"name": "Battering Ram",
@@ -703,7 +734,8 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["Can build [Road] improvements on tiles",
-		            "Can build [Fort] improvements on tiles",
+					"Can instantly construct a [Fort] improvement <[1] times>",
+					"[+10]% Strength <when defending> <in [Fort] tiles>",
 				    "[+20]% Strength <when adjacent to a [Legion] unit>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -1900,11 +1932,11 @@
 		"uniqueTo": "Persia",
 		"replaces": "Great General",
 		"uniques": [
-            "Empire enters a [16]-turn Golden Age <by consuming this unit>",
-            "[+10]% Strength bonus for [Military] units within [4] tiles",
+            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+            "[+10]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 3
+		"movement": 2
 	},
 
 	/* Religious units */

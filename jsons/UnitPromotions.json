@@ -1,10 +1,14 @@
 [
 	//新增晋升
-	{
+	{//攻城训练
+		"name":"PROMOTION_GCXL",
+		"uniques":["[+33]% Strength <vs cities> <when attacking>"]
+	},
+	{//宗教热忱
 		"name":"PROMOTION_ZJRC",
 		"uniques":["[+2] Movement"]
 	},
-	{
+	{//斥候侦查
 		"name": "PROMOTION_CHZC",
 		"uniques": ["Ignores terrain cost","[+1] Sight","Heal this unit by [50] HP"],
 		"unitTypes": ["Scout"],
