@@ -461,6 +461,7 @@
 		"maintenance": 1,
 		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
 		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion",
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_GCXL] promotion"
 	],
 		"requiredTech": "Bronze Working",
 		"greatPersonPoints": {"Great General": 1}
@@ -474,7 +475,7 @@
 		"maintenance": 1,
 		"uniques": ["Must have an owned [DISTRICT_JY_NUM2] within [3] tiles",
 		"All newly-trained [Land] units [in this city] receive the [PROMOTION_JYXL_NUM1] promotion",
-		"All newly-trained [Land] units [in this city] receive the [PROMOTION_GC] promotion"
+		"All newly-trained [Land] units [in this city] receive the [PROMOTION_GCXL] promotion"
 	],
 		"requiredTech": "Bronze Working",
 		"greatPersonPoints": {"Great General": 1}
