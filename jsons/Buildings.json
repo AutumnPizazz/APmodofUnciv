@@ -433,7 +433,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured","[-100]% Strength for cities <when attacking>"]
 	},
 	{
 		"name": "The Pyramids",
