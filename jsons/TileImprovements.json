@@ -23,6 +23,17 @@
 	"Unpillagable"							不可掠夺
 	"Irremovable"							不可移除*/
 	//新增改良
+	{//克里-棚屋
+		"name":"IMPROVEMENT_PW",
+		"turnsToBuild":8,
+		"techRequired":"Pottery",
+		"production":1,
+		"uniqueTo":"NATION_KL",
+		"terrainsCanBeBuiltOn":["Grassland","Plains","Tundra","Desert","Snow","Hill","Flood plains"],
+		"uniques":["[+1 Food] for each adjacent [City center]",
+	"[+1 Production] <after discovering [Construction]>",
+	"[+1 Food] <after discovering [Fertilizer]>"]
+	},
 	{//苏格兰-高尔夫球场
 		"name": "IMPROVEMENT_GEFQC",
 		"turnsToBuild": 8,

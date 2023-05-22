@@ -4,9 +4,9 @@
 		"name":"UNIT_WJG",
 		"unitType":"Civilian",
 		"movement":4,
-		"cost":10000,
 		"requiredTech":"Philosophy",
-		"uniques":["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Ignores Zone of Control","Uncapturable"]
+		"uniques":["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Ignores Zone of Control","Uncapturable",
+		"Unbuildable"]
 	},
 	{//公园建造者
 		"name":"UNIT_IMPROVEMENT_SLGY",
@@ -93,6 +93,19 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 30,
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "UNIT_SB",
+		"attackSound": "nonmetalhit",
+		"uniques":["Can build [Road] improvements on tiles"]
+	},
+	{//克里-奥克奇塔乌
+		"name":"UNIT_AKQTW",
+		"replaces": "UNIT_CH",
+		"uniqueTo":"NATION_KL",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 6,
+		"cost": 34,
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "UNIT_SB",
 		"attackSound": "nonmetalhit",

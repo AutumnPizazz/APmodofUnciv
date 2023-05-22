@@ -30,13 +30,12 @@
 		"outerColor": [255,255,255]
 		//"innerColor": [255,255,255]
 	},
-	/*
 	{//克里
 		"name": "NATION_KL",
-		"leaderName": "LEADER_KL",
+		"leaderName": "LEADER_PDMK",
 		"adjective": ["NATION_ADJ_KL"],
-		"startBias": ["[Jungle]"],
-		"preferredVictoryType": "Science",
+		"startBias": ["[Tree]"],
+		"preferredVictoryType": "Neutral",
 
 		"startIntroPart1": "Welcome, great leader. You are now at the helm of the Kali'na civilization, a proud people with a rich history of reverence for nature and exploration. The Kali'na people have always been in tune with the rhythms of the jungle, and we have built a civilization that thrives in this environment. Our ancestors were skilled navigators who explored the rivers and coastlines of our homeland, and we continue this tradition of exploration and discovery today.",
 		
@@ -58,16 +57,16 @@
 		
 		"outerColor": [34, 139, 34],
 		"innerColor": [255, 255, 255],
-		"favoredReligion": "[Polytheism]",
+//		"favoredReligion": "[Polytheism]",
 		"uniqueName": "TEXT_TOPIC_KL",
-		"uniques":["[+2] [Culture] and [+2] [Science] in all cities built on Jungle tiles",
-			"[+1] [Production] for each Jungle tile worked by a city",
-			"[+1] [Faith] for each Jungle tile worked by a city with a Holy Site"
+		"uniques":[
+			"Receive free [Worker] when you discover [Pottery]",
+			"[+1 Gold] from each Trade Route",
+			"New [Scout] units start with [10] Experience [in all cities]"
 		],
-		"uniqueText":"TEXT_INTRODUCE_KL",
 		
 		"cities": ["CITY_NAME_KL1", "CITY_NAME_KL2", "CITY_NAME_KL3", "CITY_NAME_KL4", "CITY_NAME_KL5", "CITY_NAME_KL6", "CITY_NAME_KL7", "CITY_NAME_KL8", "CITY_NAME_KL9", "CITY_NAME_KL10", "CITY_NAME_KL11", "CITY_NAME_KL12", "CITY_NAME_KL13", "CITY_NAME_KL14", "CITY_NAME_KL15", "CITY_NAME_KL16", "CITY_NAME_KL17", "CITY_NAME_KL18", "CITY_NAME_KL19", "CITY_NAME_KL20"]
-		},*/
+		},
 		{//苏格兰
 		"name": "NATION_SGL",
 		"leaderName": "LEADER_LBTYS",
@@ -97,12 +96,12 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "TEXT_TOPIC_SGL",
-		"uniques":["[+5]% [Science] [in all cities] <when between [6] and [9] Happiness>",
-		"[+10]% [Science] [in all cities] <when between [10] and [100000] Happiness>",
-		"[+5]% [Culture] [in all cities] <when between [6] and [9] Happiness>",
-		"[+10]% [Culture] [in all cities] <when between [10] and [100000] Happiness>",
-		"[+5]% [Gold] [in all cities] <when between [6] and [9] Happiness>",
-		"[+10]% [Gold] [in all cities] <when between [10] and [100000] Happiness>"
+		"uniques":["[+10]% [Science] [in all cities] <when between [6] and [9] Happiness>",
+		"[+20]% [Science] [in all cities] <when between [10] and [100000] Happiness>",
+		"[+10]% [Culture] [in all cities] <when between [6] and [9] Happiness>",
+		"[+20]% [Culture] [in all cities] <when between [10] and [100000] Happiness>",
+		"[+10]% [Gold] [in all cities] <when between [6] and [9] Happiness>",
+		"[+20]% [Gold] [in all cities] <when between [10] and [100000] Happiness>"
 	],
 		"uniqueText":"TEXT_INTRODUCE_SGL",
 
@@ -1434,8 +1433,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
-		            "[+10]% Strength <when fighting in [Hill] tiles>"],
+		"uniques": [
+		            "[+5]% Strength <when fighting in [Hill] tiles>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
