@@ -31,13 +31,14 @@
             {//服役
                 "name": "POLICY_FY",
                 "uniques": [
-                    "[+30]% Production when constructing [Worker] units [in all cities]"
+                    "[+30]% Production when constructing [Worker] units [in all cities]",
+                    "[+50]% Strength for cities <when attacking>"
                 ],
                 "requires": ["POLICY_JL","POLICY_DC"],
                 "row": 2,
                 "column": 2
             },
-            {//城堡
+            {//崇拜
                 "name": "POLICY_CB",
                 "uniques": [
                     "[+1 Faith, +3 Gold] [in capital]"

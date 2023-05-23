@@ -168,7 +168,7 @@
 		"requiredTech":"Civil Service",
 		"uniques": ["Hidden when [Diplomatic] Victory is disabled",
 		"Triggers a global alert upon completion",
-	    "Consumes [5] [RESOURCE_WJZC]"],
+	    "Consumes [6] [RESOURCE_WJZC]"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 	/*区域系统*/
@@ -443,7 +443,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured","[+100]% Strength for cities <when attacking>"]
+		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
 		"name": "The Pyramids",
