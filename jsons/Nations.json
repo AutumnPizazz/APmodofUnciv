@@ -66,8 +66,8 @@
 		],
 		
 		"cities": ["CITY_NAME_KL1", "CITY_NAME_KL2", "CITY_NAME_KL3", "CITY_NAME_KL4", "CITY_NAME_KL5", "CITY_NAME_KL6", "CITY_NAME_KL7", "CITY_NAME_KL8", "CITY_NAME_KL9", "CITY_NAME_KL10", "CITY_NAME_KL11", "CITY_NAME_KL12", "CITY_NAME_KL13", "CITY_NAME_KL14", "CITY_NAME_KL15", "CITY_NAME_KL16", "CITY_NAME_KL17", "CITY_NAME_KL18", "CITY_NAME_KL19", "CITY_NAME_KL20"]
-		},
-		{//苏格兰
+	},
+	{//苏格兰
 		"name": "NATION_SGL",
 		"leaderName": "LEADER_LBTYS",
 		"adjective": ["NATION_ADJ_SGL"],
@@ -173,55 +173,54 @@
 		"uniqueText":"TEXT_INTRODUCE_YDNXY",
 		"cities": ["CITY_NAME_YDNXY1","CITY_NAME_YDNXY2","CITY_NAME_YDNXY3","CITY_NAME_YDNXY4","CITY_NAME_YDNXY5","CITY_NAME_YDNXY6","CITY_NAME_YDNXY7","CITY_NAME_YDNXY8","CITY_NAME_YDNXY9","CITY_NAME_YDNXY10","CITY_NAME_YDNXY11","CITY_NAME_YDNXY12","CITY_NAME_YDNXY13","CITY_NAME_YDNXY14","CITY_NAME_YDNXY15","CITY_NAME_YDNXY16","CITY_NAME_YDNXY17","CITY_NAME_YDNXY18","CITY_NAME_YDNXY19","CITY_NAME_YDNXY20"]
 	},
-//丧尸
-{
-	"name": "The Undead",
-	"leaderName": "The Mindless Horde",
-	"adjective": ["Undead"],
-	"preferredVictoryType": "Domination",
-	"style": "Undead",
-	
-	"startIntroPart1": "'When there's no more room in Hell, the dead will walk the earth.' - George A. Romero",
-	"startIntroPart2": "'Darkness falls across the land, the midnight hour is close at hand, creatures crawl in search of blood to terrorize y'all's neighborhood' - Vincent Price",
-	
-	"declaringWar": "BRAINS!",
-	"attacked": "Grrr!",
-	"defeated": "Urk!",
-	"introduction": "Brains...",
-	
-	"neutralHello": "Brains?",
-	"neutralLetsHearIt": "Talk?",
-	"neutralNo": "Bad...",
-	"neutralYes": "Good...",
+	{//丧尸
+		"name": "The Undead",
+		"leaderName": "The Mindless Horde",
+		"adjective": ["Undead"],
+		"preferredVictoryType": "Domination",
+		"style": "Undead",
+		
+		"startIntroPart1": "'When there's no more room in Hell, the dead will walk the earth.' - George A. Romero",
+		"startIntroPart2": "'Darkness falls across the land, the midnight hour is close at hand, creatures crawl in search of blood to terrorize y'all's neighborhood' - Vincent Price",
+		
+		"declaringWar": "BRAINS!",
+		"attacked": "Grrr!",
+		"defeated": "Urk!",
+		"introduction": "Brains...",
+		
+		"neutralHello": "Brains?",
+		"neutralLetsHearIt": "Talk?",
+		"neutralNo": "Bad...",
+		"neutralYes": "Good...",
 
-	"hateHello": "Grrr...",
-	"hateLetsHearIt": "Talk...",
-	"hateNo": "Hate!",
-	"hateYes": "Okay...",
-	
-	"afterPeace": "Mmmm....good brains.",
-	"tradeRequest": "T-...tr-...trade?",
+		"hateHello": "Grrr...",
+		"hateLetsHearIt": "Talk...",
+		"hateNo": "Hate!",
+		"hateYes": "Okay...",
+		
+		"afterPeace": "Mmmm....good brains.",
+		"tradeRequest": "T-...tr-...trade?",
 
-	"outerColor": [190,190,190],
-	"innerColor": [0,0,0],
-	"uniqueName": "The Great Infectious Horde",
-	"uniques": ["[-50]% Unhappiness from [Population] [in all cities]",
-		"[-33]% [Culture] [in all cities]",
-		"[-33]% [Science] [in all cities]",
-		"[-33]% growth [in all cities]",
-		"+30% Strength when fighting City-State units and cities",
-		"[+100]% City-State Influence degradation","Resting point for Influence with City-States is increased by [-60]",
-		"[-33]% Golden Age length",
-		"[-33]% maintenance costs <for [All] units>",
-		"[All] units gain the [Undead] promotion",
-		"[non-air] units gain the [Breach the Walls] promotion",
-		"[Melee] units gain the [Eat the Living] promotion",
-		"Gain a free [Infection] [in all cities]",
-		"[+10]% Strength <within [1] tiles of a [Graveyard]>"],
-	"cities": ["Ground Zero", "Site B", "Site C", "Site D", "Site E", "Site F", "Site G", "Site H",
-		"Site I", "Site J", "Site K", "Site L", "Site M", "Site N", "Site O", "Site P", "Site Q", "Site R",
-		"Site S", "Site T", "Site U", "Site V", "Site W", "Site X", "Site Y", "Site Z"]
-},
+		"outerColor": [190,190,190],
+		"innerColor": [0,0,0],
+		"uniqueName": "The Great Infectious Horde",
+		"uniques": ["[-50]% Unhappiness from [Population] [in all cities]",
+			"[-33]% [Culture] [in all cities]",
+			"[-33]% [Science] [in all cities]",
+			"[-33]% growth [in all cities]",
+			"+30% Strength when fighting City-State units and cities",
+			"[+100]% City-State Influence degradation","Resting point for Influence with City-States is increased by [-60]",
+			"[-33]% Golden Age length",
+			"[-33]% maintenance costs <for [All] units>",
+			"[All] units gain the [Undead] promotion",
+			"[non-air] units gain the [Breach the Walls] promotion",
+			"[Melee] units gain the [Eat the Living] promotion",
+			"Gain a free [Infection] [in all cities]",
+			"[+10]% Strength <within [1] tiles of a [Graveyard]>"],
+		"cities": ["Ground Zero", "Site B", "Site C", "Site D", "Site E", "Site F", "Site G", "Site H",
+			"Site I", "Site J", "Site K", "Site L", "Site M", "Site N", "Site O", "Site P", "Site Q", "Site R",
+			"Site S", "Site T", "Site U", "Site V", "Site W", "Site X", "Site Y", "Site Z"]
+	},
 	{
 		"name": "NATION_BB_NUM1",
 		"leaderName": "LEADER_DL",
@@ -249,126 +248,126 @@
 	},
 	
 	{
-	"name": "NATION_BB_NUM2",
-	"leaderName": "LEADER_DL",
-	"adjective": ["NATION_BB_NUM2"],
+		"name": "NATION_BB_NUM2",
+		"leaderName": "LEADER_DL",
+		"adjective": ["NATION_BB_NUM2"],
 
-	"startIntroPart1": "",
-	"startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 
-	"declaringWar": "",
-	"attacked": "",
-	"defeated": "",
-	"introduction": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
 
-	"neutralHello": "",
-	"hateHello": "",
+		"neutralHello": "",
+		"hateHello": "",
 
-	"tradeRequest": "",
+		"tradeRequest": "",
 
-	"outerColor": [0,0,120],
-	"innerColor": [245,204,211],
-	"favoredReligion": "Islam",
-	"uniqueName": "KEY_NoBuff",
-	"uniqueText":"TEXT_2",
-    "cities": ["NO.1 CITY OF BB_2","NO.2 CITY OF BB_2","NO.3 CITY OF BB_2","NO.4 CITY OF BB_2","NO.5 CITY OF BB_2","NO.6 CITY OF BB_2","NO.7 CITY OF BB_2","NO.8 CITY OF BB_2","NO.9 CITY OF BB_2","NO.10 CITY OF BB_2","NO.11 CITY OF BB_2","NO.12 CITY OF BB_2","NO.13 CITY OF BB_2","NO.14 CITY OF BB_2","NO.15 CITY OF BB_2","NO.16 CITY OF BB_2","NO.17 CITY OF BB_2","NO.18 CITY OF BB_2","NO.19 CITY OF BB_2","NO.20 CITY OF BB_2","NO.21 CITY OF BB_2","NO.22 CITY OF BB_2","NO.23 CITY OF BB_2","NO.24 CITY OF BB_2","NO.25 CITY OF BB_2","NO.26 CITY OF BB_2","NO.27 CITY OF BB_2","NO.28 CITY OF BB_2","NO.29 CITY OF BB_2","NO.30 CITY OF BB_2","NO.31 CITY OF BB_2","NO.32 CITY OF BB_2","NO.33 CITY OF BB_2","NO.34 CITY OF BB_2","NO.35 CITY OF BB_2"]
-},
-{
-	"name": "NATION_FM_NUM1",
-	"leaderName": "LEADER_JL",
-	"adjective": ["NATION_FM_NUM1"],
+		"outerColor": [0,0,120],
+		"innerColor": [245,204,211],
+		"favoredReligion": "Islam",
+		"uniqueName": "KEY_NoBuff",
+		"uniqueText":"TEXT_2",
+		"cities": ["NO.1 CITY OF BB_2","NO.2 CITY OF BB_2","NO.3 CITY OF BB_2","NO.4 CITY OF BB_2","NO.5 CITY OF BB_2","NO.6 CITY OF BB_2","NO.7 CITY OF BB_2","NO.8 CITY OF BB_2","NO.9 CITY OF BB_2","NO.10 CITY OF BB_2","NO.11 CITY OF BB_2","NO.12 CITY OF BB_2","NO.13 CITY OF BB_2","NO.14 CITY OF BB_2","NO.15 CITY OF BB_2","NO.16 CITY OF BB_2","NO.17 CITY OF BB_2","NO.18 CITY OF BB_2","NO.19 CITY OF BB_2","NO.20 CITY OF BB_2","NO.21 CITY OF BB_2","NO.22 CITY OF BB_2","NO.23 CITY OF BB_2","NO.24 CITY OF BB_2","NO.25 CITY OF BB_2","NO.26 CITY OF BB_2","NO.27 CITY OF BB_2","NO.28 CITY OF BB_2","NO.29 CITY OF BB_2","NO.30 CITY OF BB_2","NO.31 CITY OF BB_2","NO.32 CITY OF BB_2","NO.33 CITY OF BB_2","NO.34 CITY OF BB_2","NO.35 CITY OF BB_2"]
+	},
+	{
+		"name": "NATION_FM_NUM1",
+		"leaderName": "LEADER_JL",
+		"adjective": ["NATION_FM_NUM1"],
 
-	"startIntroPart1": "",
-	"startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 
-	"declaringWar": "",
-	"attacked": "",
-	"defeated": "",
-	"introduction": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
 
-	"neutralHello": "",
-	"hateHello": "",
+		"neutralHello": "",
+		"hateHello": "",
 
-	"tradeRequest": "",
+		"tradeRequest": "",
 
-	"outerColor": [0,40,0],
-	"innerColor": [246,131,210],
-	"favoredReligion": "Islam",
-	"uniqueName": "KEY_OnlyDebuff",
-    "uniques": ["[-10]% [Science] [in all cities]",
-	"[-10]% [Culture] [in all cities]",
-	"[-10]% [Gold] [in all cities]",
-	"[-10]% [Faith] [in all cities]",
-	"[-10]% [Production] [in all cities]"], 
-    "uniqueText":"TEXT_3",
-	"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
-},
-{
-	"name": "NATION_FM_NUM2",
-	"leaderName": "LEADER_JL",
-	"adjective": ["NATION_FM_NUM2"],
+		"outerColor": [0,40,0],
+		"innerColor": [246,131,210],
+		"favoredReligion": "Islam",
+		"uniqueName": "KEY_OnlyDebuff",
+		"uniques": ["[-10]% [Science] [in all cities]",
+		"[-10]% [Culture] [in all cities]",
+		"[-10]% [Gold] [in all cities]",
+		"[-10]% [Faith] [in all cities]",
+		"[-10]% [Production] [in all cities]"], 
+		"uniqueText":"TEXT_3",
+		"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
+	},
+	{
+		"name": "NATION_FM_NUM2",
+		"leaderName": "LEADER_JL",
+		"adjective": ["NATION_FM_NUM2"],
 
-	"startIntroPart1": "",
-	"startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 
-	"declaringWar": "",
-	"attacked": "",
-	"defeated": "",
-	"introduction": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
 
-	"neutralHello": "",
-	"hateHello": "",
+		"neutralHello": "",
+		"hateHello": "",
 
-	"tradeRequest": "",
+		"tradeRequest": "",
 
-	"outerColor": [0,108,0],
-	"innerColor": [246,143,220],
-	"favoredReligion": "Islam",
-	"uniqueName": "KEY_LargeDebuff",
-    "uniques": ["[-20]% [Science] [in all cities]",
-	"[-20]% [Culture] [in all cities]",
-	"[-20]% [Gold] [in all cities]",
-	"[-20]% [Faith] [in all cities]",
-	"[-20]% [Production] [in all cities]"],
-    "uniqueText":"TEXT_4",
-	"cities": ["NO.1 CITY OF FM_2","NO.2 CITY OF FM_2","NO.3 CITY OF FM_2","NO.4 CITY OF FM_2","NO.5 CITY OF FM_2","NO.6 CITY OF FM_2","NO.7 CITY OF FM_2","NO.8 CITY OF FM_2","NO.9 CITY OF FM_2","NO.10 CITY OF FM_2","NO.11 CITY OF FM_2","NO.12 CITY OF FM_2","NO.13 CITY OF FM_2","NO.14 CITY OF FM_2","NO.15 CITY OF FM_2","NO.16 CITY OF FM_2","NO.17 CITY OF FM_2","NO.18 CITY OF FM_2","NO.19 CITY OF FM_2","NO.20 CITY OF FM_2","NO.21 CITY OF FM_2","NO.22 CITY OF FM_2","NO.23 CITY OF FM_2","NO.24 CITY OF FM_2","NO.25 CITY OF FM_2","NO.26 CITY OF FM_2","NO.27 CITY OF FM_2","NO.28 CITY OF FM_2","NO.29 CITY OF FM_2","NO.30 CITY OF FM_2","NO.31 CITY OF FM_2","NO.32 CITY OF FM_2","NO.33 CITY OF FM_2","NO.34 CITY OF FM_2","NO.35 CITY OF FM_2"]
-},
+		"outerColor": [0,108,0],
+		"innerColor": [246,143,220],
+		"favoredReligion": "Islam",
+		"uniqueName": "KEY_LargeDebuff",
+		"uniques": ["[-20]% [Science] [in all cities]",
+		"[-20]% [Culture] [in all cities]",
+		"[-20]% [Gold] [in all cities]",
+		"[-20]% [Faith] [in all cities]",
+		"[-20]% [Production] [in all cities]"],
+		"uniqueText":"TEXT_4",
+		"cities": ["NO.1 CITY OF FM_2","NO.2 CITY OF FM_2","NO.3 CITY OF FM_2","NO.4 CITY OF FM_2","NO.5 CITY OF FM_2","NO.6 CITY OF FM_2","NO.7 CITY OF FM_2","NO.8 CITY OF FM_2","NO.9 CITY OF FM_2","NO.10 CITY OF FM_2","NO.11 CITY OF FM_2","NO.12 CITY OF FM_2","NO.13 CITY OF FM_2","NO.14 CITY OF FM_2","NO.15 CITY OF FM_2","NO.16 CITY OF FM_2","NO.17 CITY OF FM_2","NO.18 CITY OF FM_2","NO.19 CITY OF FM_2","NO.20 CITY OF FM_2","NO.21 CITY OF FM_2","NO.22 CITY OF FM_2","NO.23 CITY OF FM_2","NO.24 CITY OF FM_2","NO.25 CITY OF FM_2","NO.26 CITY OF FM_2","NO.27 CITY OF FM_2","NO.28 CITY OF FM_2","NO.29 CITY OF FM_2","NO.30 CITY OF FM_2","NO.31 CITY OF FM_2","NO.32 CITY OF FM_2","NO.33 CITY OF FM_2","NO.34 CITY OF FM_2","NO.35 CITY OF FM_2"]
+	},
 		//nations
 
-		{
-			"name": "Babylon",
-			"leaderName": "Nebuchadnezzar II",
-			"adjective": ["Babylonian"],
-			"startBias": ["Avoid [Tundra]"],
-			"preferredVictoryType": "Domination",
+	{
+		"name": "Babylon",
+		"leaderName": "Nebuchadnezzar II",
+		"adjective": ["Babylonian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "The demon wants the blood of soldiers!",			
+		
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
 	
-			"startIntroPart1": "",
-			"startIntroPart2": "",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
 	
-			"declaringWar": "The demon wants the blood of soldiers!",
-			"attacked": "Oh well, I presume you know what you're doing.",
-			"defeated": "It is over. Perhaps now I shall have peace, at last.",
-			"introduction": "Are you real or a phantom?",
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 	
-			"neutralHello": "Greetings.",
-			"hateHello": "What do YOU want?!",
-	
-			"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-	
-			"outerColor": [27,53,63],
-			"innerColor": [213,249,255],
-			"favoredReligion": "Islam",
-			"uniqueName": "Ingenuity",
-			"uniques": [
-				"[+75]% [Science] [in capital]",
-				"[-25]% [Science] [in all cities]"],
-			"uniqueText":"TEXT_6",
-			"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-				"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-				"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-				"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
-			"spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-		},
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"favoredReligion": "Islam",
+		"uniqueName": "Ingenuity",
+		"uniques": [
+			"[+75]% [Science] [in capital]",
+			"[-25]% [Science] [in all cities]"],
+		"uniqueText":"TEXT_6",
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+		"spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
 	{
 		"name": "Greece",
 		"leaderName": "Alexander",
@@ -1485,7 +1484,8 @@
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,255,51],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Brussels"]
 	},
 	{
@@ -1498,7 +1498,8 @@
 		"defeated": "And so the flower of Florence falls to barbaric hands...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [62,197,252],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Florence"]
 	},
 	{
@@ -1511,7 +1512,8 @@
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
         "innerColor": [51,51,255],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Hanoi"]
 	},
 	{
@@ -1524,7 +1526,8 @@
 		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [168,38,102],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Kabul"]
 	},
 	{
@@ -1537,7 +1540,8 @@
 		"defeated": "Today, the Malay people obey you, but do not think this is over...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Kuala Lumpur"]
 	},
 	{
@@ -1551,7 +1555,8 @@
 		"defeated": "Perhaps now we will find peace in death...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [204,102,0],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Lhasa"]
 	},
 	{
@@ -1564,7 +1569,8 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [185,132,66],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Milan"]
 	},
 	{
@@ -1577,7 +1583,8 @@
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [51,102,0],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Quebec City"]
 	},
 
@@ -1591,7 +1598,8 @@
 		"defeated": "I have failed. May you, at least, know compassion towards our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,153],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Cape Town"]
 	},
 	{
@@ -1604,7 +1612,8 @@
 		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,178,102],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Helsinki"]
 	},
 	{
@@ -1617,7 +1626,8 @@
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [96,96,96],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Manila"]
 	},
 	{
@@ -1630,7 +1640,8 @@
 		"defeated": "Congratulations, conqueror. This tribe serves you now.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [224,224,224],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Mogadishu"]
 	},
 	{
@@ -1644,7 +1655,8 @@
 		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Rio de Janeiro"]
 	},
 	{
@@ -1657,7 +1669,8 @@
 		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,204,204],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Sydney"]
 	},
 	{
@@ -1670,7 +1683,8 @@
 		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
 		"defeated": "What treachery has struck us? No, what evil?",
 		"outerColor": [0, 0, 0],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"innerColor": [255,69,0],
 		"cities": ["Ur"]
 	},
@@ -1685,7 +1699,8 @@
 		"defeated": "I regret not defending my country to the last, although it was not of use.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,255,128],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Vancouver"]
 	},
 	{
@@ -1699,7 +1714,8 @@
 		"defeated": "A wrong calculation, on my part.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,204,255],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Venice"]
 	},
 
@@ -1714,7 +1730,8 @@
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [194,97,255],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Antwerp"]
 	},
 	{
@@ -1728,7 +1745,8 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Genoa"]
 	},
 	{
@@ -1741,7 +1759,8 @@
 		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [151,125,0],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Kathmandu"]
 	},
 	{
@@ -1754,7 +1773,8 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,255,0],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Singapore"]
 	},
 	{
@@ -1768,7 +1788,8 @@
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,97,255],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Tyre"]
 	},
 	{
@@ -1781,7 +1802,8 @@
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,255],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Zanzibar"]
 	},
 
@@ -1795,7 +1817,8 @@
 		"defeated": "How could we fall to the likes of you?!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [152,0,241],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Almaty"]
 	},
 	{
@@ -1808,7 +1831,8 @@
 		"defeated": "The serbian guerilla will never stop haunting you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211,180,113],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Belgrade"]
 	},
 	{
@@ -1822,7 +1846,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [211,180,113],
 		"cities": ["Dublin"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games","[+900]% Culture cost of natural border growth [in all cities]"]
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games","[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"]
 	},
 	{
 		"name": "Edinburgh",
@@ -1835,7 +1860,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		"cities": ["Edinburgh"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games","[+900]% Culture cost of natural border growth [in all cities]"]
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games","[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"]
 	},
 	{
 		"name": "M'Banza-Kongo",
@@ -1847,7 +1873,8 @@
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,128,0],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["M'Banza-Kongo"]
 	},
 	{
@@ -1860,7 +1887,8 @@
 		"defeated": "What a fine battle! Sidon is willing to serve you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [250,128,114],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Sidon"]
 	},
 	{
@@ -1873,7 +1901,8 @@
 		"defeated": "This ship may sink, but our spirits will linger.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Valletta"]
 	},
 
@@ -1887,7 +1916,8 @@
 		"defeated": "Why have you forsaken us my lord?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,255,255],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Bratislava"]
 	},
 	{
@@ -1900,7 +1930,8 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [203, 253, 232],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Cahokia"]
 	},
 	{
@@ -1913,7 +1944,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [198,255,192],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["Jerusalem"]
 	},
 	//下面是新加入的城邦
@@ -1927,7 +1959,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [218,160,30],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_BLXE"]
 	},
 	{
@@ -1940,7 +1973,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [218,170,50],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_AKL"]
 	},
 	{
@@ -1953,7 +1987,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [240,155,20],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_BYNSALS"]
 	},
 	{
@@ -1966,7 +2001,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [220,155,60],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_YHNSB"]
 	},
 	{
@@ -1979,7 +2015,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [92, 81, 193],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_RNW"]
 	},
 	{
@@ -1992,7 +2029,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [56, 85, 172],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_BLNY"]
 	},	
 	{
@@ -2005,7 +2043,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [34, 78, 215],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_FS"]
 	},	
 	{
@@ -2018,7 +2057,8 @@
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [115,143,230],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"cities": ["CITY_STATE_HTS"]
 	},	{
 		"name": "CITY_STATE_MTL",
@@ -2029,7 +2069,8 @@
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [0, 0, 0],
-		"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 		"innerColor": [79, 79, 210],
 		"cities": ["CITY_STATE_MTL"]
 	},
@@ -2403,71 +2444,71 @@
 					"Merida","Cancun","Chihuahua","Durango","Tampico","Saltillo","Acapulco","Villahermosa","Veracruz","Mazatlan",
 					"Naucalpan","Aguascalientes","Hermosillo","Mexicali","Culiacan","Queretaro","Morelia","Reynosa","Guadalupe","San Luis Potosi"],
 	 },
-{
-"name": "Panama",
-"leaderName": "Belisario P. Barahona",
-"adjective": ["Panamenian"],
-"outerColor": [225, 225, 225],
-"innerColor": [0, 94, 184],
-"spyNames": ["Juan"],
+	{
+		"name": "Panama",
+		"leaderName": "Belisario P. Barahona",
+		"adjective": ["Panamenian"],
+		"outerColor": [225, 225, 225],
+		"innerColor": [0, 94, 184],
+		"spyNames": ["Juan"],
 
-"favoredReligion": "Christianity",
-"startBias": ["Coast", "Jungle"],
-"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity",
+		"startBias": ["Coast", "Jungle"],
+		"preferredVictoryType": "Cultural",
 
-"startIntroPart1": "Welcome again, Belisario, to take the pilot seat of the nation of Panama, one that broke free from their overlords who forgot about them. Once free, the nation has become one of the most important in the world, sitting right through the connection of two oceans, making it essential to global economy.",
-"startIntroPart2": "Belisario Barahona, are you ready to launch the nation to heights never seen before? Can you make a civilization that can stand the pass of time?",
+		"startIntroPart1": "Welcome again, Belisario, to take the pilot seat of the nation of Panama, one that broke free from their overlords who forgot about them. Once free, the nation has become one of the most important in the world, sitting right through the connection of two oceans, making it essential to global economy.",
+		"startIntroPart2": "Belisario Barahona, are you ready to launch the nation to heights never seen before? Can you make a civilization that can stand the pass of time?",
 
-"declaringWar": "Prepare for war!",
-"attacked": "The World will hear of this...",
-"defeated": "Congrats.",
-"introduction": "Welcome to Panama, please pay your toll for passage.",
-"neutralHello": "Greetings.",
-"hateHello": "What do you want?",
-"tradeRequest": "I have an offer you can't decline.",
+		"declaringWar": "Prepare for war!",
+		"attacked": "The World will hear of this...",
+		"defeated": "Congrats.",
+		"introduction": "Welcome to Panama, please pay your toll for passage.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I have an offer you can't decline.",
 
-"uniqueName": "The Bridge of the World",
-"uniques": ["[+1 Gold] from each Trade Route","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Great Improvement]","[+1 Gold] from every [Fishing Boats]",],
+		"uniqueName": "The Bridge of the World",
+		"uniques": ["[+1 Gold] from each Trade Route","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Great Improvement]","[+1 Gold] from every [Fishing Boats]",],
 
-"cities": ["Panama","Colon","David","La Chorrera","Santiago","Changuinola","Penonome","Buguba","Puerto Armuelles","Anton","Chepo","Chitre","Aguadulce","Capira","Chame","Sona","Almirante","La Pintada","Las Tablas","La Villa de Los Santos"]
-},
-{
-"name": "Paraguay",
-"leaderName": "Gaspar R. Francia",
-"adjective": ["Paraguayan"],
-		"outerColor": [181, 170, 170],
-"innerColor": [171, 0, 51],
-"spyNames": ["Rodrigez"],
+		"cities": ["Panama","Colon","David","La Chorrera","Santiago","Changuinola","Penonome","Buguba","Puerto Armuelles","Anton","Chepo","Chitre","Aguadulce","Capira","Chame","Sona","Almirante","La Pintada","Las Tablas","La Villa de Los Santos"]
+	},
+	{
+		"name": "Paraguay",
+		"leaderName": "Gaspar R. Francia",
+		"adjective": ["Paraguayan"],
+				"outerColor": [181, 170, 170],
+		"innerColor": [171, 0, 51],
+		"spyNames": ["Rodrigez"],
 
-"startBias": ["River","Plains"],
-	"preferredVictoryType": "Cultural",
-"favoredReligion": "Christianity",
+		"startBias": ["River","Plains"],
+			"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity",
 
-"startIntroPart1": "Good day you may have, loved 'Karaí Guasú'. You now lead the firm nation of Paraguay. Paraguay faced many rivals wanting him dead, but they survived, - leading many to think they don't actually exist - no matter how big it was, they survived. From, winning against the Spanish Empire, to battling against a triple alliance of might, to defeating Bolivia in the Chaco War, little Paraguay has proven capable of facing anything and anyone, and having success in the process.",
-"startIntroPart2": "Good President, will you protect your people against all odds? Can you make a civilization that can RESIST the pass of time?!",
+		"startIntroPart1": "Good day you may have, loved 'Karaí Guasú'. You now lead the firm nation of Paraguay. Paraguay faced many rivals wanting him dead, but they survived, - leading many to think they don't actually exist - no matter how big it was, they survived. From, winning against the Spanish Empire, to battling against a triple alliance of might, to defeating Bolivia in the Chaco War, little Paraguay has proven capable of facing anything and anyone, and having success in the process.",
+		"startIntroPart2": "Good President, will you protect your people against all odds? Can you make a civilization that can RESIST the pass of time?!",
 
-"introduction":  "Greetings. I am known as Doctor Francia, avenger of the rightful and defender of my people. Be welcomed",
-"declaringWar": "I hate your idea of justice. When justice needs to be done, I am more than willing to do it.",
-"attacked": "If war is what you want, war you will have.",
-"afterPeace": "Finally, the people may have rest. But I believe this is (unfortunately) not over...",
-"defeated": "We did our best, we resisted until the end, however... you won.",
+		"introduction":  "Greetings. I am known as Doctor Francia, avenger of the rightful and defender of my people. Be welcomed",
+		"declaringWar": "I hate your idea of justice. When justice needs to be done, I am more than willing to do it.",
+		"attacked": "If war is what you want, war you will have.",
+		"afterPeace": "Finally, the people may have rest. But I believe this is (unfortunately) not over...",
+		"defeated": "We did our best, we resisted until the end, however... you won.",
 
-"neutralHello": "Welcome and welcome again.",
-"hateHello": "Do not, disturb me.",
+		"neutralHello": "Welcome and welcome again.",
+		"hateHello": "Do not, disturb me.",
 
-"tradeRequest": "You want this, I want that. Deal?",
-"neutralLetsHearIt": "Show me what you want from us.",
-"hateLetsHearIt": "I won't give you anything.",
-"neutralNo": "I don't see benefit on this.",
-"neutralYes": "I see great benefit from this.",
-"hateNo": ["Do you pretend to scam us?", "Unacceptable"],
-"hateYes": "How is it possible to bare this 'deal'?",
+		"tradeRequest": "You want this, I want that. Deal?",
+		"neutralLetsHearIt": "Show me what you want from us.",
+		"hateLetsHearIt": "I won't give you anything.",
+		"neutralNo": "I don't see benefit on this.",
+		"neutralYes": "I see great benefit from this.",
+		"hateNo": ["Do you pretend to scam us?", "Unacceptable"],
+		"hateYes": "How is it possible to bare this 'deal'?",
 
-"uniqueName": "Guarani Strenght",
-"uniques": ["[+1 Production] from every specialist [in all cities]","[+15]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>"],
+		"uniqueName": "Guarani Strenght",
+		"uniques": ["[+1 Production] from every specialist [in all cities]","[+15]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>"],
 
-"cities": ["Asuncion","Ciudad del Este","San Lorenzo","Encarnacion","Ñemby","Oviedo","Capiata","Limpio","Lambare","Itaugua","Luque","Villa Elisa","Villarrica","Hermandarias","Aregua","Caacupe","Minga Guazu",]
-},
+		"cities": ["Asuncion","Ciudad del Este","San Lorenzo","Encarnacion","Ñemby","Oviedo","Capiata","Limpio","Lambare","Itaugua","Luque","Villa Elisa","Villarrica","Hermandarias","Aregua","Caacupe","Minga Guazu",]
+	},
 	{
 		"name": "Peru",
 		"leaderName": "Martin Vizcarra",
@@ -2544,105 +2585,110 @@
 	"Receive free [Great General] when you discover [Military Science]"],
 
 		"cities": ["Caracas","Maracaibo","Maracay","Ciudad Guayana","St. Cristobal","Angostura","Mantecal","Valencia","Guasdualito","Maturin","Barcelona","Barinas","Barquisimeto","Porlamar","Puerto la Cruz","Merida","Cumana","Valera","Cabimas", "Punto Fijo","Acarigua","Los Teques","Coro","Guanare","Ojeda City","Puerto Cabello","Guarenas","Guatire","Turmero", "Tocuyito","El Trige","Carora"]
-},
-{
-"name": "Uruguay",
-"adjective": ["Uruguayan"],
-"cityStateType": "Maritime",
-"outerColor": [0,10,0],
-"innerColor": [52,101,216],
+	},
+	{
+		"name": "Uruguay",
+		"adjective": ["Uruguayan"],
+		"cityStateType": "Maritime",
+		"outerColor": [0,10,0],
+		"innerColor": [52,101,216],
 
-"startBias": ["Coast"],
-"favoredReligion": "Christianity",
+		"startBias": ["Coast"],
+		"favoredReligion": "Christianity",
 
-"introduction": "Well, hi! Neighbor? I hope we get along.",
-"declaringWar": "We have no choice. War, must be.",
-"attacked": "Very well, this will not be fruitful for you.",
-"afterPeace": "Thank you for putting an end to this storm of doom.",
-"defeated": "We were too weak to protect ourselves, how could we imagine otherwise",
+		"introduction": "Well, hi! Neighbor? I hope we get along.",
+		"declaringWar": "We have no choice. War, must be.",
+		"attacked": "Very well, this will not be fruitful for you.",
+		"afterPeace": "Thank you for putting an end to this storm of doom.",
+		"defeated": "We were too weak to protect ourselves, how could we imagine otherwise",
 
-"neutralHello": "Hi!",
-"hateHello": "Hi...",
-"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"neutralHello": "Hi!",
+		"hateHello": "Hi...",
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 
-"cities": ["Montevideo"]
-},
-{
-"name": "Guyana",
-"cityStateType": "Maritime",
-"outerColor": [10,0,0],
-"innerColor": [201,33,112],
+		"cities": ["Montevideo"]
+	},
+	{
+		"name": "Guyana",
+		"cityStateType": "Maritime",
+		"outerColor": [10,0,0],
+		"innerColor": [201,33,112],
 
-"startBias": ["Coast"],
-"favoredReligion": "Christianity",
+		"startBias": ["Coast"],
+		"favoredReligion": "Christianity",
 
-"introduction": "We are the sovereign nation of Guyana. May our trade commence.",
-"declaringWar": "You are a danger... that's what says my lord...",
-"attacked": "No no no, this can't be happening!",
-"afterPeace": "Ufff, that was close...",
-"defeated": "Noo, m-my sovereignty...",
+		"introduction": "We are the sovereign nation of Guyana. May our trade commence.",
+		"declaringWar": "You are a danger... that's what says my lord...",
+		"attacked": "No no no, this can't be happening!",
+		"afterPeace": "Ufff, that was close...",
+		"defeated": "Noo, m-my sovereignty...",
 
-"neutralHello": "Greetings",
-"hateHello": "What do you want, you bully?",
-"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"neutralHello": "Greetings",
+		"hateHello": "What do you want, you bully?",
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 
-"cities": ["Georgetown"]
-},
-{
+		"cities": ["Georgetown"]
+	},
+	{
 
-"name": "Suriname",
-"cityStateType": "Maritime",
-"outerColor": [0,10,0],
-"innerColor": [75,169,81],
+		"name": "Suriname",
+		"cityStateType": "Maritime",
+		"outerColor": [0,10,0],
+		"innerColor": [75,169,81],
 
-"startBias": ["Coast"],
+		"startBias": ["Coast"],
 
-"introduction": "What do my eyes see? A friend?!",
-"declaringWar": "I'm being forced to do this. Can we be friends again afterwards?",
-"attacked": "Nope, nope, it was not a friend... Help!!!",
-"afterPeace": "Great! This madness is over. Can we be friends again?",
-"defeated": "Now it's sealed that you are a bad guy",
+		"introduction": "What do my eyes see? A friend?!",
+		"declaringWar": "I'm being forced to do this. Can we be friends again afterwards?",
+		"attacked": "Nope, nope, it was not a friend... Help!!!",
+		"afterPeace": "Great! This madness is over. Can we be friends again?",
+		"defeated": "Now it's sealed that you are a bad guy",
 
-"neutralHello": "Hello my friend!",
-"hateHello": "No friend I see here, only danger. Go away",
-"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"neutralHello": "Hello my friend!",
+		"hateHello": "No friend I see here, only danger. Go away",
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 
-"cities": ["Paramaribo"]
-},
-{
-"name": "Guiana",
-"cityStateType": "Mercantile",
-"outerColor": [0,0,10],
-"innerColor": [77,192,175],
+		"cities": ["Paramaribo"]
+	},
+	{
+		"name": "Guiana",
+		"cityStateType": "Mercantile",
+		"outerColor": [0,0,10],
+		"innerColor": [77,192,175],
 
-"startBias": ["Coast","Jungle"],
-"favoredReligion": "Christianity",
+		"startBias": ["Coast","Jungle"],
+		"favoredReligion": "Christianity",
 
-"defeated": "Oh well... new owner I guess...",
-"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"defeated": "Oh well... new owner I guess...",
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 
-"cities": ["Cayenne"]
-},
-{
-"name": "Puerto Rico",
-"adjective": ["Puerto-Rican"],
-"cityStateType": "Mercantile",
-"outerColor": [10,0,0],
-"innerColor": [205,57,69],
+		"cities": ["Cayenne"]
+	},
+	{
+		"name": "Puerto Rico",
+		"adjective": ["Puerto-Rican"],
+		"cityStateType": "Mercantile",
+		"outerColor": [10,0,0],
+		"innerColor": [205,57,69],
 
-"startBias": ["Coast"],
-"favoredReligion": "Christianity",
+		"startBias": ["Coast"],
+		"favoredReligion": "Christianity",
 
-"introduction": "Buenas! How are you? Let's start trading!",
-"declaringWar": "Your attempts of destruction are not forgiven",
-"attacked": "What do you have to offer to us, if any?",
-"defeated": "I only hope that you bring prosperity to us, at least.",
+		"introduction": "Buenas! How are you? Let's start trading!",
+		"declaringWar": "Your attempts of destruction are not forgiven",
+		"attacked": "What do you have to offer to us, if any?",
+		"defeated": "I only hope that you bring prosperity to us, at least.",
 
-"neutralHello": "Buenas :)",
-"hateHello": "Go away! YA!",
-"uniques":["[+900]% Culture cost of natural border growth [in all cities]"],
+		"neutralHello": "Buenas :)",
+		"hateHello": "Go away! YA!",
+		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
+		"Gain a free [Walls] [in capital]"],
 
-"cities": ["San Juan"]
-}
+		"cities": ["San Juan"]
+	}
 
 ]

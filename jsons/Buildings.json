@@ -414,12 +414,12 @@
 		"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "The Wheel"
 	},
-	{
+	{//埃塞俄比亚-拉里贝拉岩石教堂
 		"name":"BUILDING_LLBLYSJT",
 		"isNationalWonder":true,
 		"uniqueTo":"Ethiopia",
 		"requiredTech":"The Wheel",
-		"cost":120,
+		"cost":10,
 		"uniques":["Units ignore terrain costs when moving into any tile with Hills"],
 		"culture":2,
 		"faith":1,
@@ -443,7 +443,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured","[-100]% Strength for cities <when attacking>"]
+		"uniques": ["Destroyed when the city is captured","[+100]% Strength for cities <when attacking>"]
 	},
 	{
 		"name": "The Pyramids",
@@ -600,12 +600,11 @@
 		"name": "BUILDING_JQC",
 		"replaces": "Colosseum",
 		"uniqueTo": "Aztecs",
-		"cost":150,
+		"cost":85,
 		"maintenance": 0,
 		"happiness": 3,
 		"culture":2,
-		"faith":2,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 85,
 		"greatPersonPoints": {"Great General": 2},
 		"requiredTech": "Construction",
 		"uniques":["Must have an owned [DISTRICT_YLZX] within [3] tiles",
@@ -951,9 +950,10 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 3},
 		"isWonder": true,
-		"uniques": ["[+2 Food] per [3] population [in this city]",
-		"[-75]% Gold cost of acquiring tiles [in all cities]",
-	    "[+2 Food] [in all cities]"],
+		"uniques": [
+		"[-50]% Gold cost of acquiring tiles [in all cities]",
+	    "[+2 Food, +1 Happiness] [in all cities]"],
+		"percentStatBonus":{"food":20},
 		"requiredTech": "Education",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
