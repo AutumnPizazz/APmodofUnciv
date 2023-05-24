@@ -606,8 +606,7 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [4] tiles <in [Marsh] tiles>","Generated on every [18] tiles <in [River] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-		"Luxury resources"]
+		"uniques": ["Generated on every [4] tiles <in [Marsh] tiles>","Generated on every [18] tiles <in [River] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
 	}
 		//拉丁美洲文明mod部分_结束
 ]
