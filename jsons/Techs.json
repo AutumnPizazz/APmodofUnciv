@@ -748,6 +748,10 @@
 							"Gain [1000]-[1200] [Gold]",
 				            "Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name":"Nothing",
+				"row":10
 			}
 		]
 	}

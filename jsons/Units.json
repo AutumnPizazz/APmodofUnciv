@@ -421,7 +421,7 @@
 		"strength": 5,
 		"rangedStrength": 9,
         "range": 2,
-		"cost": 75,
+		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -664,7 +664,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>","[+10]% Strength bonus for [Military] units within [1] tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -749,7 +749,8 @@
 		"uniques": ["Can build [Road] improvements on tiles",
 					"Can instantly construct a [Fort] improvement <[1] times>",
 					"[+10]% Strength <when defending> <in [Fort] tiles>",
-				    "[+20]% Strength <when adjacent to a [Legion] unit>"],
+				    "[+10]% Strength <when adjacent to a [Legion] unit>",
+					"[+10]% Strength <when adjacent to a [Legion] unit> <after discovering [Metal Casting]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},

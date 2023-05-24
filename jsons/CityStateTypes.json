@@ -34,7 +34,7 @@
     {
         "name": "Maritime",//航海
         "friendBonusUniques": ["[+2 Food] [in all cities]"],
-        "allyBonusUniques": ["[+2 Food, +1 Happiness] [in all cities]",
+        "allyBonusUniques": ["[+3 Food, +1 Happiness] [in all cities]",
         "Provides [1] [RESOURCE_WJZC]"],
         "color": [56, 255, 112]
     },
