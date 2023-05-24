@@ -116,7 +116,8 @@
 					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
+					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>",
+					"Strategic resources"],
 		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -140,7 +141,8 @@
 					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Strategic resources"],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -162,7 +164,8 @@
 					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
+					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>",
+					"Strategic resources"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -185,7 +188,8 @@
 					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
+					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>",
+					"Strategic resources"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -201,7 +205,8 @@
 					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
+					"Strategic resources"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -218,7 +223,8 @@
 					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Strategic resources"],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -233,7 +239,8 @@
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated near City States with weight [15]"]
+					"Generated near City States with weight [15]",
+					"Luxury resources"]
 	},
 	{
 		"name": "Cotton",
@@ -245,7 +252,8 @@
 					"Generated with weight [30] <in [Grassland] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
+					"Doesn't generate naturally <in [Hill] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Dyes",
@@ -257,7 +265,8 @@
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
+					"Doesn't generate naturally <in [Hill] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Gems",
@@ -271,7 +280,8 @@
 					"Generated with weight [5] <in [Grassland] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
@@ -285,7 +295,8 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Silver",
@@ -302,7 +313,8 @@
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Tundra] [Hill] tiles>",
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
-					"Doesn't generate naturally <in [Grassland] [Hill] tiles>"
+					"Doesn't generate naturally <in [Grassland] [Hill] tiles>",
+					"Luxury resources"
 		]
 	},
 	{
@@ -314,7 +326,8 @@
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+					"Generated near City States with weight [15]",
+					"Luxury resources"]
 	},
 	{
 		"name": "Ivory",
@@ -326,7 +339,8 @@
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
+					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Silk",
@@ -338,7 +352,8 @@
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
+					"Doesn't generate naturally <in [Hill] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Spices",
@@ -353,7 +368,8 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+					"Doesn't generate naturally <in [Tundra] [Forest] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Wine",
@@ -363,7 +379,8 @@
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
+					"Generated near City States with weight [10]",
+					"Luxury resources"]
 	},
 	{
 		"name": "Sugar",
@@ -377,7 +394,8 @@
 					"Generated with weight [20] <in [Grassland] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
+					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Marble",
@@ -388,7 +406,8 @@
 		"improvementStats": {"production": 1},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
 					"Special placement during map generation",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
+					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Whales",
@@ -403,7 +422,8 @@
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [10] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
+					"Generated near City States with weight [10]",
+					"Luxury resources"]
 	},
 	{
 		"name": "Pearls",
@@ -418,19 +438,22 @@
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [10] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+					"Generated near City States with weight [15]",
+					"Luxury resources"]
 	},
 	{
 		"name": "Jewelry",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
+		"uniques": ["Can only be created by Mercantile City-States",
+		"Luxury resources"]
 	},
 	{
 		"name": "Porcelain",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
+		"uniques": ["Can only be created by Mercantile City-States",
+		"Luxury resources"]
 	},
 	{
 		"name": "Citrus",
@@ -444,7 +467,8 @@
 					"Generated with weight [5] <in [Desert] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Tundra] tiles>"]
+					"Doesn't generate naturally <in [Tundra] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Copper",
@@ -462,7 +486,8 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>",
+					"Luxury resources"]
 	},
 	/* 
 	{
@@ -488,7 +513,8 @@
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+					"Generated near City States with weight [15]",
+					"Luxury resources"]
 	},
 	{
 		"name": "Salt",
@@ -505,7 +531,8 @@
 					"Generated with weight [25] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] [Hill] tiles>"]
+					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
+					"Luxury resources"]
 	},
 	{
 		"name": "Truffles",
@@ -521,7 +548,8 @@
 					"Generated with weight [10] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+					"Doesn't generate naturally <in [Tundra] [Forest] tiles>",
+					"Luxury resources"]
 	},
 	//拉丁美洲文明mod部分_开始
 	{
@@ -532,6 +560,8 @@
 		"gold": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 1},
+		"uniques": [
+		"Luxury resources"]
 	},
 		{
 		"name": "Coffee", 
@@ -541,16 +571,22 @@
 		"production": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 1},
+		"uniques": [
+		"Luxury resources"]
 	},
 		{
 		"name": "Colombian Coffee", //Unique to Colombia, doesn't spawn on the map
 		"resourceType": "Luxury",
-		"gold": 1,
+		"uniques": [
+		"Luxury resources"],
+		"gold": 1
 	},
 	{
 		"name": "Cuban Cigars", //Unique to Cuba, doesn't spawn on map
 		"resourceType": "Luxury",
-		"gold": 1
+		"gold": 1,
+		"uniques": [
+		"Luxury resources"]
 	},
 		{
 		"name": "Rubber", 
@@ -560,6 +596,8 @@
 		"gold": 1,
 		"improvement": "Lumber mill",
 		"improvementStats": {"food": -2,"production": 1,"gold": 1},
+		"uniques": [
+		"Luxury resources"]
 	},
 	{
 		"name": "Capybara",
@@ -568,7 +606,8 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [4] tiles <in [Marsh] tiles>","Generated on every [18] tiles <in [River] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
-	},
+		"uniques": ["Generated on every [4] tiles <in [Marsh] tiles>","Generated on every [18] tiles <in [River] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+		"Luxury resources"]
+	}
 		//拉丁美洲文明mod部分_结束
 ]

@@ -806,12 +806,15 @@
 		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
-		"cost": 45,
+		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought","UNIT_TYPE_FQ"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>",
+		"Can move immediately once bought",
+		"UNIT_TYPE_FQ"],
 		"upgradesTo": "UNIT_QCFZ",
 		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"promotions":["[Landsknecht] ability"]
 		//"Requires [Mercenary Army]" in BNW
 	},
 	{

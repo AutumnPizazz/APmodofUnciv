@@ -16,6 +16,10 @@
         "column": 0
 	},
 	{
+		"name":"[Landsknecht] ability",
+		"uniques":["[+1] Movement","Rough terrain penalty"]
+	},
+	{
 		"name":"[Keshik] ability",
 		"uniques": ["[+1] Sight"]
 	},

@@ -30,9 +30,14 @@
 		"production":1,
 		"uniqueTo":"NATION_KL",
 		"terrainsCanBeBuiltOn":["Grassland","Plains","Tundra","Desert","Snow","Hill","Flood plains"],
-		"uniques":["[+1 Food] for each adjacent [City center]",
-	"[+1 Production] <after discovering [Construction]>",
-	"[+1 Food] <after discovering [Fertilizer]>"]
+		"uniques":[
+			/*老版产出规则"[+1 Food] for each adjacent [City center]",
+						"[+1 Production] <after discovering [Construction]>",
+						"[+1 Food] <after discovering [Fertilizer]>"*/
+						"[+1 Food] for each adjacent [City center] <after discovering [Engineering]>",
+						"[+1 Production] for each adjacent [Strategic resources]",
+						"[+1 Food] for each adjacent [Luxury resources]"
+					]
 	},
 	{//苏格兰-高尔夫球场
 		"name": "IMPROVEMENT_GEFQC",
@@ -176,9 +181,9 @@
 		"gold":-1,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"[+2 Production] for each adjacent [DISTRICT_SYZX]",
-					"[+2 Production] for each adjacent [DISTRICT_GKQ]",
+					"[+1 Production] for each adjacent [DISTRICT_SYZX]",
 					"[+1 Production] for each adjacent [DISTRICT_SZGC]",
+					"[+1 Production] for each adjacent [Strategic resources]",
 					"Removes removable features when built",
             		"Pillaging this improvement yields approximately [+36 Gold]",
 					"Irremovable"]
