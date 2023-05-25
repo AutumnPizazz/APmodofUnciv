@@ -62,7 +62,7 @@
 		"uniques":[
 			"Receive free [Worker] when you discover [Pottery]",
 			"[+1 Gold] from every [Tree]",
-			"New [Scout] units start with [10] Experience [in all cities]"
+			"[+1] Movement <for [Civilian] units>"
 		],
 		
 		"cities": ["CITY_NAME_KL1", "CITY_NAME_KL2", "CITY_NAME_KL3", "CITY_NAME_KL4", "CITY_NAME_KL5", "CITY_NAME_KL6", "CITY_NAME_KL7", "CITY_NAME_KL8", "CITY_NAME_KL9", "CITY_NAME_KL10", "CITY_NAME_KL11", "CITY_NAME_KL12", "CITY_NAME_KL13", "CITY_NAME_KL14", "CITY_NAME_KL15", "CITY_NAME_KL16", "CITY_NAME_KL17", "CITY_NAME_KL18", "CITY_NAME_KL19", "CITY_NAME_KL20"]
@@ -1129,7 +1129,8 @@
 		"uniqueName": "Great Andean Road",
 		"uniques": ["[+2 Production] from every [Mountain]",
 	                "[+2 Production] from every [Mountain] <after discovering [Industrialization]>",
-				    "Land units may cross [Mountain] tiles after the first [Great Scientist] is earned"],
+				    "Land units may cross [Mountain] tiles after the first [Great Scientist] is earned",
+					"[+1 Science, +1 Culture, +1 Production] [in all cities] <with [1] to [6] neighboring [Mountain] tiles>"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",

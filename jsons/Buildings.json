@@ -460,7 +460,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[+1] Movement <for [Worker] units>",
-		"[+50]% Production when constructing [Worker] units [in all cities]",
+		"[-25]% tile improvement construction time",
 		"Must be next to [Desert]"],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
