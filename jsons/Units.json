@@ -196,6 +196,14 @@
 		"Can build [IMPROVEMENT_HYJY] improvements on tiles"],
 		"cost": 70
 	},
+	{//斯基泰-坟墩建造者
+		"name":"UNIT_FD",
+		"unitType":"Civilian",
+		"uniqueTo":"NATION_SJT",
+		"movement":2,
+		"cost":100,
+		"uniques":["Can instantly construct a [IMPROVEMENT_FD] improvement <[3] times>"]
+	},
 	{//移民
 		"name": "Settler",
 		"unitType": "Civilian",
@@ -454,7 +462,7 @@
 		"rangedStrength": 10,
         "range": 1,
 		"cost": 45,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Agriculture",
         "requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -682,6 +690,19 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
+	{//斯基泰-萨卡弓骑手
+		"name":"UNIT_SKGQS",
+		"unitType":"Mounted",
+		"uniqueTo":"NATION_SJT",
+		"cost":65,
+		"movement":4,
+		"strength":9,
+		"range":1,
+		"rangedStrength":12,
+		"requiredTech":"Horseback Riding",
+		"obsoleteTech":"Metallurgy",
+		"uniques":["[+50]% Strength <vs [UNIT_TYPE_FQ] units> <when defending>"]
+	},
 	{//投石车
 		"name": "Catapult",
 		"unitType": "Siege",
@@ -809,6 +830,20 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","UNIT_TYPE_FQ"],
+		"upgradesTo": "UNIT_QCFZ",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{//祖鲁-班图武士
+		"name":"UNIT_BTWS",
+		"replaces":"Pikeman",
+		"uniqueTo":"NATION_ZL",
+		"unitType":"Sword",
+		"movement":2,
+		"strength":16,
+		"cost":80,
+		"requiredTech":"Civil Service",
+		"uniques":["[+50]% XP gained from combat","[+50]% to Flank Attack bonuses","[+50]% Strength <vs [Mounted] units>","UNIT_TYPE_FQ"],
 		"upgradesTo": "UNIT_QCFZ",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"

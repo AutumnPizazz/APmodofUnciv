@@ -1,34 +1,136 @@
 [
 	/*便利贴-所有地块类型Terrains
-		Ocean			海洋
-		Coast			海滨
-		Grassland		草原
-		Plains			平原
-		Tundra			冻土
-		Desert			沙漠
-		Lakes			湖泊
-		Mountain		山脉
-		Snow			雪原
-		Hill			丘陵
-		Forest			森林
-		Jungle			丛林
-		Marsh			沼泽
-		Fallout			核辐射
-		Oasis			绿洲
-		Flood plains	冲积平原
-		Ice				冰区
-		Atoll			环礁
-	所有胜利偏好
-		Neutral			中立
-		Domination		征服
-		Diplomatic		外交
-		Cultural		文化
-		Scientific		科技
-		VICTORY_TYPE_ZJ	宗教*/
+		Ocean			海洋				Coast			海滨
+		Grassland		草原				Plains			平原
+		Tundra			冻土				Desert			沙漠
+		Lakes			湖泊				Mountain		山脉
+		Snow			雪原				Hill			丘陵
+		Forest			森林				Jungle			丛林
+		Marsh			沼泽				Fallout			核辐射
+		Oasis			绿洲				Flood plains	冲积平原
+		Ice				冰区				Atoll			环礁
+	所有胜利偏好VictoryTypes
+		Neutral			中立				Domination		征服
+		Diplomatic		外交				Cultural		文化
+		Scientific		科技				VICTORY_TYPE_ZJ	宗教*/
 	{//观海
 		"name": "Spectator",
 		"outerColor": [255,255,255]
 		//"innerColor": [255,255,255]
+	},
+/*	{//文明模板
+		"name": "NATION_",//国家名称
+		"leaderName": "LEADER_",//领袖名称
+		"adjective": ["NATION_ADJ_"],//国家形容词
+		"startBias": ["[]"],//出生地形
+		"preferredVictoryType": "",//偏好的胜利方式
+
+		"startIntroPart1": "",//开场白的第一段
+		
+		"startIntroPart2": "",//开场白的第二段
+		
+		"declaringWar": "",//宣战宣言
+		
+		"attacked": "",//被宣战宣言
+		
+		"defeated": "",//亡国宣言
+		
+		"introduction": "",//自我介绍
+		
+		"neutralHello": "",//中立状态的打招呼
+		
+		"hateHello": "",//厌恶状态的打招呼
+		
+		"tradeRequest": "",//贸易请求
+		
+		"outerColor": [, , ],//主体颜色
+		"innerColor": [, , ],//轮廓颜色
+		"favoredReligion": "",//偏好宗教
+		"uniqueName": "TEXT_TOPIC_",//国家技能的专属名称
+		"uniques":[
+
+		],//国家技能
+		
+		"cities": ["CITY_NAME_KL1", "CITY_NAME_KL2", "CITY_NAME_KL3", "CITY_NAME_KL4", "CITY_NAME_KL5", "CITY_NAME_KL6", "CITY_NAME_KL7", "CITY_NAME_KL8", "CITY_NAME_KL9", "CITY_NAME_KL10", "CITY_NAME_KL11", "CITY_NAME_KL12", "CITY_NAME_KL13", "CITY_NAME_KL14", "CITY_NAME_KL15", "CITY_NAME_KL16", "CITY_NAME_KL17", "CITY_NAME_KL18", "CITY_NAME_KL19", "CITY_NAME_KL20"]
+	},//城市名称
+*/
+	{//祖鲁
+		"name": "NATION_ZL",
+		"leaderName": "LEADER_QK",
+		"adjective": ["NATION_ADJ_ZL"],
+		"startBias": ["[Grassland]", "[Plains]", "[Hill]"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "The people of the Zulu Empire declare to the world that we are a great nation with a rich culture and proud history.",
+		
+		"startIntroPart2": "We will lead the world with our wisdom and courage, and show the greatness of the Zulu people!",
+		
+		"declaringWar": "The Zulu Empire has waited long enough. We must fight for our lands and our people!",
+		
+		"attacked": "We have been attacked! The people of the Zulu Empire will rise up against those who seek to invade us!",
+		
+		"defeated": "The Zulu Empire will not be defeated by any enemy. We will regroup and fight for our glory!",
+		
+		"introduction": "I am Ding Ding Zulu, the leader of the Zulu Empire. Our culture and art are renowned throughout the world. We welcome friendly relations with other nations, but any attempt to infringe upon our interests will be met with our resolute response.",
+		
+		"neutralHello": "The Zulu Empiregreetings to you. We hope to establish friendly relations with you for mutual development and prosperity.",
+		
+		"hateHello": "The Zulu Empire will not tolerate any hostile behavior. If you wish to be our enemy, we will fight back with determination.",
+		
+		"tradeRequest": "The Zulu Empire wishes to engage in trade with you. We believe this will be beneficial for both parties.",
+
+		"outerColor": [155, 128, 94],
+		"innerColor": [243, 243, 243],
+//		"favoredReligion": "Zuluism",
+		"uniqueName": "TEXT_TOPIC_ZL",
+		
+		"uniques": [
+			"[+50]% Strength for cities <with a garrison> <when attacking>",
+			"[-20]% Production when constructing [Military] units [in all cities]",
+			"[Gold] cost of purchasing [All] units [+25]%",
+			"[Faith] cost of purchasing [All] units [+25]%",
+			"[+20]% Strength <for [Military] units>"
+		],
+
+		"cities": ["CITY_NAME_ZL1", "CITY_NAME_ZL2", "CITY_NAME_ZL3", "CITY_NAME_ZL4", "CITY_NAME_ZL5", "CITY_NAME_ZL6", "CITY_NAME_ZL7", "CITY_NAME_ZL8", "CITY_NAME_ZL9", "CITY_NAME_ZL10", "CITY_NAME_ZL11", "CITY_NAME_ZL12", "CITY_NAME_ZL13", "CITY_NAME_ZL14", "CITY_NAME_ZL15", "CITY_NAME_ZL16", "CITY_NAME_ZL17", "CITY_NAME_ZL18", "CITY_NAME_ZL19", "CITY_NAME_ZL20"]
+	},
+	{//斯基泰
+		"name": "NATION_SJT",
+		"leaderName": "LEADER_TMLS",
+		"adjective": ["TEXT_TOPIC_SJT"],
+		"startBias": ["[Grassland]","[Plains]"],
+		"preferredVictoryType": "",
+		
+		"startIntroPart1": "Welcome to the Skytai civilization! Our civilization has a long and rich history, with innovation and technology at its core. Our society is a highly developed knowledge and technology society, and our people take pride in their scientific and technological achievements. Our leader, LEADER_TMLS, is a wise philosopher and leader dedicated to advancing our civilization.",
+		
+		"startIntroPart2": "Our civilization excels in agriculture, architecture, and engineering. Our cities are composed of magnificent structures and advanced urban planning, our farmers have innovative agricultural techniques that allow them to produce abundant food and other crops in difficult environments. Our culture and arts are also impressive, with music and literature that have endured through the ages.",
+		
+		"declaringWar": "We have no choice but to declare war! Our enemy is a threat to our civilization, and we will defend our homeland with our science and technology, as well as the strength of our warriors.",
+		
+		"attacked": "We are under attack! Our enemies seek to destroy our civilization, but they will not succeed. We will defend our cities and people with our warriors and advanced weapons.",
+		
+		"defeated": "We have been defeated. It is a painful lesson, but we will learn from it and rise again. Our civilization is strong, and we will continue to move forward.",
+		
+		"introduction": "Greetings, I am a representative of the Skytai civilization. Our civilization is centered around innovation and technology, and our people take pride in their scientific and technological achievements. We hope to establish a friendly relationship with you and work together to advance human civilization.",
+		
+		"neutralHello": "Hello, it is a pleasure to meet you. We hope to establish a friendly relationship with you and learn from each other, and work together for mutual development.",
+		
+		"hateHello": "You horrible human! We do not need your help and have no interest in establishing any relationship with you. You had better leave, or suffer the consequences.",
+		
+		"tradeRequest": "We would like to engage in trade with you to mutually increase our wealth and culture. Would you be interested in trading with us?",
+		
+		"outerColor": [142, 27, 27],
+		"innerColor": [255, 106, 51],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "TEXT_TOPIC_SJT",
+		"uniques":[
+			"May buy [Mounted] units with [Faith] for [1] times their normal Production cost",
+			"Heals [15] damage if it kills a unit",
+			"[+15]% Strength <for [Military] units> <vs [Wounded] units> <when attacking>",
+			"[-10]% Strength <for [Wounded] units> <when defending>"
+		],
+		
+		"cities": ["CITY_NAME_SJT1", "CITY_NAME_SJT2", "CITY_NAME_SJT3", "CITY_NAME_SJT4", "CITY_NAME_SJT5", "CITY_NAME_SJT6", "CITY_NAME_SJT7", "CITY_NAME_SJT8", "CITY_NAME_SJT9", "CITY_NAME_SJT10", "CITY_NAME_SJT11", "CITY_NAME_SJT12", "CITY_NAME_SJT13", "CITY_NAME_SJT14", "CITY_NAME_SJT15", "CITY_NAME_SJT16", "CITY_NAME_SJT17", "CITY_NAME_SJT18", "CITY_NAME_SJT19", "CITY_NAME_SJT20"]
 	},
 	{//克里
 		"name": "NATION_KL",
@@ -57,7 +159,8 @@
 		
 		"outerColor": [34, 139, 34],
 		"innerColor": [255, 255, 255],
-//		"favoredReligion": "[Polytheism]",
+/*没有这个宗教
+		"favoredReligion": "Polytheism",*/
 		"uniqueName": "TEXT_TOPIC_KL",
 		"uniques":[
 			"Receive free [Worker] when you discover [Pottery]",
@@ -213,7 +316,7 @@
 			"[-33]% Golden Age length",
 			"[-33]% maintenance costs <for [All] units>",
 			"[All] units gain the [Undead] promotion",
-			"[non-air] units gain the [Breach the CityState Walls] promotion",
+			"[non-air] units gain the [Breach the Walls] promotion",
 			"[Melee] units gain the [Eat the Living] promotion",
 			"Gain a free [Infection] [in all cities]",
 			"[+10]% Strength <within [1] tiles of a [Graveyard]>"],
@@ -1197,7 +1300,6 @@
 		"uniques": ["[-1 Food, +2 Production] from every [Pasture]", 
                     "Provides [3] [Horses]",
                     "Starts with [Animal Husbandry]", 
-					"Starts with [The Wheel]", 
                     "Gain a free [Courthouse] [in annexed cities]",
                     "Cannot build [Settler] units",
 					"[+200]% Strength <for [Sword] units> <vs cities> <when attacking>",
@@ -1487,7 +1589,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,255,51],
 		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
-		"Gain a free [CityState CityState Walls] [in capital]"],
+		"Gain a free [CityState Walls] [in capital]"],
 		"cities": ["Brussels"]
 	},
 	{
@@ -1501,7 +1603,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [62,197,252],
 		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
-		"Gain a free [CityState CityState Walls] [in capital]"],
+		"Gain a free [CityState Walls] [in capital]"],
 		"cities": ["Florence"]
 	},
 	{
@@ -1515,7 +1617,7 @@
 		"outerColor": [0, 0, 0],
         "innerColor": [51,51,255],
 		"uniques":["[+900]% Culture cost of natural border growth [in all cities]",
-		"Gain a free [CityState CityState Walls] [in capital]"],
+		"Gain a free [CityState Walls] [in capital]"],
 		"cities": ["Hanoi"]
 	},
 	{

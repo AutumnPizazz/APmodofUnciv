@@ -23,6 +23,18 @@
 	"Unpillagable"							不可掠夺
 	"Irremovable"							不可移除*/
 	//新增改良
+	{//斯基泰-坟墩
+		"name":"IMPROVEMENT_FD",
+		"faith":1,
+		"gold":3,
+		"uniqueTo":"NATION_SJT",
+		"techRequired":"Pottery",
+		"terrainsCanBeBuiltOn":["Grassland","Plains"],
+		"uniques":["[+1 Faith] for each adjacent [Pasture]",
+		"[+1 Faith] for each adjacent [Pasture] <after discovering [Chivalry]>",
+		"[+1 Culture] <after discovering [Flight]>",
+		"Pillaging this improvement yields approximately [+30 Faith]"]
+	},
 	{//克里-棚屋
 		"name":"IMPROVEMENT_PW",
 		"turnsToBuild":8,
@@ -36,7 +48,8 @@
 						"[+1 Food] <after discovering [Fertilizer]>"*/
 						"[+1 Food] for each adjacent [City center] <after discovering [Engineering]>",
 						"[+1 Production] for each adjacent [Strategic resources]",
-						"[+1 Food] for each adjacent [Luxury resources]"
+						"[+1 Food] for each adjacent [Luxury resources]",
+						"Pillaging this improvement yields approximately [+30 Gold]"
 					]
 	},
 	{//苏格兰-高尔夫球场
