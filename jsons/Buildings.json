@@ -12,12 +12,13 @@
 
 		更新途径：
 		1.QQ群747568010群文件
-		2.百度网盘链接
-		https://pan.baidu.com/s/1kMGGSpuNOv-LK4rQ23bO2g
-		提取码:mbgq
-		3.Github网址
+		2.Github网址
 		https://github.com/AutumnPizazz/APmodofUnciv
-		4.游戏内模组按钮右上角搜索APmodofUnciv下载
+		3.游戏内模组按钮右上角搜索APmodofUnciv下载
+
+		5.31
+		微调总督马格努斯
+		调整区域全面覆盖原地形产出
 
 		5.27
 		征服胜利条件判定改为占领所有文明的原始首都
@@ -347,13 +348,13 @@
 		"cost":80,
 		"requiredTech":"Bronze Working",
 		"quote":"GOVERNEOR_STEWARD_MAGNUS_QUOTE",
-		"uniques":["[+1 Gold] from [Road] tiles [in this city]",
-			"[+25]% Production when constructing [Settler] units [in this city]",
-			"[+20]% [Food] [in this city] <starting from the [Classical era]>",
-			"[25]% Food is carried over after population increases [in this city] <starting from the [Classical era]>",
+		"uniques":["[+1 Production] from [Tree] tiles [in this city]",
+			"[+2 Food] from each Trade Route",
+			"[+15]% [Food] [in this city] <starting from the [Classical era]>",
+			"[20]% Food is carried over after population increases [in this city] <starting from the [Classical era]>",
 			"[+5 Production] from [DISTRICT_GYQ] tiles [in this city] <starting from the [Medieval era]>",
-			"[+25]% [Production] [in this city] <starting from the [Medieval era]>",
-			"[+1 Production] per [1] population [in this city] <starting from the [Renaissance era]>",
+			"[+15]% [Production] [in this city] <starting from the [Medieval era]>",
+			"[+1 Production] per [3] population [in this city] <starting from the [Renaissance era]>",
 			"Destroyed when the city is captured",
 			"Only available <in cities without a [Governors building]>",
 			"Governors building",
@@ -406,12 +407,11 @@
 		"quote":"GOVERNEOR_FINANCIER_REYNA_QUOTE",
 		"uniques":["[-30]% Culture cost of natural border growth [in this city]",
 		"[+1 Gold] from [Tree] tiles [in this city]",
-		"[+4 Gold, +1 Production] from [DISTRICT_SYZX] tiles [in this city] <starting from the [Classical era]>",
-		"[+4 Gold, +1 Production] from [DISTRICT_GKQ] tiles [in this city] <starting from the [Classical era]>",
+		"[+4 Gold] from [DISTRICT_SYZX] tiles [in this city] <starting from the [Classical era]>",
+		"[+4 Gold] from [DISTRICT_GKQ] tiles [in this city] <starting from the [Classical era]>",
 		"[+2 Gold] per [1] population [in this city] <starting from the [Medieval era]>",
 		"[+25]% [Gold] [in this city] <starting from the [Medieval era]>",
 		"[+4 Gold] from each Trade Route <starting from the [Renaissance era]>",
-		"Provides [1] [RESOURCE_WJZC] <starting from the [Renaissance era]>",
 		"Destroyed when the city is captured",
 		"Only available <in cities without a [Governors building]>",
 		"Governors building",
